@@ -9,7 +9,6 @@ jobs:
   meta:
     runs-on: ubuntu-latest
     outputs:
-      ENVIRONMENT: ${{ steps.vars.outputs.ENVIRONMENT }}
       STACK_NAME: ${{ steps.vars.outputs.STACK_NAME }}
     steps:
       - name: Checkout
@@ -18,7 +17,7 @@ jobs:
       - name: Set Env Vars
         id: vars
         run: |
-          ENVIRONMENT=${{ vars.LIVE_ENV }}
+          ENVIRONMENT=2025.pythonbrasil.org.br
           echo "ENVIRONMENT=${ENVIRONMENT}" >> $GITHUB_OUTPUT
           echo "STACK_NAME=${ENVIRONMENT//./-}" >> $GITHUB_OUTPUT
 
@@ -27,7 +26,6 @@ jobs:
     needs:
       - meta
     runs-on: ubuntu-latest
-    environment: ${{ needs.meta.outputs.ENVIRONMENT }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
