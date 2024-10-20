@@ -2,8 +2,8 @@
 
 [![Built with Cookieplone](https://img.shields.io/badge/built%20with-Cookieplone-0083be.svg?logo=cookiecutter)](https://github.com/plone/cookiecutter-plone/)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
-[![Backend Tests](https://github.com/pythonbrasil/pybr25-site/actions/workflows/backend.yml/badge.svg)](https://github.com/pythonbrasil/pybr25-site/actions/workflows/backend.yml)
-[![Frontend Tests](https://github.com/pythonbrasil/pybr25-site/actions/workflows/frontend.yml/badge.svg)](https://github.com/pythonbrasil/pybr25-site/actions/workflows/frontend.yml)
+[![Backend Tests](https://github.com/pythonbrasil/pybr2025-site/actions/workflows/backend.yml/badge.svg)](https://github.com/pythonbrasil/pybr2025-site/actions/workflows/backend.yml)
+[![Frontend Tests](https://github.com/pythonbrasil/pybr2025-site/actions/workflows/frontend.yml/badge.svg)](https://github.com/pythonbrasil/pybr2025-site/actions/workflows/frontend.yml)
 
 Encontro da comunidade Python Brasileira
 
@@ -23,7 +23,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
 ```shell
-git clone git@github.com:pythonbrasil/pybr25-site.git
+git clone git@github.com:pythonbrasil/pybr2025-site.git
 cd 2025.pythonbrasil.org.br
 ```
 
