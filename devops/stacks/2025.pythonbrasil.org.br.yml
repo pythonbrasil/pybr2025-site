@@ -158,6 +158,8 @@ services:
       - nw-2025-pythonbrasil-org-br
 
 networks:
+  public:
+    external: true
   nw-2025-pythonbrasil-org-br:
     internal: true
     driver: overlay
