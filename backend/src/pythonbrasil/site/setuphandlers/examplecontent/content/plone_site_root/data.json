@@ -1,0 +1,85 @@
+{
+  "@id": "/Plone",
+  "@type": "Plone Site",
+  "UID": "plone_site_root",
+  "allow_discussion": null,
+  "blocks": {
+    "32672d61-d8fd-49b1-9f8c-0df05c37f1fb": {
+      "@type": "gridBlock",
+      "blocks": {
+        "30ecc510-9c30-461e-ac7a-b97df75b711d": {
+          "@type": "checkoutBlock",
+          "align": "center",
+          "buttonText": "Compre seu ingresso!",
+          "buttonTextPlaceholder": "Comprar ingressos",
+          "eventId": "1051606111187",
+          "fallbackText": "Comprar ingressos"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "30ecc510-9c30-461e-ac7a-b97df75b711d"
+        ]
+      },
+      "styles": {
+        "backgroundColor": "grey"
+      }
+    },
+    "42165e4a-c5c1-4229-8161-00f96b0deab0": {
+      "@type": "image",
+      "align": "full",
+      "credit": {},
+      "description": "",
+      "image_field": "image",
+      "size": "l",
+      "styles": {
+        "backgroundColor": "grey",
+        "size:noprefix": "large"
+      },
+      "title": "main.png",
+      "url": "resolveuid/03e3d75a791d4fa98378626ba8f62d07"
+    },
+    "50e58d4c-56c6-4bcb-a489-fcf68b888f76": {
+      "@type": "follow_us",
+      "align": "center",
+      "animate": false,
+      "styles": {
+        "backgroundColor": "grey"
+      }
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "42165e4a-c5c1-4229-8161-00f96b0deab0",
+      "32672d61-d8fd-49b1-9f8c-0df05c37f1fb",
+      "50e58d4c-56c6-4bcb-a489-fcf68b888f76"
+    ]
+  },
+  "contributors": [],
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "Plone",
+  "is_folderish": true,
+  "items_total": 1,
+  "language": "##DEFAULT##",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "parent": {},
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "table_of_contents": null,
+  "title": "Project Title",
+  "type_title": "Plone Site",
+  "workflow_history": {}
+}

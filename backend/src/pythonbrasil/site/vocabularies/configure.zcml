@@ -1,0 +1,8 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <utility
+      name="pythonbrasil.site.vocabularies.sponsorship_levels"
+      component=".sponsorship.sponsorship_levels"
+      />
+
+</configure>

@@ -1,0 +1,14 @@
+footer#footer {
+  .footer {
+    max-width: 100% !important;
+    color: var(--color-inverse-on-surface) !important;
+    .footer_links {
+      --social-network-icon-color-main: var(
+        --color-inverse-on-surface
+      ) !important;
+      --social-network-icon-color-hover: var(
+        --color-inverse-on-surface
+      ) !important;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+body.siteroot {
+  background-color: var(--color-surface-container-high);
+  .header-wrapper {
+    display: none !important;
+  }
+  footer#footer {
+    display: none !important;
+  }
+  .block:first-child {
+    margin-top: -$spacing-large;
+  }
+}

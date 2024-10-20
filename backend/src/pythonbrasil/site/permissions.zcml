@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="pythonbrasil.site"
+    >
+
+  <configure zcml:condition="installed AccessControl.security">
+    <permission
+        id="pythonbrasil.site.AddSponsorsDB"
+        title="pythonbrasil.site: Add SponsorsDB"
+        />
+    <permission
+        id="pythonbrasil.site.AddSponsorLevel"
+        title="pythonbrasil.site: Add SponsorLevel"
+        />
+    <permission
+        id="pythonbrasil.site.AddSponsor"
+        title="pythonbrasil.site: Add Sponsor"
+        />
+  </configure></configure>

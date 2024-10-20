@@ -1,0 +1,133 @@
+{
+  "__version__": "1.0.0",
+  "_blob_files_": [
+    "0d05308db57c450da4ae80e8a3c47ece/image/logo-slim.svg",
+    "2f992ae440894d7191a24d75d669de4a/image/logo.svg",
+    "03e3d75a791d4fa98378626ba8f62d07/image/main.png"
+  ],
+  "_data_files_": [
+    "plone_site_root/data.json",
+    "a720393b3c0240e5bd27c43fcd2cfd1e/data.json",
+    "0d05308db57c450da4ae80e8a3c47ece/data.json",
+    "2f992ae440894d7191a24d75d669de4a/data.json",
+    "03e3d75a791d4fa98378626ba8f62d07/data.json"
+  ],
+  "default_page": {},
+  "local_permissions": {
+    "03e3d75a791d4fa98378626ba8f62d07": {},
+    "0d05308db57c450da4ae80e8a3c47ece": {},
+    "2f992ae440894d7191a24d75d669de4a": {},
+    "a720393b3c0240e5bd27c43fcd2cfd1e": {},
+    "plone_site_root": {
+      "Add portal member": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Owner"
+        ]
+      },
+      "Content rules: Manage rules": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Delete own comments": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Reviewer",
+          "Owner"
+        ]
+      },
+      "Reply to item": {
+        "acquire": false,
+        "roles": [
+          "Authenticated"
+        ]
+      },
+      "Set own password": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Set own properties": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Show Toolbar": {
+        "acquire": false,
+        "roles": [
+          "Authenticated"
+        ]
+      },
+      "plone.resource: Export ZIP file": {
+        "acquire": false,
+        "roles": [
+          "Manager"
+        ]
+      },
+      "plone.resourceeditor: Manage Sources": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      }
+    }
+  },
+  "local_roles": {
+    "03e3d75a791d4fa98378626ba8f62d07": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "0d05308db57c450da4ae80e8a3c47ece": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "2f992ae440894d7191a24d75d669de4a": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "a720393b3c0240e5bd27c43fcd2cfd1e": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "plone_site_root": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    }
+  },
+  "ordering": {
+    "03e3d75a791d4fa98378626ba8f62d07": 2,
+    "0d05308db57c450da4ae80e8a3c47ece": 0,
+    "2f992ae440894d7191a24d75d669de4a": 1,
+    "a720393b3c0240e5bd27c43fcd2cfd1e": 42
+  },
+  "relations": []
+}
