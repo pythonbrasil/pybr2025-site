@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       STACK_NAME: ${{ steps.vars.outputs.STACK_NAME }}
+      ENVIRONMENT: ${{ steps.vars.outputs.ENVIRONMENT }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
