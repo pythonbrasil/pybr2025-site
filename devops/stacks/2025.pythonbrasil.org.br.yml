@@ -62,7 +62,7 @@ services:
   frontend:
     image: ghcr.io/pythonbrasil/pybr25-site-frontend:${STACK_PARAM:-latest}
     environment:
-      RAZZLE_INTERNAL_API_PATH: http://2025-pythobrasil-org-br_backend:8080/Plone
+      RAZZLE_INTERNAL_API_PATH: http://2025-pythonbrasil-org-br_backend:8080/Plone
       RAZZLE_API_PATH: https://2025.pythonbrasil.org.br
       RAZZLE_MATOMO_SITE_ID: 5
       RAZZLE_MATOMO_URL: https://stats.pythonbrasil.org.br/
@@ -93,7 +93,7 @@ services:
   backend:
     image: ghcr.io/pythonbrasil/pybr25-site-backend:${STACK_PARAM:-latest}
     environment:
-      ZEO_ADDRESS: 2025-pythobrasil-org-br_db:8100
+      ZEO_ADDRESS: 2025-pythonbrasil-org-br_db:8100
     networks:
       - public
       - nw-2025-pythonbrasil-org-br
