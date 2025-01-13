@@ -141,7 +141,7 @@ services:
         - traefik.http.routers.rt-backend-classic.middlewares=gzip,mw-backend-auth,mw-backend-vhm-classic
 
   db:
-    image: plone/plone-zeo:5
+    image: plone/plone-zeo:5.3.0
     deploy:
       replicas: 1
       update_config:
