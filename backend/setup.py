@@ -56,7 +56,7 @@ setup(
         "plone.restapi",
         "plone.volto",
         "plone.exportimport",
-        "pas.plugins.authomatic",
+        "pas.plugins.authomatic>=1.4.0",
         "collective.volto.formsupport",
         "collective.honeypot",
         "collective.volto.otp",
