@@ -6,7 +6,7 @@ $spacing-large: 60px !default;
 $spacing-xlarge: 80px !default;
 
 // Colors
-$lightgrey: var(--color-surface-container-high);
+$lightgrey: var(--color-surface-container);
 
 // Maps
 $font-weights: (
@@ -45,3 +45,106 @@ $line-heights: (
   4xl: var(--line-height-4xl),
   5xl: var(--line-height-5xl),
 ) !default;
+
+$custom-fontname: 'Anonymous Pro' !default;
+
+@mixin graffiti() {
+  font-family: 'Sprite-Graffiti';
+  letter-spacing: 0.2rem;
+}
+
+@mixin graffiti_shadown() {
+  font-family: 'Sprite-Graffiti-Shadow';
+  letter-spacing: 0.2rem;
+}
+
+// CTA
+@mixin cta-animation() {
+  transition: all 1500ms ease;
+}
+@mixin cta-color-gradient() {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  overflow: hidden;
+  align-items: center;
+  border-color: var(--color-primary-container);
+  -webkit-appearance: none;
+  appearance: none;
+  background: linear-gradient(
+    90deg,
+    var(--color-primary-container) 0%,
+    var(--color-primary) 100%
+  );
+  moz-transition: all 0.4s ease-in-out;
+  outline: none !important;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  vertical-align: middle;
+  &::after {
+    position: absolute;
+    z-index: -1;
+    bottom: 100%;
+    left: 50%;
+    width: 150%;
+    height: 150%;
+    background: linear-gradient(
+      90deg,
+      var(--color-primary) 0%,
+      var(--color-primary-container) 100%
+    );
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    content: '';
+    transform: translateX(-50%);
+    transition-duration: 700ms;
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  }
+  &:hover::after {
+    bottom: -50%;
+  }
+}
+
+@mixin cta-button() {
+  padding: $spacing-small $spacing-medium;
+  border-radius: $spacing-small;
+  gap: $spacing-xsmall;
+  @include add(size, l);
+  @include add(weight, bold);
+}
+
+// Animations
+
+@mixin animate($distance, $delay) {
+  -webkit-animation-duration: $delay;
+  animation-duration: $delay;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
+  @-webkit-keyframes fadeInRightBig {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d($distance, 0, 0);
+      transform: translate3d($distance, 0, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  @keyframes fadeInRightBig {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d($distance, 0, 0);
+      transform: translate3d($distance, 0, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+}

@@ -8,15 +8,13 @@ const Header = (props) => {
   const { pathname } = props;
   return (
     <header className={cx('header-wrapper')}>
-      <Container layout>
-        <div className="header">
-          <div className="logo-nav-wrapper">
-            <div className="logo">
-              <Logo />
-            </div>
-            <Navigation pathname={pathname} />
-            <MobileNavigation pathname={pathname} />
+      <Container layout className="header">
+        <div className="logo-nav-wrapper">
+          <div className="logo">
+            <Logo link={true} />
           </div>
+          <Navigation pathname={pathname} />
+          <MobileNavigation pathname={pathname} />
         </div>
       </Container>
     </header>

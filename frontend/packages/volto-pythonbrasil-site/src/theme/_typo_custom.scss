@@ -1,0 +1,29 @@
+body {
+  color: var(--color-on-background);
+}
+
+a {
+  color: var(--color-surface-container-high);
+  &:hover {
+    color: var(--color-surface-container-high);
+  }
+}
+
+h1.documentFirstHeading {
+  @include graffiti();
+  margin-bottom: $spacing-medium;
+}
+
+.documentDescription {
+  padding: $spacing-small $spacing-medium;
+  border-top: var(--color-surface-container-high) 1px solid;
+  border-bottom: var(--color-surface-container-high) 1px solid;
+  color: var(--color-on-background);
+  @include add(size, l);
+  @include add(weight, bold);
+  @include add(height, xl);
+}
+
+button {
+  font-family: var(--custom-main-font);
+}

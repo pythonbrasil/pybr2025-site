@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Sprite-Graffiti';
+  font-style: normal;
+
+  font-weight: normal;
+  src:
+    url('./fonts/Sprite-Graffiti.woff') format('woff'),
+    url('./fonts/Sprite-Graffiti.woff2') format('woff2'),
+    url('./fonts/Sprite-Graffiti.eot'),
+    url('./fonts/Sprite-Graffiti.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Sprite-Graffiti.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sprite-Graffiti-Extras';
+  font-style: normal;
+
+  font-weight: normal;
+  src:
+    url('./fonts/Sprite-Graffiti-Extras.woff') format('woff'),
+    url('./fonts/Sprite-Graffiti-Extras.woff2') format('woff2'),
+    url('./fonts/Sprite-Graffiti-Extras.eot'),
+    url('./fonts/Sprite-Graffiti-Extras.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Sprite-Graffiti-Extras.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sprite-Graffiti-Shadow';
+  font-style: normal;
+
+  font-weight: normal;
+  src:
+    url('./fonts/Sprite-Graffiti-Shadow.woff') format('woff'),
+    url('./fonts/Sprite-Graffiti-Shadow.woff2') format('woff2'),
+    url('./fonts/Sprite-Graffiti-Shadow.eot'),
+    url('./fonts/Sprite-Graffiti-Shadow.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Sprite-Graffiti-Shadow.otf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+
+  font-weight: normal;
+  src:
+    url('./fonts/ap-400-normal.woff') format('woff'),
+    url('./fonts/ap-400-normal.woff2') format('woff2'),
+    url('./fonts/ap-400-normal.svg#Anonymous_Pro') format('svg'),
+    url('./fonts/ap-400-normal.eot'),
+    url('./fonts/ap-400-normal.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/ap-400-normal.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Anonymous Pro';
+  font-style: italic;
+
+  font-weight: 400;
+  src:
+    url('./fonts/ap-400-italic.woff') format('woff'),
+    url('./fonts/ap-400-italic.woff2') format('woff2'),
+    url('./fonts/ap-400-italic.svg#Anonymous_Pro') format('svg'),
+    url('./fonts/ap-400-italic.eot'),
+    url('./fonts/ap-400-italic.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/ap-400-italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+
+  font-weight: 700;
+  src:
+    url('./fonts/ap-700-normal.woff') format('woff'),
+    url('./fonts/ap-700-normal.woff2') format('woff2'),
+    url('./fonts/ap-700-normal.svg#Anonymous_Pro') format('svg'),
+    url('./fonts/ap-700-normal.eot'),
+    url('./fonts/ap-700-normal.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/ap-700-normal.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Anonymous Pro';
+  font-style: italic;
+
+  font-weight: 700;
+  src:
+    url('./fonts/ap-700-italic.woff') format('woff'),
+    url('./fonts/ap-700-italic.woff2') format('woff2'),
+    url('./fonts/ap-700-italic.svg#Anonymous_Pro') format('svg'),
+    url('./fonts/ap-700-italic.eot'),
+    url('./fonts/ap-700-italic.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/ap-700-italic.ttf') format('truetype');
+}
+
+/* latin */
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/ap-700-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  --custom-main-font: 'Anonymous Pro';
+}

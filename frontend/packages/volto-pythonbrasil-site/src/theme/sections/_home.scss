@@ -1,12 +1,32 @@
 body.siteroot {
-  background-color: var(--color-surface-container-high);
+  background-color: var(--color-background);
   .header-wrapper {
-    display: none !important;
+    margin-top: $spacing-medium;
+    .logo-nav-wrapper {
+      height: 140px;
+      .logo {
+        display: none !important;
+      }
+    }
+    @media only screen and (max-width: $tablet-breakpoint) {
+      margin-top: $spacing-small;
+      .logo-nav-wrapper {
+        height: 100px;
+        .logo {
+          display: flex !important;
+          flex: 0 1 0;
+          img {
+            height: 100px;
+          }
+        }
+      }
+      .menu-drawer {
+        top: calc(100px + 1rem);
+      }
+    }
   }
-  footer#footer {
-    display: none !important;
-  }
+
   .block:first-child {
-    margin-top: -$spacing-large;
+    margin-top: -$spacing-medium;
   }
 }

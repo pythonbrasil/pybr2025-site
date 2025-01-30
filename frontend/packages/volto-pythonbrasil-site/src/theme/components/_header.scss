@@ -1,6 +1,7 @@
 // Header wrapper
 .header-wrapper {
-  background-color: var(--color-surface-container-high);
+  margin-top: $spacing-small;
+  background-color: var(--color-primary-container);
   .header.layout {
     .search-wrapper {
       .search {
@@ -16,73 +17,38 @@
       }
     }
   }
-  // Navigation
-  .navigation {
-    .item {
-      @include add(size, xs);
-      color: var(--color-on-surface);
-      text-transform: uppercase !important;
-      &.active,
-      &:hover {
-        color: var(--color-on-surface);
-        &::before {
-          bottom: -49px;
-          border-bottom: 12px solid var(--color-tertiary-container);
+  .header.layout {
+    max-width: 100%;
+    .logo {
+      display: flex;
+      justify-content: center;
+      a {
+        line-height: 0px;
+        img {
+          height: 140px;
         }
       }
     }
-
-    ul.desktop-menu .submenu-wrapper {
-      .submenu {
-        border-top: 1px solid var(--color-on-tertiary-container);
-        background: var(--color-tertiary-container);
-
-        &.active {
-          border-top-color: var(--color-tertiary-container);
-          .close {
-            background: var(--color-tertiary-container);
-            color: var(--color-on-tertiary);
-          }
-        }
-
-        .submenu-inner {
-          h2 {
-            color: var(--color-on-primary);
-          }
-
-          .submenu-header {
-            h2 {
-              margin-left: 0px;
-              @include add(weight, bold);
-            }
-          }
-
-          .subitem-wrapper {
-            border-left: 1px solid var(--color-on-primary);
-
-            > a,
-            li > a {
-              color: var(--color-on-primary);
-
-              span {
-                &:hover {
-                  border-bottom: 1px solid var(--color-on-primary);
-                }
-                color: var(--color-on-primary);
-              }
-            }
-          }
-        }
-      }
+    .logo-nav-wrapper {
+      align-items: center;
+      padding-top: 0;
+      padding-bottom: 0;
+      background: var(--color-primary-container);
     }
   }
-
   // Mobile Navigation
-  .mobile-nav .hamburger:before,
-  .mobile-nav .hamburger::after,
-  .mobile-nav .hamburger-inner:after,
-  .mobile-nav .hamburger-inner::before {
-    background-color: var(--color-secondary);
+  .mobile-nav {
+    div.menu-drawer {
+      .search-header {
+        display: none;
+      }
+    }
+    .hamburger:before,
+    .hamburger::after,
+    .hamburger-inner:after,
+    .hamburger-inner::before {
+      background-color: var(--color-on-primary);
+    }
   }
 }
 

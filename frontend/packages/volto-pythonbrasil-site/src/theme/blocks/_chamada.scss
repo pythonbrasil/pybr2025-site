@@ -1,0 +1,66 @@
+.block.destaque {
+  max-width: 100% !important;
+  .wrapper {
+    display: flex;
+    max-width: var(--layout-container-width);
+    flex-direction: row;
+    .picture {
+      width: 66%;
+    }
+    .content {
+      display: flex;
+      width: 33%;
+      flex-direction: column;
+      align-content: left;
+      justify-content: center;
+      .head_title {
+        padding-top: $spacing-xlarge;
+        @include add(size, s);
+        @include add(height, s);
+        @include add(weight, bold);
+        @include animate(600px, 1000ms);
+      }
+      .title {
+        @include page-title();
+        @include vertical-space-teaser();
+        @include animate(400px, 1000ms);
+      }
+      .description {
+        @include introduction();
+        @include animate(400px, 1500ms);
+      }
+      .cta {
+        @include animate(600px, 1600ms);
+        @include vertical-space-button();
+        @include cta-animation();
+        .ctaButton {
+          @include cta-button();
+          @include cta-color-gradient();
+          color: var(--color-on-primary);
+          .icon {
+            fill: var(--color-on-primary);
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: $tablet-breakpoint) {
+    max-width: calc(var(--default-container-width) + 20px);
+    width: auto;
+    margin-left: 0em !important;
+    margin-right: 0em !important;
+    .wrapper {
+      flex-wrap: wrap;
+      .picture {
+        width: 90%;
+        margin-left: $spacing-small;
+        margin-right: $spacing-small;
+      }
+      .content {
+        width: 90%;
+        margin-left: $spacing-small;
+        margin-right: $spacing-small;
+      }
+    }
+  }
+}

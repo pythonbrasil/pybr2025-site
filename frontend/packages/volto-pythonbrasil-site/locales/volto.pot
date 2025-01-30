@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2024-10-19T22:58:13.935Z\n"
+"POT-Creation-Date: 2025-01-27T19:52:41.633Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -13,9 +13,59 @@ msgstr ""
 "Preferred-Encodings: utf-8\n"
 "Domain: volto\n"
 
+#. Default: "Alignment"
+#: components/Blocks/Destaque/schema
+msgid "Alignment"
+msgstr ""
+
+#. Default: "Chamada"
+#: components/Blocks/Destaque/schema
+msgid "Chamada"
+msgstr ""
+
+#. Default: "Chapéu"
+#: components/Blocks/Destaque/schema
+msgid "Chapéu"
+msgstr ""
+
+#. Default: "Close menu"
+#: components/Navigation/Navigation
+msgid "Close menu"
+msgstr ""
+
+#. Default: "Destaque Principal"
+#: components/Blocks/Destaque/schema
+msgid "Destaque Principal"
+msgstr ""
+
+#. Default: "Imagem"
+#: components/Blocks/Destaque/schema
+msgid "Imagem"
+msgstr ""
+
+#. Default: "Open menu"
+#: components/Navigation/Navigation
+msgid "Open menu"
+msgstr ""
+
 #. Default: "PythonBrasil 2025"
 #: components/Logo/Logo
 msgid "PythonBrasil 2025"
+msgstr ""
+
+#. Default: "Sumário"
+#: components/Blocks/Destaque/schema
+msgid "Sumário"
+msgstr ""
+
+#. Default: "Texto CTA"
+#: components/Blocks/Destaque/schema
+msgid "Texto CTA"
+msgstr ""
+
+#. Default: "URL"
+#: components/Blocks/Destaque/schema
+msgid "URL"
 msgstr ""
 
 #. Default: "Voltar para a capa"
