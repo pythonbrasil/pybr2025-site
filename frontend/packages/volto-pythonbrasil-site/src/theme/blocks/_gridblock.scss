@@ -1,0 +1,10 @@
+#page-edit .block-editor-gridBlock .block.gridBlock,
+.block.gridBlock {
+  .block.image {
+    figure.figure {
+      &::after {
+        height: 0px !important;
+      }
+    }
+  }
+}

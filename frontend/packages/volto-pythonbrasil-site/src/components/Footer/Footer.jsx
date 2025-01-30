@@ -1,6 +1,22 @@
 import React from 'react';
 import { Container } from '@plone/components';
+import { UniversalLink } from '@plone/volto/components';
+import { flattenToAppURL } from '@plone/volto/helpers';
 import FooterLinks from '@plonegovbr/volto-network-block/components/FooterLinks/FooterLinks';
+
+const siteActions = [
+  { id: 'contact', title: 'Fale Conosco', url: '/evento/contato' },
+  {
+    id: 'faq',
+    title: 'Perguntas Frequentes',
+    url: '/evento/perguntas-frequentes',
+  },
+  {
+    id: 'code-of-conduct',
+    title: 'Código de Conduta',
+    url: '/evento/codigo-de-conduta',
+  },
+];
 
 /**
  * Component to display the footer.
@@ -13,14 +29,32 @@ const Footer = ({ intl }) => {
     <footer id="footer">
       <Container layout className="footer">
         <FooterLinks />
-        <br />
-        <div className="footer-branding">
-          Site feito com{' '}
-          <span role="img" aria-label="love" style={{ color: 'red' }}>
-            ❤️
-          </span>{' '}
-          pela comunidade PloneGov-BR
-        </div>
+        <ul>
+          {siteActions?.length
+            ? siteActions.map((item) => {
+                return (
+                  <li className="item" key={item.id}>
+                    <UniversalLink
+                      className="item"
+                      href={flattenToAppURL(item.url)}
+                    >
+                      {item?.title}
+                    </UniversalLink>
+                  </li>
+                );
+              })
+            : null}
+        </ul>
+      </Container>
+      <Container className="footer-branding">
+        Site feito com{' '}
+        <span role="img" aria-label="love" style={{ color: 'red' }}>
+          ❤️
+        </span>{' '}
+        pela comunidade{' '}
+        <UniversalLink className="plonegovbr" href={'https://plone.org.br/gov'}>
+          PloneGov-BR
+        </UniversalLink>
       </Container>
     </footer>
   );

@@ -4,3 +4,17 @@
   --default-container-width: 1024px;
   --layout-container-width: 1440px;
 }
+
+body {
+  background-color: var(--background-color);
+  background-image: url('./static/conexao.svg');
+  background-position: top right;
+  background-repeat: repeat-x;
+  background-size: 400px;
+  &.view-contentsview {
+    background: var(--color-on-primary);
+    #content {
+      padding-top: $spacing-small;
+    }
+  }
+}

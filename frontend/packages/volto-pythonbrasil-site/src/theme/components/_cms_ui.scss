@@ -1,0 +1,14 @@
+.blocks-form {
+  .block .block.selected {
+    &::before {
+      border-color: var(--color-on-primary);
+    }
+  }
+  .drag.handle.wrapper {
+    color: var(--color-on-primary);
+    &:hover {
+      background-color: var(--color-on-primary);
+      color: var(--color-surface-container-high);
+    }
+  }
+}
