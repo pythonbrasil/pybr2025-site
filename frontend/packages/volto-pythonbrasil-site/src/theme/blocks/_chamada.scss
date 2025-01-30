@@ -45,21 +45,21 @@
     }
   }
   @media only screen and (max-width: $tablet-breakpoint) {
-    max-width: calc(var(--default-container-width) + 20px);
     width: auto;
-    margin-left: 0em !important;
+    max-width: calc(var(--default-container-width) + 20px);
     margin-right: 0em !important;
+    margin-left: 0em !important;
     .wrapper {
       flex-wrap: wrap;
       .picture {
         width: 90%;
-        margin-left: $spacing-small;
         margin-right: $spacing-small;
+        margin-left: $spacing-small;
       }
       .content {
         width: 90%;
-        margin-left: $spacing-small;
         margin-right: $spacing-small;
+        margin-left: $spacing-small;
       }
     }
   }
