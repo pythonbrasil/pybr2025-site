@@ -1,18 +1,8 @@
 .block.__button {
   .ui.button {
-    padding: 20px 40px;
-    border: var(--color-primary-container);
-    border-radius: 20px;
-    background-color: var(--color-primary-container);
     color: var(--color-on-primary-container);
-    cursor: pointer;
-    font-size: 24px;
-    font-weight: 500;
-    &:hover {
-      border: var(--color-primary);
-      background-color: var(--color-primary);
-      font-size: 24px;
-      font-weight: 500;
-    }
+    @include cta-animation();
+    @include cta-button();
+    @include cta-color-gradient();
   }
 }

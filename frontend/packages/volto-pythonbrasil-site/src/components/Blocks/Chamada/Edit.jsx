@@ -2,16 +2,16 @@ import React from 'react';
 import { withBlockExtensions } from '@plone/volto/helpers';
 import { SidebarPortal } from '@plone/volto/components';
 
-import DestaqueBlockData from './Data';
-import DestaqueBlockView from './View';
+import ChamadaBlockData from './Data';
+import ChamadaBlockView from './View';
 
-const DestaqueBlockEdit = (props) => {
+const ChamadaBlockEdit = (props) => {
   const { data, onChangeBlock, block, selected } = props;
   return (
     <>
-      <DestaqueBlockView {...props} isEditMode />
+      <ChamadaBlockView {...props} isEditMode />
       <SidebarPortal selected={selected}>
-        <DestaqueBlockData
+        <ChamadaBlockData
           data={data}
           block={block}
           onChangeBlock={onChangeBlock}
@@ -21,4 +21,4 @@ const DestaqueBlockEdit = (props) => {
   );
 };
 
-export default withBlockExtensions(DestaqueBlockEdit);
+export default withBlockExtensions(ChamadaBlockEdit);

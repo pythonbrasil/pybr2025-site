@@ -1,84 +1,102 @@
+#page-add .blocks-form,
+#page-edit .blocks-form {
+  .block-editor-separator,
+  .block-editor-__button,
+  .block-editor-heading {
+    &.has--backgroundColor--grey {
+      background-color: var(--color-surface-container-high);
+      color: var(--color-inverse-on-surface);
+    }
+    &.has--backgroundColor--mainColor {
+      background-color: var(--color-primary-container);
+      color: var(--color-inverse-on-surface);
+    }
+  }
+  .block-editor-gridBlock {
+    &.has--backgroundColor--grey {
+      background-color: var(--color-surface-container-high);
+      .block.teaser {
+        .teaser-item {
+          background-color: var(--color-surface-container);
+        }
+      }
+    }
+    &.has--backgroundColor--mainColor {
+      background-color: var(--color-primary-container);
+      .block.teaser {
+        .teaser-item {
+          background-color: var(--color-primary-container);
+        }
+      }
+    }
+  }
+}
+
 .blocks-group-wrapper {
   @include color-block-change-vertical-spacing();
-}
-
-.blocks-group-wrapper.grey {
-  background-color: var(--color-surface-container-high);
-  color: var(--color-inverse-on-surface);
-}
-
-.has--backgroundColor--grey {
-  background: var(--color-surface-container-high);
-  color: var(--color-inverse-on-surface);
-}
-
-#page-document .blocks-group-wrapper {
-  &.transparent:first-child {
-    padding-top: 0;
+  &.grey,
+  &.has--backgroundColor--grey {
+    background-color: var(--color-surface-container-high);
+    color: var(--color-inverse-on-surface);
   }
-  .block:first-child h2,
-  .block:first-child h2.headline {
-    margin-top: 0;
+  &.mainColor,
+  &.has--backgroundColor--mainColor {
+    background-color: var(--color-primary-container);
+    color: var(--color-on-primary-container);
   }
 }
 
-// If next block has different bgcolor, cancel all margin-bottom
-#page-document .block.next--has--different--backgroundColor {
-  margin-bottom: 0 !important;
-}
-
-// For grids
-#page-document .blocks-group-wrapper .block.gridBlock {
-  &.is--first--of--block-type.previous--has--same--backgroundColor {
-    @include grid-block-vertical-spacing-top();
-  }
-  &.is--last--of--block-type.next--has--same--backgroundColor {
-    margin-bottom: $grid-block-vertical-spacing-bottom;
-  }
-  &.next--is--same--block-type.next--has--same--backgroundColor {
-    // We rely on the grid gutter to keep the vertical spacing in case grid + grid
-    // So here we cancel the default block margin-bottom
-    margin-bottom: 0;
-  }
-}
-
-// Slate
-.block.gridBlock.has--backgroundColor--grey .slate,
-.block.gridBlock.has--backgroundColor--grey .slate:not(.inner) {
+.block.has--backgroundColor--grey {
   background: var(--color-surface-container-high) !important;
   color: var(--color-inverse-on-surface) !important;
-}
-
-// Buttons
-#page-document
-  .blocks-group-wrapper
-  .block.__button.next--has--different--backgroundColor {
-  margin-bottom: 0;
-
-  .button.container {
-    margin-bottom: 0;
+  &.teaser {
+    .teaser-item {
+      color: var(--color-inverse-on-surface) !important;
+    }
+  }
+  &.gridBlock,
+  &.gridBlock h2.headline,
+  &.gridBlock .slate,
+  &.gridBlock .slate:not(.inner) {
+    background: var(--color-surface-container-high) !important;
+    color: var(--color-inverse-on-surface) !important;
   }
 }
-
-// Slider
-#page-document .blocks-group-wrapper.grey:has(.block.slider:first-child) {
-  padding-top: 0;
-  padding-bottom: 0px; // Adjust for the padding from the slider itself
-}
-
-#page-document .blocks-group-wrapper.grey .block.slider,
-.block-editor-slider.has--backgroundColor--grey {
-  .slider-dot:not(.slider-dot--selected)::after {
-    background: #fff;
+#page-document .block.has--backgroundColor--mainColor {
+  background-color: var(--color-primary-container);
+  color: var(--color-on-primary-container);
+  &.teaser {
+    .teaser-item {
+      color: var(--color-on-primary-container);
+    }
+  }
+  &.gridBlock,
+  &.gridBlock h2.headline,
+  &.gridBlock .slate,
+  &.gridBlock .slate:not(.inner) {
+    background-color: var(--color-primary-container);
+    color: var(--color-on-primary-container);
+  }
+  &.gridCTA .content .cta .ctaButton {
+    @include cta-color-gradient-reverse();
   }
 }
-
-// Edit mode adjustments
-.block-editor-gridBlock.has--backgroundColor--grey .block h2.headline {
-  padding-top: $spacing-xlarge;
-}
-
-.color-picker-widget .button.grey,
-.color-picker-widget .button.grey.active {
-  background-color: var(--color-surface-container-high);
+.block.follow_us {
+  &.has--backgroundColor--grey,
+  &.has--backgroundColor--mainColor {
+    .social-networks {
+      .item {
+        a.social-network {
+          &:hover {
+            svg.social-network.icon {
+              color: var(--color-primary) !important;
+            }
+          }
+          svg.social-network.icon {
+            color: var(--color-inverse-on-surface) !important;
+          }
+        }
+      }
+    }
+  }
 }

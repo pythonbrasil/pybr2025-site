@@ -1,14 +1,14 @@
 import React from 'react';
 import { BlockDataForm } from '@plone/volto/components';
-import { destaqueSchema } from './schema';
+import { gridCTASchema } from './schema';
 import { useIntl } from 'react-intl';
 
-const DestaqueBlockData = (props) => {
+const GridCTABlockData = (props) => {
   const { data, block, onChangeBlock, blocksConfig, navRoot, contentType } =
     props;
 
   const intl = useIntl();
-  const schema = destaqueSchema({ ...props, intl });
+  const schema = gridCTASchema({ ...props, intl });
   const onChangeField = (id, value) => {
     onChangeBlock(block, {
       ...data,
@@ -31,4 +31,4 @@ const DestaqueBlockData = (props) => {
   );
 };
 
-export default DestaqueBlockData;
+export default GridCTABlockData;

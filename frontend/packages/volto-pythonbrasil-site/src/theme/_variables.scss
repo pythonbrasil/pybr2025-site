@@ -48,6 +48,9 @@ $line-heights: (
 
 $custom-fontname: 'Anonymous Pro' !default;
 
+// Change of color
+$color-block-change-vertical-spacing: $spacing-large !default;
+
 @mixin graffiti() {
   font-family: 'Sprite-Graffiti';
   letter-spacing: 0.2rem;
@@ -62,20 +65,28 @@ $custom-fontname: 'Anonymous Pro' !default;
 @mixin cta-animation() {
   transition: all 1500ms ease;
 }
+
 @mixin cta-color-gradient() {
+  @include color-gradient(var(--color-primary-container), var(--color-primary));
+}
+
+@mixin cta-color-gradient-reverse() {
+  @include color-gradient(
+    var(--color-surface-container-highest),
+    var(--color-surface-container-high)
+  );
+}
+
+@mixin color-gradient($color1, $color2) {
   position: relative;
   z-index: 1;
   display: inline-flex;
   overflow: hidden;
   align-items: center;
-  border-color: var(--color-primary-container);
+  border-color: $color1;
   -webkit-appearance: none;
   appearance: none;
-  background: linear-gradient(
-    90deg,
-    var(--color-primary-container) 0%,
-    var(--color-primary) 100%
-  );
+  background: linear-gradient(90deg, $color1 0%, $color2 100%);
   moz-transition: all 0.4s ease-in-out;
   outline: none !important;
   -o-transition: all 0.4s ease-in-out;
@@ -89,11 +100,7 @@ $custom-fontname: 'Anonymous Pro' !default;
     left: 50%;
     width: 150%;
     height: 150%;
-    background: linear-gradient(
-      90deg,
-      var(--color-primary) 0%,
-      var(--color-primary-container) 100%
-    );
+    background: linear-gradient(90deg, $color2 0%, $color1 100%);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     content: '';
@@ -112,6 +119,16 @@ $custom-fontname: 'Anonymous Pro' !default;
   gap: $spacing-xsmall;
   @include add(size, l);
   @include add(weight, bold);
+}
+
+@mixin cta-button-grid() {
+  width: 100%;
+  justify-content: center;
+  padding: $spacing-small $spacing-small;
+  border-radius: $spacing-small;
+  gap: $spacing-xsmall;
+  @include add(size, m);
+  @include add(weight, normal);
 }
 
 // Animations

@@ -1,13 +1,5 @@
 .block.heading {
   h2.heading {
-    @include graffiti();
-    @include add(size, 3xl);
-    @include add(weight, bold);
-    @include add(height, 3xl);
-  }
-  &.has--backgroundColor--grey {
-    h2.heading {
-      color: var(--color-on-primary-container);
-    }
+    @include h2-headline();
   }
 }

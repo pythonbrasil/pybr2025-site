@@ -12,17 +12,28 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. Default: "Alignment"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
 msgid "Alignment"
 msgstr ""
 
+#. Default: "Call to Action"
+#: components/Blocks/GridCTA/schema
+msgid "Call to Action"
+msgstr ""
+
 #. Default: "Chamada"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
 msgid "Chamada"
 msgstr ""
 
+#. Default: "Chamada Principal"
+#: components/Blocks/Chamada/schema
+msgid "Chamada Principal"
+msgstr ""
+
 #. Default: "Chapéu"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
+#: components/Blocks/GridCTA/schema
 msgid "Chapéu"
 msgstr ""
 
@@ -31,13 +42,8 @@ msgstr ""
 msgid "Close menu"
 msgstr ""
 
-#. Default: "Destaque Principal"
-#: components/Blocks/Destaque/schema
-msgid "Destaque Principal"
-msgstr ""
-
 #. Default: "Imagem"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
 msgid "Imagem"
 msgstr ""
 
@@ -52,17 +58,25 @@ msgid "PythonBrasil 2025"
 msgstr ""
 
 #. Default: "Sumário"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
+#: components/Blocks/GridCTA/schema
 msgid "Sumário"
 msgstr ""
 
 #. Default: "Texto CTA"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
+#: components/Blocks/GridCTA/schema
 msgid "Texto CTA"
 msgstr ""
 
+#. Default: "Título"
+#: components/Blocks/GridCTA/schema
+msgid "Título"
+msgstr ""
+
 #. Default: "URL"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
+#: components/Blocks/GridCTA/schema
 msgid "URL"
 msgstr ""
 

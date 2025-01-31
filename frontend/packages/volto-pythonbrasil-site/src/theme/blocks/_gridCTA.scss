@@ -1,0 +1,45 @@
+#page-add,
+#page-edit,
+#page-document {
+  .block.gridCTA {
+    min-height: 300px;
+    border-radius: $spacing-xsmall;
+    margin-bottom: $spacing-small;
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: $spacing-medium $spacing-small;
+      .head_title {
+        padding: $spacing-xsmall 0;
+        @include add(size, m);
+        @include add(height, m);
+        @include add(weight, normal);
+      }
+      .title {
+        @include add(size, xl);
+        @include add(height, xl);
+        @include add(weight, bold);
+      }
+      .description {
+        padding: $spacing-medium 0 $spacing-medium 0;
+        @include add(size, m);
+        @include add(height, m);
+      }
+      .cta {
+        width: 100%;
+        .ctaButton {
+          @include cta-button-grid();
+          @include cta-color-gradient();
+          color: var(--color-on-primary);
+          .icon {
+            fill: var(--color-on-primary);
+          }
+        }
+      }
+    }
+    &.next--has--different--backgroundColor {
+      margin-bottom: 1em !important;
+    }
+  }
+}

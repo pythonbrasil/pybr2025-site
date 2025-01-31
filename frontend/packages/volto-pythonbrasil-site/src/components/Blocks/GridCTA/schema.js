@@ -1,26 +1,17 @@
 import { defineMessages } from 'react-intl';
-import { addStyling } from '@plone/volto/helpers/Extensions/withBlockSchemaEnhancer';
 
 const messages = defineMessages({
   blockTitle: {
-    id: 'Destaque Principal',
-    defaultMessage: 'Destaque Principal',
+    id: 'Call to Action',
+    defaultMessage: 'Call to Action',
   },
   head_title: {
     id: 'Chapéu',
     defaultMessage: 'Chapéu',
   },
-  image: {
-    id: 'Imagem',
-    defaultMessage: 'Imagem',
-  },
-  align: {
-    id: 'Alignment',
-    defaultMessage: 'Alignment',
-  },
   title: {
-    id: 'Chamada',
-    defaultMessage: 'Chamada',
+    id: 'Título',
+    defaultMessage: 'Título',
   },
   description: {
     id: 'Sumário',
@@ -36,15 +27,14 @@ const messages = defineMessages({
   },
 });
 
-export const destaqueSchema = (props) => {
-  const { intl } = props;
+export const gridCTASchema = (props) => {
   const schema = {
     title: props.intl.formatMessage(messages.blockTitle),
     fieldsets: [
       {
         id: 'default',
         title: 'Default',
-        fields: ['head_title', 'title', 'description', 'preview_image'],
+        fields: ['head_title', 'title', 'description'],
       },
       {
         id: 'cta',
@@ -63,13 +53,6 @@ export const destaqueSchema = (props) => {
         title: props.intl.formatMessage(messages.description),
         widget: 'textarea',
       },
-      preview_image: {
-        title: props.intl.formatMessage(messages.image),
-        widget: 'object_browser',
-        mode: 'image',
-        allowExternals: true,
-        selectedItemAttrs: ['image_field', 'image_scales'],
-      },
       label: {
         title: props.intl.formatMessage(messages.ctaLabel),
       },
@@ -77,29 +60,12 @@ export const destaqueSchema = (props) => {
         title: props.intl.formatMessage(messages.ctaHref),
         widget: 'object_browser',
         mode: 'link',
-        selectedItemAttrs: [
-          'Title',
-          'head_title',
-          'Description',
-          'hasPreviewImage',
-          'image_field',
-          'image_scales',
-          '@type',
-        ],
+        selectedItemAttrs: ['Title', 'head_title', 'Description', '@type'],
         allowExternals: true,
       },
     },
     required: ['head_title', 'title', 'description', 'image', 'label', 'href'],
   };
-  addStyling({ schema, intl });
 
-  schema.properties.styles.schema.properties.align = {
-    widget: 'align',
-    title: intl.formatMessage(messages.align),
-    actions: ['left', 'right', 'center'],
-    default: 'left',
-  };
-
-  schema.properties.styles.schema.fieldsets[0].fields = ['align'];
   return schema;
 };

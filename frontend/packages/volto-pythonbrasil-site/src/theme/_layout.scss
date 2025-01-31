@@ -18,3 +18,10 @@ body {
     }
   }
 }
+.content-area {
+  .q.container {
+    a.external::after {
+      display: none;
+    }
+  }
+}

@@ -1,10 +1,21 @@
-#page-edit .block-editor-gridBlock .block.gridBlock,
 .block.gridBlock {
+  .block.teaser {
+    border-radius: 0 0 $spacing-medium $spacing-small;
+    .teaser-item {
+      border-radius: 0 0 $spacing-medium $spacing-small;
+    }
+  }
   .block.image {
     figure.figure {
+      img {
+        border-radius: $spacing-xsmall;
+      }
       &::after {
         height: 0px !important;
       }
     }
+  }
+  h2.headline {
+    @include h2-headline();
   }
 }

@@ -11,10 +11,10 @@
     "react"
   ],
   "author": "PloneGov-BR",
-  "homepage": "https://github.com/simplesconsultoria/volto-pythonbrasil-site#readme",
+  "homepage": "https://github.com/pythonbrasil/volto-pythonbrasil-site#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:simplesconsultoria/volto-pythonbrasil-site.git"
+    "url": "git@github.com:pythonbrasil/volto-pythonbrasil-site.git"
   },
   "publishConfig": {
     "access": "public"
@@ -48,11 +48,11 @@
     "@plone/components": "workspace:*",
     "@eeacms/volto-accordion-block": "11.0.0",
     "@eeacms/volto-matomo": "^5.0.0",
-    "@eeacms/volto-statistic-block": "4.1.0",
+    "@eeacms/volto-statistic-block": "5.0.1",
     "@kitconcept/volto-button-block": "3.0.3",
     "@kitconcept/volto-light-theme": "^5.0.2",
     "@kitconcept/volto-heading-block": "^2.4.0",
-    "@kitconcept/volto-separator-block": "^4.1.1",
+    "@kitconcept/volto-separator-block": "^4.1.2",
     "@kitconcept/volto-slider-block": "^6.3.1",
     "@kitconcept/volto-social-blocks": "1.0.0-alpha.4",
     "@kitconcept/volto-testimonials-block": "1.0.4",
@@ -65,8 +65,7 @@
     "embla-carousel-autoplay": "^8.0.0",
     "embla-carousel-react": "^8.0.0",
     "react-lazy-load-image-component": "^1.6.2",
-    "volto-form-block": "^3.9.1",
-    "volto-subblocks": "^2.1.0"
+    "volto-form-block": "^3.10.2"
   },
   "peerDependencies": {
     "react": "18.2.0",
