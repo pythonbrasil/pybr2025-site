@@ -39,4 +39,7 @@ button {
   @include add(size, 5xl);
   @include add(weight, bold);
   @include add(height, 5xl);
+  @media only screen and (max-width: $tablet-breakpoint) {
+    text-align: center;
+  }
 }
