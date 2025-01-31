@@ -3,7 +3,7 @@
   "version": "1.0.0-alpha.0",
   "description": "Encontro da comunidade Python Brasileira",
   "author": "PloneGov-BR",
-  "homepage": "https://github.com/simplesconsultoria/volto-pythonbrasil-site",
+  "homepage": "https://github.com/pythonbrasil/volto-pythonbrasil-site",
   "license": "MIT",
   "keywords": [
     "volto-addon",
@@ -39,6 +39,12 @@
   },
   "devDependencies": {
     "mrs-developer": "^2.2.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
+      "react-refresh": "^0.14.2"
+    }
   },
   "packageManager": "pnpm@9.1.1"
 }

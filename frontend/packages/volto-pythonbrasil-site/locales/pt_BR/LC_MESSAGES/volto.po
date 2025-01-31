@@ -17,17 +17,17 @@ msgstr ""
 "Domain: volto\n"
 
 #. Default: "Alignment"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
 msgid "Alignment"
 msgstr ""
 
 #. Default: "Chamada"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
 msgid "Chamada"
 msgstr ""
 
 #. Default: "Chapéu"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
 msgid "Chapéu"
 msgstr ""
 
@@ -36,13 +36,13 @@ msgstr ""
 msgid "Close menu"
 msgstr ""
 
-#. Default: "Destaque Principal"
-#: components/Blocks/Destaque/schema
-msgid "Destaque Principal"
+#. Default: "Chamada Principal"
+#: components/Blocks/Chamada/schema
+msgid "Chamada Principal"
 msgstr ""
 
 #. Default: "Imagem"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
 msgid "Imagem"
 msgstr ""
 
@@ -57,17 +57,17 @@ msgid "PythonBrasil 2025"
 msgstr ""
 
 #. Default: "Sumário"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
 msgid "Sumário"
 msgstr ""
 
 #. Default: "Texto CTA"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
 msgid "Texto CTA"
 msgstr ""
 
 #. Default: "URL"
-#: components/Blocks/Destaque/schema
+#: components/Blocks/Chamada/schema
 msgid "URL"
 msgstr ""
 

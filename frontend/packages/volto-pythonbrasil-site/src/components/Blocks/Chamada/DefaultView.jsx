@@ -6,14 +6,14 @@ import { MaybeWrap } from '@plone/volto/components';
 import config from '@plone/volto/registry';
 import PropTypes from 'prop-types';
 
-const DestaqueView = (props) => {
+const ChamadaView = (props) => {
   const Image = config.getComponent('Image').component;
   const { className, data, isEditMode } = props;
   const { title, head_title, description, preview_image, label, href } = data;
   const url = href?.[0]?.['@id'] ? href[0]['@id'] : href;
   const image = preview_image?.[0];
   return (
-    <Container className={`block destaque ${className}`}>
+    <Container className={`block chamada ${className}`}>
       <Container className={'wrapper'}>
         <Container className={'picture'}>
           <Image
@@ -54,7 +54,7 @@ const DestaqueView = (props) => {
  * @property {Object} propTypes Property types.
  * @static
  */
-DestaqueView.propTypes = {
+ChamadaView.propTypes = {
   title: PropTypes.string,
 };
 
@@ -63,8 +63,8 @@ DestaqueView.propTypes = {
  * @property {Object} defaultProps Default properties.
  * @static
  */
-DestaqueView.defaultProps = {
+ChamadaView.defaultProps = {
   title: 'Hello World!',
 };
 
-export default DestaqueView;
+export default ChamadaView;

@@ -1,14 +1,4 @@
-import { composeSchema } from '@plone/volto/helpers';
-import { defaultStylingSchema } from '@kitconcept/volto-light-theme/components/Blocks/schema';
-
-// Blocks
-/// Teaser
-import TeaserDefaultTemplate from '@plone/volto/components/manage/Blocks/Teaser/DefaultBody';
-
-/// Destaque
-import DestaqueEdit from 'volto-pythonbrasil-site/components/Blocks/Destaque/Edit';
-import DestaqueView from 'volto-pythonbrasil-site/components/Blocks/Destaque/View';
-import destaqueSVG from '@plone/volto/icons/camera.svg';
+import installBlocks from './config/blocks';
 
 const applyConfig = (config) => {
   config.settings = {
@@ -53,60 +43,7 @@ const applyConfig = (config) => {
     },
   };
 
-  config.blocks.blocksConfig.destaqueBlock = {
-    id: 'destaqueBlock',
-    title: 'Destaque',
-    group: 'common',
-    icon: destaqueSVG,
-    view: DestaqueView,
-    edit: DestaqueEdit,
-    restricted: false,
-    mostUsed: false,
-    sidebarTab: 1,
-    blockHasOwnFocusManagement: false,
-  };
-
-  const teaserVariations = [
-    {
-      id: 'default',
-      isDefault: true,
-      title: 'Default',
-      template: TeaserDefaultTemplate,
-    },
-  ];
-  config.blocks.blocksConfig.teaser = {
-    ...config.blocks.blocksConfig.teaser,
-    variations: teaserVariations,
-  };
-  config.blocks.blocksConfig.gridBlock.blocksConfig.teaser = {
-    ...config.blocks.blocksConfig.gridBlock.blocksConfig.teaser,
-    variations: teaserVariations,
-  };
-
-  config.blocks.blocksConfig.destaqueBlock.schemaEnhancer =
-    composeSchema(defaultStylingSchema);
-  config.blocks.blocksConfig.image.schemaEnhancer =
-    composeSchema(defaultStylingSchema);
-  config.blocks.blocksConfig.follow_us.schemaEnhancer =
-    composeSchema(defaultStylingSchema);
-  config.blocks.blocksConfig.quote.schemaEnhancer =
-    composeSchema(defaultStylingSchema);
-  config.blocks.blocksConfig.testimonials.schemaEnhancer =
-    composeSchema(defaultStylingSchema);
-
-  config.blocks.blocksConfig.gridBlock = {
-    ...config.blocks.blocksConfig.gridBlock,
-    blocksConfig: {
-      ...config.blocks.blocksConfig,
-    },
-    allowedBlocks: [
-      ...config.blocks.blocksConfig.gridBlock.allowedBlocks,
-      'quote',
-      'testimonials',
-      '__button',
-    ],
-  };
-
+  installBlocks(config);
   return config;
 };
 

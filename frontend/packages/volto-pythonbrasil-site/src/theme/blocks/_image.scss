@@ -1,5 +1,16 @@
-.block.image {
-  figcaption {
-    display: none !important;
+#page-add .blocks-form,
+#page-edit .blocks-form,
+#page-document .blocks-group-wrapper {
+  .block.image {
+    &.align.full {
+      width: 100vw;
+      max-width: 100vw;
+    }
+    figure.full {
+      margin: 0px !important;
+    }
+    figcaption {
+      display: none !important;
+    }
   }
 }
