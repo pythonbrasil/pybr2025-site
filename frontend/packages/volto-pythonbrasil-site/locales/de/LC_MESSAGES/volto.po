@@ -16,24 +16,30 @@ msgstr ""
 msgid "Alignment"
 msgstr ""
 
+#. Default: "Call to Action"
+#: components/Blocks/GridCTA/schema
+msgid "Call to Action"
+msgstr ""
+
 #. Default: "Chamada"
 #: components/Blocks/Chamada/schema
 msgid "Chamada"
 msgstr ""
 
+#. Default: "Chamada Principal"
+#: components/Blocks/Chamada/schema
+msgid "Chamada Principal"
+msgstr ""
+
 #. Default: "Chapéu"
 #: components/Blocks/Chamada/schema
+#: components/Blocks/GridCTA/schema
 msgid "Chapéu"
 msgstr ""
 
 #. Default: "Close menu"
 #: components/Navigation/Navigation
 msgid "Close menu"
-msgstr ""
-
-#. Default: "Chamada Principal"
-#: components/Blocks/Chamada/schema
-msgid "Chamada Principal"
 msgstr ""
 
 #. Default: "Imagem"
@@ -53,16 +59,24 @@ msgstr ""
 
 #. Default: "Sumário"
 #: components/Blocks/Chamada/schema
+#: components/Blocks/GridCTA/schema
 msgid "Sumário"
 msgstr ""
 
 #. Default: "Texto CTA"
 #: components/Blocks/Chamada/schema
+#: components/Blocks/GridCTA/schema
 msgid "Texto CTA"
+msgstr ""
+
+#. Default: "Título"
+#: components/Blocks/GridCTA/schema
+msgid "Título"
 msgstr ""
 
 #. Default: "URL"
 #: components/Blocks/Chamada/schema
+#: components/Blocks/GridCTA/schema
 msgid "URL"
 msgstr ""
 
