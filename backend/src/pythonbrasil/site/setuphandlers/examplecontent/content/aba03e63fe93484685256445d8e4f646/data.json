@@ -1,0 +1,210 @@
+{
+  "@id": "/evento/prevencao-a-covid-19",
+  "@type": "Document",
+  "UID": "aba03e63fe93484685256445d8e4f646",
+  "allow_discussion": null,
+  "blocks": {
+    "204213e8-cad0-42a6-934f-2cda7583530d": {
+      "@type": "slate",
+      "plaintext": "Medidas gerais para preven\u00e7\u00e3o",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Medidas gerais para preven\u00e7\u00e3o"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "6aae01b3-7681-4b27-9c7f-021afe3fba4b": {
+      "@type": "slate",
+      "plaintext": "Recomendamos a todas as pessoas que buscam frequentar o evento, se vacinarem contra a COVID 19. Para isso procure uma unidade b\u00e1sica de sa\u00fade para atualizar seu cart\u00e3o de vacina.",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Recomendamos a todas as pessoas que buscam frequentar o evento, se vacinarem contra a COVID 19. Para isso procure uma unidade b\u00e1sica de sa\u00fade para atualizar seu cart\u00e3o de vacina."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "7c12a9ae-becd-4452-aec4-304f82714bc4": {
+      "@type": "slate",
+      "plaintext": " Vacine-se! ",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Vacine-se!"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "9c85c775-df7f-4e18-83c5-8517473bf39c": {
+      "@type": "slate",
+      "plaintext": "Acesse o site do Governo Brasileiro para medidas gerais para preven\u00e7\u00e3o da COVID 19",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Acesse o site do "
+            },
+            {
+              "children": [
+                {
+                  "text": "Governo Brasileiro"
+                }
+              ],
+              "data": {
+                "url": "https://www.gov.br/saude/pt-br/assuntos/covid-19/como-se-proteger"
+              },
+              "type": "link"
+            },
+            {
+              "text": " para medidas gerais para preven\u00e7\u00e3o da COVID 19"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "a1b0676c-84cf-45ee-a9fc-aa867346b582": {
+      "@type": "title"
+    },
+    "cc3bcc97-7ec4-489b-8b38-e68821a704b9": {
+      "@type": "slate",
+      "plaintext": " Recomenda\u00e7\u00e3o do uso de m\u00e1scaras ",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Recomenda\u00e7\u00e3o do uso de m\u00e1scaras"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "e67f25c2-47ec-4042-975b-aae0e2a4e1cb": {
+      "@type": "slate",
+      "plaintext": "Caso participantes sejam testados positivo para Covid, o uso de m\u00e1scaras passar\u00e1 a ser obrigat\u00f3rio.",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Caso participantes sejam testados positivo para Covid, o uso de m\u00e1scaras passar\u00e1 a ser obrigat\u00f3rio."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "a1b0676c-84cf-45ee-a9fc-aa867346b582",
+      "7c12a9ae-becd-4452-aec4-304f82714bc4",
+      "6aae01b3-7681-4b27-9c7f-021afe3fba4b",
+      "cc3bcc97-7ec4-489b-8b38-e68821a704b9",
+      "e67f25c2-47ec-4042-975b-aae0e2a4e1cb",
+      "204213e8-cad0-42a6-934f-2cda7583530d",
+      "9c85c775-df7f-4e18-83c5-8517473bf39c"
+    ]
+  },
+  "contributors": [],
+  "created": "2025-01-30T22:49:04+00:00",
+  "creators": [
+    "be1f8aa4-b6c8-48ef-8d37-aa4fd88a4095"
+  ],
+  "description": "",
+  "effective": "2025-01-31T22:14:17",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "prevencao-a-covid-19",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-01-31T22:14:17+00:00",
+  "parent": {
+    "@id": "/evento",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "81bb6aa3c33644c296ffbc767b8c05c7",
+    "description": "Conhe\u00e7a a PythonBrasil, o maior evento da Am\u00e9rica Latina sobre a linguagem Python e suas aplica\u00e7\u00f5es",
+    "effective": "2025-01-30T21:38:00+00:00",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "O Evento",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Preven\u00e7\u00e3o a Covid 19",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "be1f8aa4-b6c8-48ef-8d37-aa4fd88a4095",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-01-30T22:49:04+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "be1f8aa4-b6c8-48ef-8d37-aa4fd88a4095",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-01-31T22:14:17+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

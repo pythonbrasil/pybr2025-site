@@ -4,30 +4,84 @@
   "UID": "plone_site_root",
   "allow_discussion": null,
   "blocks": {
-    "32672d61-d8fd-49b1-9f8c-0df05c37f1fb": {
+    "31f67a28-5a49-40c0-bb4a-6d2279057163": {
       "@type": "gridBlock",
       "blocks": {
-        "30ecc510-9c30-461e-ac7a-b97df75b711d": {
-          "@type": "checkoutBlock",
-          "align": "center",
-          "buttonText": "Compre seu ingresso!",
-          "buttonTextPlaceholder": "Comprar ingressos",
-          "eventId": "1051606111187",
-          "fallbackText": "Comprar ingressos"
+        "47f61f8d-b270-4528-b6f4-72ce2d50e9f7": {
+          "@type": "gridCTA",
+          "description": "Torne a Python Brasil 2025 ainda melhor, compartilhe conhecimento com a comunidade.",
+          "href": [
+            {
+              "@id": "https://talks.python.org.br/pythonbrasil-2025/cfp",
+              "title": "talks.python.org.br/pythonbrasil-2025/cfp"
+            }
+          ],
+          "label": "Submeta sua proposta",
+          "styles": {
+            "backgroundColor": "grey"
+          },
+          "title": "Submiss\u00e3o de atividades"
+        },
+        "af098dc9-9fc6-4600-b40f-161a88513807": {
+          "@type": "gridCTA",
+          "description": "Aproveite o lote promocional e garanta j\u00e1 a sua participa\u00e7\u00e3o na Python Brasil 2025",
+          "href": [
+            {
+              "@id": "https://pybr2025.eventbrite.com.br",
+              "title": "pybr2025.eventbrite.com.br"
+            }
+          ],
+          "label": "Garanta seu Ingresso",
+          "styles": {
+            "backgroundColor": "grey"
+          },
+          "title": "Ingressos \u00e0 venda"
         }
       },
       "blocks_layout": {
         "items": [
-          "30ecc510-9c30-461e-ac7a-b97df75b711d"
+          "af098dc9-9fc6-4600-b40f-161a88513807",
+          "47f61f8d-b270-4528-b6f4-72ce2d50e9f7"
         ]
       },
+      "headline": "Fa\u00e7a Parte",
       "styles": {
-        "backgroundColor": "grey"
+        "backgroundColor": "mainColor"
+      }
+    },
+    "345e2281-cedc-44c2-9aa3-600a885d1bb0": {
+      "@type": "gridBlock",
+      "blocks": {
+        "7fe2ce92-edb0-4125-8e1a-898ed523de70": {
+          "@type": "gridCTA",
+          "description": "Associe a sua empresa ao maior evento de Python da Am\u00e9rica Latina!",
+          "href": [
+            {
+              "@id": "https://www.canva.com/design/DAGXPOZVdD0/9BKeLRxlSyHevEtM1TXDJQ/view?utm_content=DAGXPOZVdD0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6c1ffd66be",
+              "title": "www.canva.com/design/DAGXPOZVdD0/9BKeLRxlSyHevEtM1TXDJQ/view?utm_content=DAGXPOZVdD0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6c1ffd66be"
+            }
+          ],
+          "label": "Plano de Patroc\u00ednio",
+          "styles": {
+            "backgroundColor": "grey"
+          },
+          "title": "Patrocine"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "7fe2ce92-edb0-4125-8e1a-898ed523de70"
+        ]
+      },
+      "headline": "Patrocine",
+      "styles": {
+        "backgroundColor": "transparent"
       }
     },
     "42165e4a-c5c1-4229-8161-00f96b0deab0": {
       "@type": "image",
       "align": "full",
+      "alt": "Logotipo da PythonBrasil 2025, com a palavra Python em vermelho, Brasil e 2025 em branco. Texto, em letras brancas, S\u00e3o Paulo, SP, 21 a 27 de Outubro",
       "credit": {},
       "description": "",
       "image_field": "image",
@@ -38,28 +92,20 @@
       },
       "title": "main.png",
       "url": "resolveuid/03e3d75a791d4fa98378626ba8f62d07"
-    },
-    "50e58d4c-56c6-4bcb-a489-fcf68b888f76": {
-      "@type": "follow_us",
-      "align": "center",
-      "animate": false,
-      "styles": {
-        "backgroundColor": "grey"
-      }
     }
   },
   "blocks_layout": {
     "items": [
       "42165e4a-c5c1-4229-8161-00f96b0deab0",
-      "32672d61-d8fd-49b1-9f8c-0df05c37f1fb",
-      "50e58d4c-56c6-4bcb-a489-fcf68b888f76"
+      "31f67a28-5a49-40c0-bb4a-6d2279057163",
+      "345e2281-cedc-44c2-9aa3-600a885d1bb0"
     ]
   },
   "contributors": [],
   "creators": [
     "admin"
   ],
-  "description": "",
+  "description": "Encontro da comunidade Python brasileira, entre 21 a 27 de Outubro, em S\u00e3o Paulo, SP",
   "effective": null,
   "exclude_from_nav": false,
   "expires": null,
@@ -68,7 +114,7 @@
   "exportimport.versions": {},
   "id": "Plone",
   "is_folderish": true,
-  "items_total": 1,
+  "items_total": 5,
   "language": "##DEFAULT##",
   "lock": {
     "locked": false,
@@ -79,7 +125,7 @@
   "rights": "",
   "subjects": [],
   "table_of_contents": null,
-  "title": "Project Title",
+  "title": "PythonBrasil 2025",
   "type_title": "Plone Site",
   "workflow_history": {}
 }
