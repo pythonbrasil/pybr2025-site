@@ -1,0 +1,85 @@
+{
+  "@id": "/patrocine/diamante",
+  "@type": "SponsorLevel",
+  "UID": "28be0c28818647be98201618302a142c",
+  "allow_discussion": null,
+  "blocks": {
+    "3f2e0881-669d-4956-82d4-ed1514ff9ab6": {
+      "@type": "slate"
+    },
+    "5405a3a6-bd66-4759-ae1f-e834469fd335": {
+      "@type": "description"
+    },
+    "87f09d19-32f8-4f7e-8ed2-9a9130ad6b49": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "87f09d19-32f8-4f7e-8ed2-9a9130ad6b49",
+      "5405a3a6-bd66-4759-ae1f-e834469fd335",
+      "3f2e0881-669d-4956-82d4-ed1514ff9ab6"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-10-21T00:29:26+00:00",
+  "creators": [
+    "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629"
+  ],
+  "description": "Cota diamante da PythonBrasil 2025",
+  "display_frontpage": false,
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "diamante",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-01-30T21:54:34+00:00",
+  "nav_title": null,
+  "parent": {
+    "@id": "/patrocine",
+    "@type": "SponsorsDB",
+    "Subject": [],
+    "UID": "818ea1c0827944c394330a1c3d658866",
+    "description": "Sua organiza\u00e7\u00e3o pode ser parte do maior evento de Python do Brasil",
+    "effective": "2025-01-30T23:00:43+00:00",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Patrocine",
+    "type_title": "Sponsors Database"
+  },
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "28be0c28818647be98201618302a142c/preview_image/diamante.png",
+    "content-type": "image/png",
+    "filename": "diamante.png",
+    "height": 900,
+    "size": 519326,
+    "width": 1600
+  },
+  "review_state": "private",
+  "rights": "",
+  "subjects": [],
+  "title": "Diamante",
+  "type_title": "Sponsorship Level",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-10-21T00:29:27+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,23 +1,71 @@
 {
   "__version__": "1.0.0",
   "_blob_files_": [
+    "8077308bcd7c43f88a5055932ec3cc6b/image/logo-splash.png",
+    "573e6d9f0eca43b3a8b838c29a1c0053/preview_image/bronze.png",
+    "6fef01c46be34684bb42ac0e4d990a2f/image/pybr2022-plateia.jpg",
+    "28be0c28818647be98201618302a142c/preview_image/diamante.png",
+    "96fdfa7c97784194b9f4cd0f0819e7f1/preview_image/platina.png",
+    "f9db2eccb58a4e9eb32b43708a0ebc0a/preview_image/ouro.png",
+    "76b343b1ca41450db2728865ca5d459b/preview_image/prata.png",
+    "fa4f3a56ff634ab7a5ebb1f106126dfd/file/2025-pythonbrasil-patrocinio.pdf",
+    "c2d0e0645016413f9e5d719b628fb72d/image/pybr2024.jpg",
+    "c630576df3264cb0ad7799d28f52a393/image/pybr2022-treinamento.jpg",
     "0d05308db57c450da4ae80e8a3c47ece/image/logo-slim.svg",
     "2f992ae440894d7191a24d75d669de4a/image/logo.svg",
     "03e3d75a791d4fa98378626ba8f62d07/image/main.png"
   ],
   "_data_files_": [
     "plone_site_root/data.json",
+    "fa4f3a56ff634ab7a5ebb1f106126dfd/data.json",
+    "b1279249bca341d78e0762bc2a12094f/data.json",
+    "81bb6aa3c33644c296ffbc767b8c05c7/data.json",
+    "52e0e3e2d1564eca97eb22eae2fbebbf/data.json",
+    "f17ec2cb79cf4a75896ce3a6b5bc8f54/data.json",
+    "1e6a267195ba41459ce3a869ac4714f6/data.json",
+    "24689ede20f346c09ce7d50b68ff893b/data.json",
+    "aba03e63fe93484685256445d8e4f646/data.json",
     "a720393b3c0240e5bd27c43fcd2cfd1e/data.json",
     "0d05308db57c450da4ae80e8a3c47ece/data.json",
+    "8077308bcd7c43f88a5055932ec3cc6b/data.json",
     "2f992ae440894d7191a24d75d669de4a/data.json",
-    "03e3d75a791d4fa98378626ba8f62d07/data.json"
+    "03e3d75a791d4fa98378626ba8f62d07/data.json",
+    "6fef01c46be34684bb42ac0e4d990a2f/data.json",
+    "c630576df3264cb0ad7799d28f52a393/data.json",
+    "c2d0e0645016413f9e5d719b628fb72d/data.json",
+    "64ae8a06559f4255b20152220da6fba3/data.json",
+    "818ea1c0827944c394330a1c3d658866/data.json",
+    "573e6d9f0eca43b3a8b838c29a1c0053/data.json",
+    "28be0c28818647be98201618302a142c/data.json",
+    "f9db2eccb58a4e9eb32b43708a0ebc0a/data.json",
+    "96fdfa7c97784194b9f4cd0f0819e7f1/data.json",
+    "76b343b1ca41450db2728865ca5d459b/data.json"
   ],
   "default_page": {},
   "local_permissions": {
     "03e3d75a791d4fa98378626ba8f62d07": {},
     "0d05308db57c450da4ae80e8a3c47ece": {},
+    "1e6a267195ba41459ce3a869ac4714f6": {},
+    "24689ede20f346c09ce7d50b68ff893b": {},
+    "28be0c28818647be98201618302a142c": {},
     "2f992ae440894d7191a24d75d669de4a": {},
+    "52e0e3e2d1564eca97eb22eae2fbebbf": {},
+    "573e6d9f0eca43b3a8b838c29a1c0053": {},
+    "64ae8a06559f4255b20152220da6fba3": {},
+    "6fef01c46be34684bb42ac0e4d990a2f": {},
+    "76b343b1ca41450db2728865ca5d459b": {},
+    "8077308bcd7c43f88a5055932ec3cc6b": {},
+    "818ea1c0827944c394330a1c3d658866": {},
+    "81bb6aa3c33644c296ffbc767b8c05c7": {},
+    "96fdfa7c97784194b9f4cd0f0819e7f1": {},
     "a720393b3c0240e5bd27c43fcd2cfd1e": {},
+    "aba03e63fe93484685256445d8e4f646": {},
+    "b1279249bca341d78e0762bc2a12094f": {},
+    "c2d0e0645016413f9e5d719b628fb72d": {},
+    "c630576df3264cb0ad7799d28f52a393": {},
+    "f17ec2cb79cf4a75896ce3a6b5bc8f54": {},
+    "f9db2eccb58a4e9eb32b43708a0ebc0a": {},
+    "fa4f3a56ff634ab7a5ebb1f106126dfd": {},
     "plone_site_root": {
       "Add portal member": {
         "acquire": false,
@@ -101,6 +149,27 @@
         ]
       }
     },
+    "1e6a267195ba41459ce3a869ac4714f6": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "24689ede20f346c09ce7d50b68ff893b": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "28be0c28818647be98201618302a142c": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
     "2f992ae440894d7191a24d75d669de4a": {
       "local_roles": {
         "admin": [
@@ -108,9 +177,121 @@
         ]
       }
     },
+    "52e0e3e2d1564eca97eb22eae2fbebbf": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "573e6d9f0eca43b3a8b838c29a1c0053": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "64ae8a06559f4255b20152220da6fba3": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "6fef01c46be34684bb42ac0e4d990a2f": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "76b343b1ca41450db2728865ca5d459b": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "8077308bcd7c43f88a5055932ec3cc6b": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "818ea1c0827944c394330a1c3d658866": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "81bb6aa3c33644c296ffbc767b8c05c7": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "96fdfa7c97784194b9f4cd0f0819e7f1": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
     "a720393b3c0240e5bd27c43fcd2cfd1e": {
       "local_roles": {
         "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "aba03e63fe93484685256445d8e4f646": {
+      "local_roles": {
+        "be1f8aa4-b6c8-48ef-8d37-aa4fd88a4095": [
+          "Owner"
+        ]
+      }
+    },
+    "b1279249bca341d78e0762bc2a12094f": {
+      "local_roles": {
+        "be1f8aa4-b6c8-48ef-8d37-aa4fd88a4095": [
+          "Owner"
+        ]
+      }
+    },
+    "c2d0e0645016413f9e5d719b628fb72d": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "c630576df3264cb0ad7799d28f52a393": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "f17ec2cb79cf4a75896ce3a6b5bc8f54": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "f9db2eccb58a4e9eb32b43708a0ebc0a": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+          "Owner"
+        ]
+      }
+    },
+    "fa4f3a56ff634ab7a5ebb1f106126dfd": {
+      "local_roles": {
+        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
           "Owner"
         ]
       }
@@ -126,8 +307,27 @@
   "ordering": {
     "03e3d75a791d4fa98378626ba8f62d07": 2,
     "0d05308db57c450da4ae80e8a3c47ece": 0,
+    "1e6a267195ba41459ce3a869ac4714f6": 3,
+    "24689ede20f346c09ce7d50b68ff893b": 2,
+    "28be0c28818647be98201618302a142c": 0,
     "2f992ae440894d7191a24d75d669de4a": 1,
-    "a720393b3c0240e5bd27c43fcd2cfd1e": 42
+    "52e0e3e2d1564eca97eb22eae2fbebbf": 1,
+    "573e6d9f0eca43b3a8b838c29a1c0053": 4,
+    "64ae8a06559f4255b20152220da6fba3": 45,
+    "6fef01c46be34684bb42ac0e4d990a2f": 5,
+    "76b343b1ca41450db2728865ca5d459b": 3,
+    "8077308bcd7c43f88a5055932ec3cc6b": 3,
+    "818ea1c0827944c394330a1c3d658866": 46,
+    "81bb6aa3c33644c296ffbc767b8c05c7": 43,
+    "96fdfa7c97784194b9f4cd0f0819e7f1": 1,
+    "a720393b3c0240e5bd27c43fcd2cfd1e": 42,
+    "aba03e63fe93484685256445d8e4f646": 4,
+    "b1279249bca341d78e0762bc2a12094f": 44,
+    "c2d0e0645016413f9e5d719b628fb72d": 4,
+    "c630576df3264cb0ad7799d28f52a393": 6,
+    "f17ec2cb79cf4a75896ce3a6b5bc8f54": 0,
+    "f9db2eccb58a4e9eb32b43708a0ebc0a": 2,
+    "fa4f3a56ff634ab7a5ebb1f106126dfd": 47
   },
   "relations": []
 }

@@ -1,0 +1,156 @@
+{
+  "@id": "/evento/perguntas-frequentes",
+  "@type": "Document",
+  "UID": "24689ede20f346c09ce7d50b68ff893b",
+  "allow_discussion": null,
+  "blocks": {
+    "2559d772-c429-4143-a6d6-3b0ba79d2418": {
+      "@type": "description"
+    },
+    "2aa31f12-80ca-4865-9089-1b64d27693de": {
+      "@type": "accordion",
+      "collapsed": false,
+      "data": {
+        "blocks": {
+          "32a3a802-7461-4ca8-a5d8-e3550ca73407": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "66313c71-749c-4027-801a-94b9c15d4856": {
+                "@type": "slate",
+                "plaintext": "A Python Brasil \u00e9 organizada, em conjunto, por um time de volunt\u00e1rios e pela Associa\u00e7\u00e3o Python Brasil.",
+                "styles": {},
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "A Python Brasil \u00e9 organizada, em conjunto, por um time de volunt\u00e1rios e pela Associa\u00e7\u00e3o Python Brasil."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "66313c71-749c-4027-801a-94b9c15d4856"
+              ]
+            },
+            "title": "Quem organiza a Python Brasil?"
+          },
+          "dc3ec1b7-96f0-44ef-9772-4f66d778c215": {
+            "blocks": {
+              "31f0d625-b078-422c-8d68-eb354ba36505": {
+                "@type": "slate"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "31f0d625-b078-422c-8d68-eb354ba36505"
+              ]
+            }
+          },
+          "f84b13e8-1136-4510-9000-d0b1c4cf7290": {
+            "blocks": {
+              "149b5491-5191-4a42-88a7-db38134b40f0": {
+                "@type": "slate"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "149b5491-5191-4a42-88a7-db38134b40f0"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "32a3a802-7461-4ca8-a5d8-e3550ca73407",
+            "f84b13e8-1136-4510-9000-d0b1c4cf7290",
+            "dc3ec1b7-96f0-44ef-9772-4f66d778c215"
+          ]
+        }
+      },
+      "filtering": false,
+      "non_exclusive": false,
+      "right_arrows": true,
+      "styles": {}
+    },
+    "2e169d00-1428-4be1-a5b2-a4a80dbebcba": {
+      "@type": "title"
+    },
+    "9ebd0467-ee7d-4849-a7c9-63a135634db5": {
+      "@type": "slate"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "2e169d00-1428-4be1-a5b2-a4a80dbebcba",
+      "2559d772-c429-4143-a6d6-3b0ba79d2418",
+      "2aa31f12-80ca-4865-9089-1b64d27693de",
+      "9ebd0467-ee7d-4849-a7c9-63a135634db5"
+    ]
+  },
+  "contributors": [],
+  "created": "2025-01-30T21:19:49+00:00",
+  "creators": [
+    "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629"
+  ],
+  "description": "Tire suas d\u00favidas sobre a Python Brasil 2025",
+  "effective": "2025-01-30T21:38:07",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "perguntas-frequentes",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-01-30T23:12:12+00:00",
+  "parent": {
+    "@id": "/evento",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "81bb6aa3c33644c296ffbc767b8c05c7",
+    "description": "Conhe\u00e7a a PythonBrasil, o maior evento da Am\u00e9rica Latina sobre a linguagem Python e suas aplica\u00e7\u00f5es",
+    "effective": "2025-01-30T21:38:00+00:00",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "O Evento",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Perguntas Frequentes",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-01-30T21:19:49+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-01-30T21:38:07+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}
