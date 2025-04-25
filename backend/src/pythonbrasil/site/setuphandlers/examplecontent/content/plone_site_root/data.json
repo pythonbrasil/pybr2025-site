@@ -17,9 +17,8 @@
             }
           ],
           "label": "Submeta sua proposta",
-          "styles": {
-            "backgroundColor": "grey"
-          },
+          "styles": {},
+          "theme": "grey",
           "title": "Submiss\u00e3o de atividades"
         },
         "af098dc9-9fc6-4600-b40f-161a88513807": {
@@ -32,9 +31,8 @@
             }
           ],
           "label": "Garanta seu Ingresso",
-          "styles": {
-            "backgroundColor": "grey"
-          },
+          "styles": {},
+          "theme": "grey",
           "title": "Ingressos \u00e0 venda"
         }
       },
@@ -45,9 +43,8 @@
         ]
       },
       "headline": "Fa\u00e7a Parte",
-      "styles": {
-        "backgroundColor": "mainColor"
-      }
+      "styles": {},
+      "theme": "red"
     },
     "345e2281-cedc-44c2-9aa3-600a885d1bb0": {
       "@type": "gridBlock",
@@ -62,9 +59,8 @@
             }
           ],
           "label": "Plano de Patroc\u00ednio",
-          "styles": {
-            "backgroundColor": "grey"
-          },
+          "styles": {},
+          "theme": "grey",
           "title": "Patrocine"
         }
       },
@@ -74,22 +70,24 @@
         ]
       },
       "headline": "Patrocine",
-      "styles": {
-        "backgroundColor": "transparent"
-      }
+      "styles": {},
+      "theme": "default"
     },
     "42165e4a-c5c1-4229-8161-00f96b0deab0": {
       "@type": "image",
-      "align": "full",
+      "align": "center",
       "alt": "Logotipo da PythonBrasil 2025, com a palavra Python em vermelho, Brasil e 2025 em branco. Texto, em letras brancas, S\u00e3o Paulo, SP, 21 a 27 de Outubro",
       "credit": {},
       "description": "",
       "image_field": "image",
       "size": "l",
       "styles": {
-        "backgroundColor": "grey",
+        "blockWidth:noprefix": {
+          "--block-width": "100%"
+        },
         "size:noprefix": "large"
       },
+      "theme": "grey",
       "title": "main.png",
       "url": "resolveuid/03e3d75a791d4fa98378626ba8f62d07"
     }
@@ -126,26 +124,70 @@
   "share_social_data": true,
   "social_links": [
     {
-      "@id": "ae71cbbd-e17d-43ec-929a-08ce72b3ca86",
+      "@id": "c67e5d80-1744-43f0-9bd8-4f58511194ad",
+      "href": [
+        {
+          "@id": "https://pynews.com.br/@pythonbrasil",
+          "title": "Mastodon"
+        }
+      ],
+      "id": "mastodon",
+      "title": "Mastodon"
+    },
+    {
+      "@id": "444ef18c-b773-43ea-8594-131e6d35a645",
+      "href": [
+        {
+          "@id": "https://x.com/pythonbrasil/",
+          "title": "X"
+        }
+      ],
+      "id": "x",
+      "title": "X"
+    },
+    {
+      "@id": "2fc33af3-8aa5-4e94-a783-845a5add2ded",
+      "href": [
+        {
+          "@id": "https://instagram.com/pythonbrasil/",
+          "title": "Instagram"
+        }
+      ],
+      "id": "instagram",
+      "title": "Instagram"
+    },
+    {
+      "@id": "5889d02c-a6a1-43e0-9799-b17e899843fc",
       "href": [
         {
           "@id": "https://bsky.app/profile/pythonbrasil.bsky.social",
-          "title": "bsky.app/profile/pythonbrasil.bsky.social"
+          "title": "BlueSky"
         }
       ],
       "id": "bluesky",
       "title": "BlueSky"
     },
     {
-      "@id": "16a76df5-bf4c-4b8c-989d-de626e46839a",
+      "@id": "360468f5-d9a3-41f1-a2c6-e66a79aebda9",
       "href": [
         {
           "@id": "https://www.linkedin.com/company/apyb/",
-          "title": "www.linkedin.com/company/apyb/"
+          "title": "LinkedIn APyB"
         }
       ],
       "id": "linkedin",
       "title": "LinkedIn APyB"
+    },
+    {
+      "@id": "b91a5edc-c0bc-4907-98a5-4e57dd45a154",
+      "href": [
+        {
+          "@id": "https://www.youtube.com/c/pythonbrasiloficial",
+          "title": "YouTube"
+        }
+      ],
+      "id": "youtube",
+      "title": "YouTube"
     }
   ],
   "subjects": [],
