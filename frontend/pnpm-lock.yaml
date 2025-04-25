@@ -1575,8 +1575,8 @@ importers:
         specifier: workspace:*
         version: link:../../core/packages/registry
       '@plonegovbr/volto-social-media':
-        specifier: ^2.0.0-alpha.2
-        version: 2.0.0-alpha.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(storybook@8.6.12(prettier@3.2.5))
+        specifier: ^2.0.0-alpha.4
+        version: 2.0.0-alpha.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(storybook@8.6.12(prettier@3.2.5))
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -3608,8 +3608,8 @@ packages:
     resolution: {integrity: sha512-/1AazfW8BWuhXcpj0ywegT3JnoTAhLbDX4eHcpR+RL0bxoo+ltSfMcavr2Y31JubcciEVDYXiPo8xx+i0oNvDw==}
     engines: {node: ^20 || ^22}
 
-  '@plonegovbr/volto-social-media@2.0.0-alpha.2':
-    resolution: {integrity: sha512-Tq9PtO5uvZqYgGm+B2YkNyzlOzTmyZh6Z0k2Je4dYAFJMEb9qnHonLMo+SVkHVzpqd+NAu7aPXOWY2gwKJ5poQ==}
+  '@plonegovbr/volto-social-media@2.0.0-alpha.4':
+    resolution: {integrity: sha512-eguITKkLOcjA0TEsRjlj8pCrJ7LcLQmYwt39eCN/FdQ9aLKvN6xSEz4RYKzai7jyevKXbbrLY2OLpWd5yUC9/Q==}
     peerDependencies:
       react: 18.2.0
       react-dom: 18.2.0
@@ -17437,7 +17437,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@plonegovbr/volto-social-media@2.0.0-alpha.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(storybook@8.6.12(prettier@3.2.5))':
+  '@plonegovbr/volto-social-media@2.0.0-alpha.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(storybook@8.6.12(prettier@3.2.5))':
     dependencies:
       '@plone/components': 3.0.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(storybook@8.6.12(prettier@3.2.5))
       react: 18.2.0

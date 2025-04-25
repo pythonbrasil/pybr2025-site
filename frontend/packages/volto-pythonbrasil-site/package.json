@@ -52,7 +52,7 @@
     "@mbarde/volto-image-crop-widget": "0.5.1",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@plone-collective/volto-eventbrite-block": "^1.0.0-alpha.2",
-    "@plonegovbr/volto-social-media": "^2.0.0-alpha.2",
+    "@plonegovbr/volto-social-media": "^2.0.0-alpha.4",
     "volto-form-block": "*"
   },
   "peerDependencies": {
