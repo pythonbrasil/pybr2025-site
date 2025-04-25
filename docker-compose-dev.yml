@@ -1,5 +1,5 @@
 ---
-name: pybr25-site
+name: pybr25-site-local-dev
 
 services:
   traefik:
