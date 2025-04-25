@@ -92,7 +92,7 @@ jobs:
           echo "plone-version=$(cat backend/version.txt)" >> $GITHUB_OUTPUT
           python3 -c 'import json; data = json.load(open("./frontend/mrs.developer.json")); print("volto-version=" + (data["core"].get("tag") or "latest"))' >> $GITHUB_OUTPUT
           echo "environment=${{ inputs.environment }}" >> $GITHUB_OUTPUT
-          echo "stack-name=${ENVIRONMENT//./-}" >> $GITHUB_OUTPUT
+          echo "stack-name=${${{ inputs.environment }}//./-}" >> $GITHUB_OUTPUT
 
       - uses: dorny/paths-filter@v3.0.2
         id: filter
