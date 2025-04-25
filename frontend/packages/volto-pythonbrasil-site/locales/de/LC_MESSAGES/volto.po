@@ -5,82 +5,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
-"Language: \n"
+"Language: de\n"
 "Language-Team: \n"
 "Content-Type: \n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
-
-#. Default: "Alignment"
-#: components/Blocks/Chamada/schema
-msgid "Alignment"
-msgstr ""
-
-#. Default: "Call to Action"
-#: components/Blocks/GridCTA/schema
-msgid "Call to Action"
-msgstr ""
-
-#. Default: "Chamada"
-#: components/Blocks/Chamada/schema
-msgid "Chamada"
-msgstr ""
-
-#. Default: "Chamada Principal"
-#: components/Blocks/Chamada/schema
-msgid "Chamada Principal"
-msgstr ""
-
-#. Default: "Chapéu"
-#: components/Blocks/Chamada/schema
-#: components/Blocks/GridCTA/schema
-msgid "Chapéu"
-msgstr ""
-
-#. Default: "Close menu"
-#: components/Navigation/Navigation
-msgid "Close menu"
-msgstr ""
-
-#. Default: "Imagem"
-#: components/Blocks/Chamada/schema
-msgid "Imagem"
-msgstr ""
-
-#. Default: "Open menu"
-#: components/Navigation/Navigation
-msgid "Open menu"
-msgstr ""
-
-#. Default: "PythonBrasil 2025"
-#: components/Logo/Logo
-msgid "PythonBrasil 2025"
-msgstr ""
-
-#. Default: "Sumário"
-#: components/Blocks/Chamada/schema
-#: components/Blocks/GridCTA/schema
-msgid "Sumário"
-msgstr ""
-
-#. Default: "Texto CTA"
-#: components/Blocks/Chamada/schema
-#: components/Blocks/GridCTA/schema
-msgid "Texto CTA"
-msgstr ""
-
-#. Default: "Título"
-#: components/Blocks/GridCTA/schema
-msgid "Título"
-msgstr ""
-
-#. Default: "URL"
-#: components/Blocks/Chamada/schema
-#: components/Blocks/GridCTA/schema
-msgid "URL"
-msgstr ""
-
-#. Default: "Voltar para a capa"
-#: components/Logo/Logo
-msgid "Voltar para a capa"
-msgstr ""

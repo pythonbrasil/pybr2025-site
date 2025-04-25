@@ -1,6 +1,6 @@
 {
-  "name": "volto-pythonbrasil-site",
-  "version": "1.0.0-alpha.0",
+  "name": "@plonegovbr/volto-pythonbrasil-site",
+  "version": "20250212.1.0",
   "description": "Encontro da comunidade Python Brasileira",
   "main": "src/index.js",
   "license": "MIT",
@@ -11,10 +11,10 @@
     "react"
   ],
   "author": "PloneGov-BR",
-  "homepage": "https://github.com/pythonbrasil/volto-pythonbrasil-site#readme",
+  "homepage": "https://github.com/pythonbrasil/pybr25-site#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:pythonbrasil/volto-pythonbrasil-site.git"
+    "url": "git@github.com:pythonbrasil/pybr25-site"
   },
   "publishConfig": {
     "access": "public"
@@ -32,47 +32,36 @@
     "@kitconcept/volto-social-blocks",
     "@mbarde/volto-image-crop-widget",
     "volto-form-block",
-    "@plonegovbr/volto-network-block",
+    "@plonegovbr/volto-social-media",
     "@kitconcept/volto-separator-block",
     "@kitconcept/volto-button-block",
     "@eeacms/volto-statistic-block",
     "@plone-collective/volto-authomatic",
     "@plone-collective/volto-eventbrite-block",
     "@kitconcept/volto-heading-block",
-    "@kitconcept/volto-testimonials-block",
-    "@kitconcept/volto-quote-block",
     "@kitconcept/volto-light-theme",
     "@eeacms/volto-matomo"
   ],
   "dependencies": {
     "@plone/components": "workspace:*",
-    "@eeacms/volto-accordion-block": "11.0.0",
-    "@eeacms/volto-matomo": "^5.0.0",
-    "@eeacms/volto-statistic-block": "5.0.1",
-    "@kitconcept/volto-button-block": "3.0.3",
-    "@kitconcept/volto-light-theme": "^5.0.2",
-    "@kitconcept/volto-heading-block": "^2.4.0",
-    "@kitconcept/volto-separator-block": "^4.1.2",
-    "@kitconcept/volto-slider-block": "^6.3.1",
-    "@kitconcept/volto-social-blocks": "1.0.0-alpha.4",
-    "@kitconcept/volto-testimonials-block": "1.0.4",
-    "@kitconcept/volto-quote-block": "1.1.2",
+    "@plone/registry": "workspace:*",
+    "@eeacms/volto-matomo": "*",
+    "@eeacms/volto-statistic-block": "*",
+    "@kitconcept/volto-light-theme": "^6.0.0-alpha.21",
+    "@kitconcept/volto-social-blocks": "1.0.0-alpha.8",
     "@mbarde/volto-image-crop-widget": "0.5.1",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@plone-collective/volto-eventbrite-block": "^1.0.0-alpha.2",
-    "@plonegovbr/volto-network-block": "^1.0.0",
-    "classnames": "2.2.6",
-    "embla-carousel-autoplay": "^8.0.0",
-    "embla-carousel-react": "^8.0.0",
-    "react-lazy-load-image-component": "^1.6.2",
-    "volto-form-block": "^3.10.2"
+    "@plonegovbr/volto-social-media": "^2.0.0-alpha.2",
+    "volto-form-block": "*"
   },
   "peerDependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@plone/scripts": "^3.6.1",
+    "@plone/scripts": "workspace:*",
+    "@plone/types": "workspace:*",
     "release-it": "^17.1.1"
   }
 }

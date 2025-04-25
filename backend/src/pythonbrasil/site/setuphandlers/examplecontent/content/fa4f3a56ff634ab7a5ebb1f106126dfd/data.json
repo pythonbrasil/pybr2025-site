@@ -14,7 +14,6 @@
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "exportimport.versions": {},
   "file": {
     "blob_path": "fa4f3a56ff634ab7a5ebb1f106126dfd/file/2025-pythonbrasil-patrocinio.pdf",
     "content-type": "application/pdf",
@@ -27,14 +26,6 @@
   "layout": "file_view",
   "lock": {},
   "modified": "2025-01-13T12:24:08+00:00",
-  "parent": {
-    "@id": "/",
-    "@type": "Plone Site",
-    "UID": "plone_site_root",
-    "description": "Encontro da comunidade Python brasileira, entre 21 a 27 de Outubro, em S\u00e3o Paulo, SP",
-    "title": "PythonBrasil 2025",
-    "type_title": "Plone Site"
-  },
   "review_state": null,
   "rights": "",
   "subjects": [],

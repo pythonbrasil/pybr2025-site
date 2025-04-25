@@ -111,7 +111,8 @@
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "exportimport.versions": {},
+  "facebook_app_id": "",
+  "facebook_username": "",
   "id": "Plone",
   "is_folderish": true,
   "items_total": 5,
@@ -120,12 +121,39 @@
     "locked": false,
     "stealable": true
   },
-  "parent": {},
   "review_state": null,
   "rights": "",
+  "share_social_data": true,
+  "social_links": [
+    {
+      "@id": "ae71cbbd-e17d-43ec-929a-08ce72b3ca86",
+      "href": [
+        {
+          "@id": "https://bsky.app/profile/pythonbrasil.bsky.social",
+          "title": "bsky.app/profile/pythonbrasil.bsky.social"
+        }
+      ],
+      "id": "bluesky",
+      "title": "BlueSky"
+    },
+    {
+      "@id": "16a76df5-bf4c-4b8c-989d-de626e46839a",
+      "href": [
+        {
+          "@id": "https://www.linkedin.com/company/apyb/",
+          "title": "www.linkedin.com/company/apyb/"
+        }
+      ],
+      "id": "linkedin",
+      "title": "LinkedIn APyB"
+    }
+  ],
   "subjects": [],
   "table_of_contents": null,
   "title": "PythonBrasil 2025",
   "type_title": "Plone Site",
-  "workflow_history": {}
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null,
+  "x_username": ""
 }

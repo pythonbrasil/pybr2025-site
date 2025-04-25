@@ -4,8 +4,8 @@ Encontro da comunidade Python Brasileira
 
 [![npm](https://img.shields.io/npm/v/volto-pythonbrasil-site)](https://www.npmjs.com/package/volto-pythonbrasil-site)
 [![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://pythonbrasil.github.io/volto-pythonbrasil-site/)
-[![Code analysis checks](https://github.com/pythonbrasil/volto-pythonbrasil-site/actions/workflows/code.yml/badge.svg)](https://github.com/pythonbrasil/volto-pythonbrasil-site/actions/workflows/code.yml)
-[![Unit tests](https://github.com/pythonbrasil/volto-pythonbrasil-site/actions/workflows/unit.yml/badge.svg)](https://github.com/pythonbrasil/volto-pythonbrasil-site/actions/workflows/unit.yml)
+[![CI](https://github.com/pythonbrasil/pybr25-site/actions/workflows/main.yml/badge.svg)](https://github.com/pythonbrasil/pybr25-site/actions/workflows/main.yml)
+
 
 ## Features
 
@@ -16,9 +16,32 @@ Encontro da comunidade Python Brasileira
 To install your project, you must choose the method appropriate to your version of Volto.
 
 
+### Volto 18 and later
+
+Add `volto-pythonbrasil-site` to your `package.json`.
+
+```json
+"dependencies": {
+    "volto-pythonbrasil-site": "*"
+}
+```
+
+Add `volto-pythonbrasil-site` to your `volto.config.js`.
+
+```javascript
+const addons = ['volto-pythonbrasil-site'];
+```
+
+If this package provides a Volto theme, and you want to activate it, then add the following to your `volto.config.js`.
+
+```javascript
+const theme = 'volto-pythonbrasil-site';
+```
+
 ### Volto 17 and earlier
 
-Create a new Volto project (you can skip this step if you already have one):
+Create a new Volto project.
+You can skip this step if you already have one.
 
 ```
 npm install -g yo @plone/generator-volto
@@ -26,7 +49,7 @@ yo @plone/volto my-volto-project --addon volto-pythonbrasil-site
 cd my-volto-project
 ```
 
-Add `volto-pythonbrasil-site` to your package.json:
+Add `volto-pythonbrasil-site` to your `package.json`.
 
 ```JSON
 "addons": [
@@ -38,38 +61,16 @@ Add `volto-pythonbrasil-site` to your package.json:
 }
 ```
 
-Download and install the new add-on by running:
+Download and install the new add-on.
 
 ```
 yarn install
 ```
 
-Start volto with:
+Start Volto.
 
 ```
 yarn start
-```
-
-### Volto 18 and later
-
-Add `volto-pythonbrasil-site` to your `package.json`:
-
-```json
-"dependencies": {
-    "volto-pythonbrasil-site": "*"
-}
-```
-
-Add `volto-pythonbrasil-site` to your `volto.config.js`:
-
-```javascript
-const addons = ['volto-pythonbrasil-site'];
-```
-
-If this package provides a Volto theme, and you want to activate it, then add the following to your `volto.config.js`:
-
-```javascript
-const theme = 'volto-pythonbrasil-site';
 ```
 
 ## Test installation
@@ -79,46 +80,41 @@ Visit http://localhost:3000/ in a browser, login, and check the awesome new feat
 
 ## Development
 
-The development of this add-on is done in isolation using a new approach using pnpm workspaces and latest `mrs-developer` and other Volto core improvements.
-For this reason, it only works with pnpm and Volto 18 (currently in alpha).
+The development of this add-on is done in isolation using pnpm workspaces, the latest `mrs-developer`, and other Volto core improvements.
+For these reasons, it only works with pnpm and Volto 18.
 
 
-### Pre-requisites
+### Prerequisites ✅
 
--   [Node.js](https://6.docs.plone.org/install/create-project.html#node-js)
--   [Make](https://6.docs.plone.org/install/create-project.html#make)
--   [Docker](https://6.docs.plone.org/install/create-project.html#docker)
+-   An [operating system](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) that runs all the requirements mentioned.
+-   [nvm](https://6.docs.plone.org/install/create-project-cookieplone.html#nvm)
+-   [Node.js and pnpm](https://6.docs.plone.org/install/create-project.html#node-js) 22
+-   [Make](https://6.docs.plone.org/install/create-project-cookieplone.html#make)
+-   [Git](https://6.docs.plone.org/install/create-project-cookieplone.html#git)
+-   [Docker](https://docs.docker.com/get-started/get-docker/) (optional)
+
+### Installation 🔧
+
+1.  Clone this repository, then change your working directory.
+
+    ```shell
+    git clone git@github.com:pythonbrasil/pybr25-site.git
+    cd pybr25-site/frontend
+    ```
+
+2.  Install this code base.
+
+    ```shell
+    make install
+    ```
 
 
 ### Make convenience commands
 
-Run `make help` to list the available commands.
+Run `make help` to list the available Make commands.
 
-```text
-help                             Show this help
-install                          Installs the add-on in a development environment
-start                            Starts Volto, allowing reloading of the add-on during development
-build                            Build a production bundle for distribution of the project with the add-on
-i18n                             Sync i18n
-ci-i18n                          Check if i18n is not synced
-format                           Format codebase
-lint                             Lint, or catch and remove problems, in code base
-release                          Release the add-on on npmjs.org
-release-dry-run                  Dry-run the release of the add-on on npmjs.org
-test                             Run unit tests
-ci-test                          Run unit tests in CI
-backend-docker-start             Starts a Docker-based backend for development
-storybook-start                  Start Storybook server on port 6006
-storybook-build                  Build Storybook
-acceptance-frontend-dev-start    Start acceptance frontend in development mode
-acceptance-frontend-prod-start   Start acceptance frontend in production mode
-acceptance-backend-start         Start backend acceptance server
-ci-acceptance-backend-start      Start backend acceptance server in headless mode for CI
-acceptance-test                  Start Cypress in interactive mode
-ci-acceptance-test               Run cypress tests in headless mode for CI
-```
 
-### Development environment set up
+### Set up development environment
 
 Install package requirements.
 
@@ -197,7 +193,3 @@ make acceptance-test
 ## License
 
 The project is licensed under the MIT license.
-
-## Credits and Acknowledgements 🙏
-
-Crafted with care by **Generated using [Cookieplone (0.8.2)](https://github.com/plone/cookieplone) and [cookiecutter-plone (2638336)](https://github.com/plone/cookiecutter-plone/commit/2638336ff1127c169063964cd95251292c954a0b) on 2025-01-31 11:19:23.755532**. A special thanks to all contributors and supporters!

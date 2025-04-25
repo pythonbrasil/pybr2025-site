@@ -1,21 +1,14 @@
 footer#footer {
   .footer {
     max-width: 100% !important;
-    background-color: var(--color-surface-container-high);
-    color: var(--color-inverse-on-surface) !important;
-    .footer_links {
-      --social-network-icon-color-main: var(
-        --color-inverse-on-surface
-      ) !important;
-      --social-network-icon-color-hover: var(--color-primary) !important;
-    }
+    background-color: var(--secondary-color);
+    color: var(--secondary-foreground-color) !important;
     ul {
       li {
-        border-right: 1px solid var(--color-inverse-on-surface);
-        a {
-          color: var(--color-inverse-on-surface) !important;
+        a.item {
+          color: var(--secondary-foreground-color) !important;
           &:hover {
-            color: var(--color-primary) !important;
+            color: var(--primary-color) !important;
           }
         }
       }
@@ -23,10 +16,11 @@ footer#footer {
   }
   .footer-branding {
     padding: $spacing-small;
+    color: var(--text-color) !important;
     .plonegovbr {
-      color: var(--color-main) !important;
+      color: var(--text-color) !important;
       &:hover {
-        color: var(--color-primary) !important;
+        color: var(--primary-color) !important;
       }
     }
   }

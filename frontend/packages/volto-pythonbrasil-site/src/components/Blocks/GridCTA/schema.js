@@ -1,35 +1,8 @@
-import { defineMessages } from 'react-intl';
-
-const messages = defineMessages({
-  blockTitle: {
-    id: 'Call to Action',
-    defaultMessage: 'Call to Action',
-  },
-  head_title: {
-    id: 'Chapéu',
-    defaultMessage: 'Chapéu',
-  },
-  title: {
-    id: 'Título',
-    defaultMessage: 'Título',
-  },
-  description: {
-    id: 'Sumário',
-    defaultMessage: 'Sumário',
-  },
-  ctaLabel: {
-    id: 'Texto CTA',
-    defaultMessage: 'Texto CTA',
-  },
-  ctaHref: {
-    id: 'URL',
-    defaultMessage: 'URL',
-  },
-});
+import messages from '@plonegovbr/volto-pythonbrasil-site/messages';
 
 export const gridCTASchema = (props) => {
   const schema = {
-    title: props.intl.formatMessage(messages.blockTitle),
+    title: props.intl.formatMessage(messages.blockGridCTA),
     fieldsets: [
       {
         id: 'default',

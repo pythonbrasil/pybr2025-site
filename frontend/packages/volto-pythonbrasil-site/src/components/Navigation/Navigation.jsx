@@ -1,30 +1,22 @@
 // SemanticUI-free pre-@plone/components
 
 import React, { useState, useEffect, useRef } from 'react';
-import PropTypes from 'prop-types';
 import { useDispatch, useSelector, shallowEqual } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { doesNodeContainClick } from 'semantic-ui-react/dist/commonjs/lib';
-import { useIntl, defineMessages, injectIntl } from 'react-intl';
+import { useIntl, injectIntl } from 'react-intl';
 import cx from 'classnames';
-import { getBaseUrl, hasApiExpander } from '@plone/volto/helpers';
+import { hasApiExpander } from '@plone/volto/helpers/Utils/Utils';
+import { getBaseUrl } from '@plone/volto/helpers/Url/Url';
+
+import messages from '@plonegovbr/volto-pythonbrasil-site/messages';
+
 import config from '@plone/volto/registry';
 
-import { getNavigation } from '@plone/volto/actions';
-import { Icon } from '@plone/volto/components';
+import { getNavigation } from '@plone/volto/actions/navigation/navigation';
+import Icon from '@plone/volto/components/theme/Icon/Icon';
 import clearSVG from '@plone/volto/icons/clear.svg';
 import NavItem from '@plone/volto/components/theme/Navigation/NavItem';
-
-const messages = defineMessages({
-  closeMenu: {
-    id: 'Close menu',
-    defaultMessage: 'Close menu',
-  },
-  openFatMenu: {
-    id: 'Open menu',
-    defaultMessage: 'Open menu',
-  },
-});
 
 const Navigation = ({ pathname }) => {
   const [desktopMenuOpen, setDesktopMenuOpen] = useState(null);
@@ -32,7 +24,6 @@ const Navigation = ({ pathname }) => {
   const navigation = useRef(null);
   const dispatch = useDispatch();
   const intl = useIntl();
-  const enableFatMenu = config.settings.enableFatMenu;
 
   const lang = useSelector((state) => state.intl.locale);
   const token = useSelector((state) => state.userSession.token, shallowEqual);
@@ -105,7 +96,7 @@ const Navigation = ({ pathname }) => {
             const itemId = itemURL ? itemURL[itemURL.length - 1] : '';
             return (
               <li key={item.url} className={`conf-item ${itemId}`}>
-                {enableFatMenu && hasItems ? (
+                {hasItems ? (
                   <>
                     <button
                       onClick={() => openMenu(index)}
@@ -207,14 +198,6 @@ const Navigation = ({ pathname }) => {
       </div>
     </nav>
   );
-};
-
-Navigation.propTypes = {
-  pathname: PropTypes.string.isRequired,
-};
-
-Navigation.defaultProps = {
-  token: null,
 };
 
 export default injectIntl(Navigation);

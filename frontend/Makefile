@@ -33,6 +33,10 @@ help: ## Show this help
 	@echo -e "$$(grep -hE '^\S+:.*##' $(MAKEFILE_LIST) | sed -e 's/:.*##\s*/:/' -e 's/^\(.\+\):\(.*\)/\\x1b[36m\1\\x1b[m:\2/' | column -c2 -t -s :)"
 
 # Dev Helpers
+.PHONY: clean
+clean: ## Clean environment
+	@echo "$(RED)==> Cleaning Volto core and node_modules$(RESET)"
+	rm -rf core node_modules
 
 .PHONY: install
 install: ## Installs the add-on in a development environment
@@ -89,7 +93,7 @@ release-dry-run: ## Dry-run the release of the add-on on npmjs.org
 test: ## Run unit tests
 	pnpm test
 
-.PHONY: test-ci
+.PHONY: ci-test
 ci-test: ## Run unit tests in CI
 	# Unit Tests need the i18n to be built
 	VOLTOCONFIG=$(pwd)/volto.config.js pnpm --filter @plone/volto i18n

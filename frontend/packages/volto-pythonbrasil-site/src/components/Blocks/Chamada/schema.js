@@ -1,45 +1,10 @@
-import { defineMessages } from 'react-intl';
+import messages from '@plonegovbr/volto-pythonbrasil-site/messages';
 import { addStyling } from '@plone/volto/helpers/Extensions/withBlockSchemaEnhancer';
-
-const messages = defineMessages({
-  blockTitle: {
-    id: 'Chamada Principal',
-    defaultMessage: 'Chamada Principal',
-  },
-  head_title: {
-    id: 'Chapéu',
-    defaultMessage: 'Chapéu',
-  },
-  image: {
-    id: 'Imagem',
-    defaultMessage: 'Imagem',
-  },
-  align: {
-    id: 'Alignment',
-    defaultMessage: 'Alignment',
-  },
-  title: {
-    id: 'Chamada',
-    defaultMessage: 'Chamada',
-  },
-  description: {
-    id: 'Sumário',
-    defaultMessage: 'Sumário',
-  },
-  ctaLabel: {
-    id: 'Texto CTA',
-    defaultMessage: 'Texto CTA',
-  },
-  ctaHref: {
-    id: 'URL',
-    defaultMessage: 'URL',
-  },
-});
 
 export const chamadaSchema = (props) => {
   const { intl } = props;
   const schema = {
-    title: props.intl.formatMessage(messages.blockTitle),
+    title: props.intl.formatMessage(messages.blockChamada),
     fieldsets: [
       {
         id: 'default',

@@ -21,7 +21,7 @@ EOT
 FROM plone/frontend-prod-config:${VOLTO_VERSION}
 
 LABEL maintainer="PloneGov-BR <gov@plone.org.br>" \
-      org.label-schema.name="pythonbrasil/pybr25-site-frontend" \
+      org.label-schema.name="pybr25-site-frontend" \
       org.label-schema.description="PythonBrasil 2025 frontend image." \
       org.label-schema.vendor="PloneGov-BR"
 
@@ -29,7 +29,7 @@ COPY --from=builder /app/ /app/
 
 RUN <<EOT
     set -e
-    corepack enable pnpm
+    npm i -g corepack@latest && corepack enable pnpm
     corepack use pnpm@9.1.1
     corepack prepare pnpm@9.1.1 --activate
 EOT

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container } from '@plone/components';
-import { UniversalLink } from '@plone/volto/components';
+import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
 import { flattenToAppURL } from '@plone/volto/helpers';
-import FooterLinks from '@plonegovbr/volto-network-block/components/FooterLinks/FooterLinks';
+import FooterLinks from '@plonegovbr/volto-social-media/components/FooterLinks/FooterLinks';
 
 const siteActions = [
   { id: 'contact', title: 'Fale Conosco', url: '/evento/contato' },

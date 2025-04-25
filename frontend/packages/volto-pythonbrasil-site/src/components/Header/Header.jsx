@@ -1,8 +1,8 @@
 import { Container } from '@plone/components';
 import MobileNavigation from '@kitconcept/volto-light-theme/components/MobileNavigation/MobileNavigation';
 import cx from 'classnames';
-
-import { Logo, Navigation } from '@plone/volto/components';
+import Logo from '@plonegovbr/volto-pythonbrasil-site/components/Logo/Logo';
+import Navigation from '@plonegovbr/volto-pythonbrasil-site/components/Navigation/Navigation';
 
 const Header = (props) => {
   const { pathname } = props;

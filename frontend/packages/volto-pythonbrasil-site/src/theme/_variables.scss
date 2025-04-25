@@ -5,9 +5,6 @@ $spacing-medium: 40px !default;
 $spacing-large: 60px !default;
 $spacing-xlarge: 80px !default;
 
-// Colors
-$lightgrey: var(--color-surface-container);
-
 // Maps
 $font-weights: (
   thin: var(--font-weight-thin),
@@ -67,14 +64,11 @@ $color-block-change-vertical-spacing: $spacing-large !default;
 }
 
 @mixin cta-color-gradient() {
-  @include color-gradient(var(--color-primary-container), var(--color-primary));
+  @include color-gradient(var(--primary-color), var(--accent-color));
 }
 
 @mixin cta-color-gradient-reverse() {
-  @include color-gradient(
-    var(--color-surface-container-highest),
-    var(--color-surface-container-high)
-  );
+  @include color-gradient(var(--accent-color), var(--primary-color));
 }
 
 @mixin color-gradient($color1, $color2) {

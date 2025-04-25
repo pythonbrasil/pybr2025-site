@@ -1,18 +1,8 @@
-import { defineMessages, useIntl } from 'react-intl';
-import { UniversalLink } from '@plone/volto/components';
+import { useIntl } from 'react-intl';
+import messages from '@plonegovbr/volto-pythonbrasil-site/messages';
+import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
 import LogoFullImage from './logo.svg';
 import LogoSlimImage from './logo-slim.svg';
-
-const messages = defineMessages({
-  site: {
-    id: 'PythonBrasil 2025',
-    defaultMessage: 'PythonBrasil 2025',
-  },
-  homepage: {
-    id: 'Voltar para a capa',
-    defaultMessage: 'Voltar para a capa',
-  },
-});
 
 const LogoImg = ({ intl, logo }) => {
   return (

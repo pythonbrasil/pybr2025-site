@@ -33,7 +33,6 @@
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "exportimport.versions": {},
   "id": "platina",
   "is_folderish": true,
   "language": "##DEFAULT##",
@@ -41,19 +40,6 @@
   "lock": {},
   "modified": "2025-01-30T21:52:07+00:00",
   "nav_title": null,
-  "parent": {
-    "@id": "/patrocine",
-    "@type": "SponsorsDB",
-    "Subject": [],
-    "UID": "818ea1c0827944c394330a1c3d658866",
-    "description": "Sua organiza\u00e7\u00e3o pode ser parte do maior evento de Python do Brasil",
-    "effective": "2025-01-30T23:00:43+00:00",
-    "image_field": null,
-    "image_scales": {},
-    "review_state": "published",
-    "title": "Patrocine",
-    "type_title": "Sponsors Database"
-  },
   "preview_caption": null,
   "preview_image": {
     "blob_path": "96fdfa7c97784194b9f4cd0f0819e7f1/preview_image/platina.png",
