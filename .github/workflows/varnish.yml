@@ -13,12 +13,6 @@ on:
         required: false
         type: string
         default: varnish
-      python-version:
-        required: true
-        type: string
-      plone-version:
-        required: true
-        type: string
       working-directory:
         required: false
         type: string
