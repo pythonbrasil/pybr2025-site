@@ -42,6 +42,7 @@ services:
 
   varnish:
     image: ghcr.io/pythonbrasil/pybr25-site-varnish:${IMAGE_VERSION:-20250212.1}
+    platform: linux/amd64
     labels:
       - traefik.enable=true
       - traefik.constraint-label=public
@@ -51,6 +52,7 @@ services:
       - backend
   frontend:
     image: ghcr.io/pythonbrasil/pybr25-site-frontend:${IMAGE_VERSION:-20250212.1}
+    platform: linux/amd64
     environment:
       RAZZLE_INTERNAL_API_PATH: http://backend:8080/Plone
     depends_on:
@@ -74,6 +76,7 @@ services:
 
   backend:
     image: ghcr.io/pythonbrasil/pybr25-site-backend:${IMAGE_VERSION:-20250212.1}
+    platform: linux/amd64
     environment:
       RELSTORAGE_DSN: "dbname='${DB_NAME:-plone}' user='${DB_NAME:-plone}' host='${DB_HOST:-db}' password='${DB_PASSWORD:-MCfLPlcVlekH}' port='${DB_PORT:-5432}'"
     depends_on:
