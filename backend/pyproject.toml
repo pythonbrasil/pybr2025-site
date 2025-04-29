@@ -32,6 +32,7 @@ dependencies = [
     "collective.volto.formsupport",
     "collective.honeypot",
     "plone.app.upgrade",
+    "plone.app.discussion",
 ]
 
 
