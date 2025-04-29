@@ -1,9 +1,9 @@
 # PythonBrasil 2025 🚀
 
-[![Built with Cookieplone](https://img.shields.io/badge/built%20with-Cookieplone-0083be.svg?logo=cookiecutter)](https://github.com/plone/cookiecutter-plone/)
-[![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
-[![Backend Tests](https://github.com/pythonbrasil/pybr2025-site/actions/workflows/backend.yml/badge.svg)](https://github.com/pythonbrasil/pybr2025-site/actions/workflows/backend.yml)
-[![Frontend Tests](https://github.com/pythonbrasil/pybr2025-site/actions/workflows/frontend.yml/badge.svg)](https://github.com/pythonbrasil/pybr2025-site/actions/workflows/frontend.yml)
+[![Built with Cookieplone](https://img.shields.io/badge/built%20with-Cookieplone-0083be.svg?logo=cookiecutter)](https://github.com/plone/cookieplone-templates/)
+[![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Backend Tests](https://github.com/pythonbrasil/pybr25-site/actions/workflows/backend.yml/badge.svg)](https://github.com/pythonbrasil/pybr25-site/actions/workflows/backend.yml)
+[![Frontend Tests](https://github.com/pythonbrasil/pybr25-site/actions/workflows/frontend.yml/badge.svg)](https://github.com/pythonbrasil/pybr25-site/actions/workflows/frontend.yml)
 
 Encontro da comunidade Python Brasileira
 
@@ -11,47 +11,50 @@ Encontro da comunidade Python Brasileira
 
 ### Prerequisites ✅
 
-Ensure you have the following installed:
+-   An [operating system](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) that runs all the requirements mentioned.
+-   [uv](https://6.docs.plone.org/install/create-project-cookieplone.html#uv)
+-   [nvm](https://6.docs.plone.org/install/create-project-cookieplone.html#nvm)
+-   [Node.js and pnpm](https://6.docs.plone.org/install/create-project.html#node-js) 22
+-   [Make](https://6.docs.plone.org/install/create-project-cookieplone.html#make)
+-   [Git](https://6.docs.plone.org/install/create-project-cookieplone.html#git)
+-   [Docker](https://docs.docker.com/get-started/get-docker/) (optional)
 
-- Python 3.11 🐍
-- Node 20 🟩
-- pnpm 🧶
-- Docker 🐳
 
 ### Installation 🔧
 
-1. Clone the repository:
+1.  Clone this repository, then change your working directory.
 
-```shell
-git clone git@github.com:pythonbrasil/pybr2025-site.git
-cd 2025.pythonbrasil.org.br
-```
+    ```shell
+    git clone git@github.com:pythonbrasil/pybr25-site.git
+    cd pybr25-site
+    ```
 
-2. Install both Backend and Frontend:
+2.  Install this code base.
 
-```shell
-make install
-```
+    ```shell
+    make install
+    ```
+
 
 ### Fire Up the Servers 🔥
 
-1. Create a new Plone site on your first run:
+1.  Create a new Plone site on your first run.
 
-```shell
-make backend-create-site
-```
+    ```shell
+    make backend-create-site
+    ```
 
-2. Start the Backend at [http://localhost:8080/](http://localhost:8080/):
+2.  Start the backend at http://localhost:8080/.
 
-```shell
-make backend-start
-```
+    ```shell
+    make backend-start
+    ```
 
-3. In a new terminal, start the Frontend at [http://localhost:3000/](http://localhost:3000/):
+3.  In a new shell session, start the frontend at http://localhost:3000/.
 
-```shell
-make frontend-start
-```
+    ```shell
+    make frontend-start
+    ```
 
 Voila! Your Plone site should be live and kicking! 🎉
 
@@ -61,7 +64,7 @@ Deploy a local `Docker Compose` environment that includes:
 
 - Docker images for Backend and Frontend 🖼️
 - A stack with a Traefik router and a Postgres database 🗃️
-- Accessible at [http://2025.pythonbrasil.org.br.localhost](http://2025.pythonbrasil.org.br.localhost) 🌐
+- Accessible at [http://pybr25-site.localhost](http://pybr25-site.localhost) 🌐
 
 Execute the following:
 
@@ -74,11 +77,12 @@ And... you're all set! Your Plone site is up and running locally! 🚀
 
 ## Project Structure 🏗️
 
-This monorepo consists of three distinct sections: `backend`, `frontend`, and `devops`.
+This monorepo consists of the following distinct sections:
 
 - **backend**: Houses the API and Plone installation, utilizing pip instead of buildout, and includes a policy package named pythonbrasil.site.
 - **frontend**: Contains the React (Volto) package.
 - **devops**: Encompasses Docker Stack, Ansible playbooks, and Cache settings.
+- **docs**: Scaffold for writing documentation for your project.
 
 ### Why This Structure? 🤔
 
@@ -95,6 +99,41 @@ To automatically format your code and ensure it adheres to quality standards, ex
 make check
 ```
 
+### Format the codebase
+
+To format the codebase, it is possible to run `format`:
+
+```shell
+make format
+```
+
+| Section | Tool | Description | Configuration |
+| --- | --- | --- | --- |
+| backend | Ruff | Python code formatting, imports sorting  | [`backend/pyproject.toml`](./backend/pyproject.toml) |
+| backend | `zpretty` | XML and ZCML formatting  | -- |
+| frontend | ESLint | Fixes most common frontend issues | [`frontend/.eslintrc.js`](.frontend/.eslintrc.js) |
+| frontend | prettier | Format JS and Typescript code  | [`frontend/.prettierrc`](.frontend/.prettierrc) |
+| frontend | Stylelint | Format Styles (css, less, sass)  | [`frontend/.stylelintrc`](.frontend/.stylelintrc) |
+
+Formatters can also be run within the `backend` or `frontend` folders.
+
+### Linting the codebase
+or `lint`:
+
+ ```shell
+make lint
+```
+
+| Section | Tool | Description | Configuration |
+| --- | --- | --- | --- |
+| backend | Ruff | Checks code formatting, imports sorting  | [`backend/pyproject.toml`](./backend/pyproject.toml) |
+| backend | Pyroma | Checks Python package metadata  | -- |
+| backend | check-python-versions | Checks Python version information  | -- |
+| backend | `zpretty` | Checks XML and ZCML formatting  | -- |
+| frontend | ESLint | Checks JS / Typescript lint | [`frontend/.eslintrc.js`](.frontend/.eslintrc.js) |
+| frontend | prettier | Check JS / Typescript formatting  | [`frontend/.prettierrc`](.frontend/.prettierrc) |
+| frontend | Stylelint | Check Styles (css, less, sass) formatting  | [`frontend/.stylelintrc`](.frontend/.stylelintrc) |
+
 Linters can be run individually within the `backend` or `frontend` folders.
 
 ## Internationalization 🌐
@@ -107,4 +146,4 @@ make i18n
 
 ## Credits and Acknowledgements 🙏
 
-Crafted with care by **Generated using [Cookieplone (0.7.1)](https://github.com/plone/cookieplone) and [cookiecutter-plone (f09571d)](https://github.com/plone/cookiecutter-plone/commit/f09571dbbf1117d5c3c9b48c6a6de514f3b575a6) on 2024-10-18 14:06:39.985935**. A special thanks to all contributors and supporters!
+Generated using [Cookieplone (0.9.7)](https://github.com/plone/cookieplone) and [cookieplone-templates (9d44151)](https://github.com/plone/cookieplone-templates/commit/9d441519e682ed62e67b8c8d1fe531d7368af5da) on 2025-04-24 16:14:26.309679. A special thanks to all contributors and supporters!

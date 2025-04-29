@@ -15,6 +15,6 @@ def sponsor_levels(context):
             level_title = brain.Title
             level_url = brain.getURL()
             # HACK
-            display_frontpage = False if level_id in ("supporting", "oss") else True
+            display_frontpage = level_id not in ("supporting", "oss")
             items.append((level_id, level_title, level_url, display_frontpage))
     return items

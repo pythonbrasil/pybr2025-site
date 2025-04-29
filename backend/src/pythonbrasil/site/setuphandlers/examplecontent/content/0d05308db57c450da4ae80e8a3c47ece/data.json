@@ -14,7 +14,6 @@
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "exportimport.versions": {},
   "id": "logo-slim.svg",
   "image": {
     "blob_path": "0d05308db57c450da4ae80e8a3c47ece/image/logo-slim.svg",
@@ -29,19 +28,6 @@
   "layout": "image_view",
   "lock": {},
   "modified": "2024-10-19T17:23:08+00:00",
-  "parent": {
-    "@id": "/images",
-    "@type": "Document",
-    "Subject": [],
-    "UID": "a720393b3c0240e5bd27c43fcd2cfd1e",
-    "description": "Site images",
-    "effective": "1969-12-31T00:00:00+00:00",
-    "image_field": null,
-    "image_scales": {},
-    "review_state": "published",
-    "title": "Imagens",
-    "type_title": "Page"
-  },
   "review_state": null,
   "rights": "",
   "subjects": [],

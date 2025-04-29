@@ -1,6 +1,6 @@
 .block.__button {
   .ui.button {
-    color: var(--color-on-primary-container);
+    color: var(--primary-foreground-color);
     @include cta-animation();
     @include cta-button();
     @include cta-color-gradient();

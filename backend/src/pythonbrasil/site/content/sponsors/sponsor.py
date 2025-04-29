@@ -1,6 +1,5 @@
 from Acquisition import aq_parent
 from plone.app.dexterity.textindexer import searchable
-from plone.app.multilingual.dx import directives as ml_directives
 from plone.app.textfield import RichText as RichTextField
 from plone.app.z3cform.widgets.richtext import RichTextFieldWidget
 from plone.autoform import directives
@@ -27,7 +26,6 @@ class ISponsor(Interface):
     )
     directives.order_before(description="*")
     directives.order_before(title="*")
-    ml_directives.languageindependent("title")
     text = RichTextField(
         title=_("label_text", default="Text"),
         description="",

@@ -14,7 +14,6 @@
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "exportimport.versions": {},
   "id": "pybr2024.jpg",
   "image": {
     "blob_path": "c2d0e0645016413f9e5d719b628fb72d/image/pybr2024.jpg",
@@ -29,19 +28,6 @@
   "layout": "image_view",
   "lock": {},
   "modified": "2025-01-31T20:37:59+00:00",
-  "parent": {
-    "@id": "/images",
-    "@type": "Document",
-    "Subject": [],
-    "UID": "a720393b3c0240e5bd27c43fcd2cfd1e",
-    "description": "Site images",
-    "effective": "1969-12-31T00:00:00+00:00",
-    "image_field": null,
-    "image_scales": {},
-    "review_state": "published",
-    "title": "Imagens",
-    "type_title": "Page"
-  },
   "review_state": null,
   "rights": "",
   "subjects": [],

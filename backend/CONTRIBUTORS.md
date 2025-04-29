@@ -1,3 +1,3 @@
 # Contributors
 
-- PloneGov-BR [ericof@plone.org]
+- PloneGov-BR [gov@plone.org.br]

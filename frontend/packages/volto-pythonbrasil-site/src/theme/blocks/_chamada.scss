@@ -36,9 +36,9 @@
         .ctaButton {
           @include cta-button();
           @include cta-color-gradient();
-          color: var(--color-on-primary);
+          color: var(--primary-foreground-color);
           .icon {
-            fill: var(--color-on-primary);
+            fill: var(--primary-foreground-color);
           }
         }
       }

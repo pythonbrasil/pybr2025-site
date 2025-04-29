@@ -1,11 +1,11 @@
 body {
-  color: var(--color-on-background);
+  color: var(--text-color);
 }
 
 a {
-  color: var(--color-surface-container-high);
+  color: var(--secondary-color);
   &:hover {
-    color: var(--color-surface-container-high);
+    color: var(--secondary-color);
   }
 }
 
@@ -22,9 +22,9 @@ h1.documentFirstHeading {
 
 .documentDescription {
   padding: $spacing-small $spacing-medium;
-  border-top: var(--color-surface-container-high) 1px solid;
-  border-bottom: var(--color-surface-container-high) 1px solid;
-  color: var(--color-on-background);
+  border-top: var(--secondary-color) 1px solid;
+  border-bottom: var(--secondary-color) 1px solid;
+  color: var(--accent-foreground-color);
   @include add(size, l);
   @include add(weight, bold);
   @include add(height, xl);

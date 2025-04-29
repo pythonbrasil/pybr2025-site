@@ -1,14 +1,13 @@
 // Header wrapper
-.header-wrapper {
+body header.header-wrapper {
   margin-top: $spacing-small;
-  background-color: var(--color-primary-container);
   .header.layout {
     .search-wrapper {
       .search {
         .search-bar {
           top: -180px;
           left: 0;
-          background-color: var(--color-surface-container-high);
+          background-color: var(--secondary-color);
           &.active {
             top: -45px;
             height: 209px;
@@ -21,6 +20,8 @@
     max-width: 100%;
     .logo {
       display: flex;
+      max-width: unset;
+      max-height: unset;
       justify-content: center;
       a {
         line-height: 0px;
@@ -33,7 +34,6 @@
       align-items: center;
       padding-top: 0;
       padding-bottom: 0;
-      background: var(--color-primary-container);
     }
   }
   // Mobile Navigation
@@ -47,7 +47,7 @@
     .hamburger::after,
     .hamburger-inner:after,
     .hamburger-inner::before {
-      background-color: var(--color-on-primary);
+      background-color: var(--primary-foreground-color);
     }
   }
 }

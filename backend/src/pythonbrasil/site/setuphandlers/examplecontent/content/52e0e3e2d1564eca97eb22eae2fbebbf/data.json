@@ -191,18 +191,18 @@
       "e1ddaec1-f262-492c-87d6-6e2c6431b20e"
     ]
   },
+  "changeNote": "",
   "contributors": [],
   "created": "2025-01-22T22:08:35+00:00",
   "creators": [
     "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629"
   ],
   "description": "Todos os participantes, instrutores e organizadores  da confer\u00eancia concordam em cumprir o C\u00f3digo de Conduta da PythonBrasil.",
-  "effective": "2025-01-30T21:37:54",
+  "effective": "2025-01-30T21:37:00+00:00",
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "exportimport.versions": {},
   "id": "codigo-de-conduta",
   "is_folderish": true,
   "language": "##DEFAULT##",
@@ -212,19 +212,6 @@
     "stealable": true
   },
   "modified": "2025-01-30T21:37:54+00:00",
-  "parent": {
-    "@id": "/evento",
-    "@type": "Document",
-    "Subject": [],
-    "UID": "81bb6aa3c33644c296ffbc767b8c05c7",
-    "description": "Conhe\u00e7a a PythonBrasil, o maior evento da Am\u00e9rica Latina sobre a linguagem Python e suas aplica\u00e7\u00f5es",
-    "effective": "2025-01-30T21:38:00+00:00",
-    "image_field": null,
-    "image_scales": {},
-    "review_state": "published",
-    "title": "O Evento",
-    "type_title": "Page"
-  },
   "preview_caption": null,
   "preview_image": null,
   "review_state": "published",
@@ -233,6 +220,7 @@
   "title": "C\u00f3digo de Conduta",
   "type_title": "Page",
   "version": "current",
+  "versioning_enabled": true,
   "workflow_history": {
     "simple_publication_workflow": [
       {

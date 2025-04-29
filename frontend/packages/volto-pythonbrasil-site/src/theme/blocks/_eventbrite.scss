@@ -1,12 +1,12 @@
 :root {
-  --eventbrite-cta-background-color: var(--color-primary-container);
-  --eventbrite-cta-border: var(--color-primary-container);
-  --eventbrite-cta-text-color: var(--color-on-primary-container);
+  --eventbrite-cta-background-color: var(--primary-color);
+  --eventbrite-cta-border: var(--primary-color);
+  --eventbrite-cta-text-color: var(--primary-foreground-color);
   --eventbrite-cta-padding: 20px 40px;
   --eventbrite-cta-font-size: 24px;
   --eventbrite-cta-font-weight: 500;
-  --eventbrite-cta-hover-background-color: var(--color-primary);
-  --eventbrite-cta-hover-border: var(--color-primary);
+  --eventbrite-cta-hover-background-color: var(--primary-foreground-color);
+  --eventbrite-cta-hover-border: var(--primary-foreground-color);
   --eventbrite-cta-hover-font-size: 24px;
   --eventbrite-cta-hover-font-weight: 500;
   --eventbrite-placeholder-header-font-size: 20px;

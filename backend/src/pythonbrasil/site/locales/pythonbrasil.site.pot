@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-05-25 17:12+0000\n"
+"POT-Creation-Date: 2025-04-29 19:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,3 +16,75 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: pythonbrasil.site\n"
+
+#: pythonbrasil/site/profiles/default/types/Sponsor.xml
+msgid "Conference Sponsor."
+msgstr ""
+
+#: pythonbrasil/site/profiles/default/types/SponsorsDB.xml
+msgid "Conference Sponsoring information."
+msgstr ""
+
+#: pythonbrasil/site/profiles.zcml:22
+msgid "Create example content to showcase the new website"
+msgstr ""
+
+#: pythonbrasil/site/content/sponsors/sponsor_level.py:21
+msgid "Display on Frontpage"
+msgstr ""
+
+#: pythonbrasil/site/profiles/default/types/SponsorLevel.xml
+msgid "Package of sponsorship for the conference."
+msgstr ""
+
+#: pythonbrasil/site/profiles.zcml:13
+msgid "Package to configure a new PythonBrasil 2025 site"
+msgstr ""
+
+#: pythonbrasil/site/profiles.zcml:22
+msgid "PythonBrasil 2025: Example content"
+msgstr ""
+
+#: pythonbrasil/site/profiles.zcml:13
+msgid "PythonBrasil 2025: Install"
+msgstr ""
+
+#: pythonbrasil/site/content/sponsors/sponsor_level.py:22
+msgid "Should this level be displayed on the FrontPage?"
+msgstr ""
+
+#: pythonbrasil/site/profiles/default/types/Sponsor.xml
+msgid "Sponsor"
+msgstr ""
+
+#: pythonbrasil/site/profiles/default/types/SponsorsDB.xml
+msgid "Sponsors Database"
+msgstr ""
+
+#: pythonbrasil/site/profiles/default/types/SponsorLevel.xml
+msgid "Sponsorship Level"
+msgstr ""
+
+#: pythonbrasil/site/content/sponsors/sponsor_level.py:14
+msgid "Visibility"
+msgstr ""
+
+#. Default: "Used in item listings and search results."
+#: pythonbrasil/site/content/sponsors/sponsor.py:21
+msgid "help_description"
+msgstr ""
+
+#. Default: "Summary"
+#: pythonbrasil/site/content/sponsors/sponsor.py:20
+msgid "label_description"
+msgstr ""
+
+#. Default: "Text"
+#: pythonbrasil/site/content/sponsors/sponsor.py:30
+msgid "label_text"
+msgstr ""
+
+#. Default: "Title"
+#: pythonbrasil/site/content/sponsors/sponsor.py:17
+msgid "label_title"
+msgstr ""

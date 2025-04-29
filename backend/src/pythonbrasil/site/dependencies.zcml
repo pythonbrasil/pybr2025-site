@@ -3,4 +3,6 @@
   <include package="plone.restapi" />
   <include package="plone.volto" />
   <include package="plone.app.caching" />
+  <include package="collective.volto.formsupport" />
+  <include package="plonegovbr.socialmedia" />
 </configure>

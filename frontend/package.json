@@ -3,7 +3,7 @@
   "version": "1.0.0-alpha.0",
   "description": "Encontro da comunidade Python Brasileira",
   "author": "PloneGov-BR",
-  "homepage": "https://github.com/pythonbrasil/volto-pythonbrasil-site",
+  "homepage": "https://github.com/pythonbrasil/pybr25-site",
   "license": "MIT",
   "keywords": [
     "volto-addon",
@@ -35,7 +35,7 @@
   "dependencies": {
     "@plone/volto": "workspace:*",
     "@plone/registry": "workspace:*",
-    "volto-pythonbrasil-site": "workspace:*"
+    "@plonegovbr/volto-pythonbrasil-site": "workspace:*"
   },
   "devDependencies": {
     "mrs-developer": "^2.2.0"

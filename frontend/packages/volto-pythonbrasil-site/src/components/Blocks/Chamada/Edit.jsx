@@ -1,6 +1,6 @@
 import React from 'react';
-import { withBlockExtensions } from '@plone/volto/helpers';
-import { SidebarPortal } from '@plone/volto/components';
+import { withBlockExtensions } from '@plone/volto/helpers/Extensions';
+import SidebarPortal from '@plone/volto/components/manage/Sidebar/SidebarPortal';
 
 import ChamadaBlockData from './Data';
 import ChamadaBlockView from './View';

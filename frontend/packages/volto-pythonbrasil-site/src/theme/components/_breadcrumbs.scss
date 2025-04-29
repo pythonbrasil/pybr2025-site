@@ -1,7 +1,6 @@
-#main {
+body #main {
   .breadcrumbs {
     padding: 10px 0;
-    background-color: var(--color-surface-container-high);
     @media only screen and (max-width: $tablet-breakpoint) {
       display: none;
     }
@@ -9,22 +8,32 @@
       max-width: var(--default-container-width);
       margin-right: 5px;
       margin-left: 5px;
-      color: var(--color-on-primary-container) !important;
       text-transform: uppercase;
+      .section {
+        @include add(size, s);
+      }
 
       a {
-        color: var(--color-on-primary-container) !important;
         text-decoration: none;
-
+        &.section {
+          color: var(--breadcrumbs-foreground);
+        }
         &:hover {
           text-decoration: underline;
         }
       }
 
-      .divider::before {
-        color: var(--color-on-primary-container);
-        content: '▲';
-        font-size: 12px;
+      .divider {
+        transform: unset;
+        &::before {
+          content: '>';
+          font-size: 20px;
+        }
+      }
+    }
+    a.home {
+      svg.icon {
+        fill: var(--breadcrumbs-foreground) !important;
       }
     }
   }

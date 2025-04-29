@@ -3,14 +3,14 @@
     @include graffiti();
     @include add(size, xl);
     @include add(height, xl);
-    color: var(--color-on-primary-container);
+    color: var(--primary-foreground-color);
     text-transform: uppercase !important;
     &.active,
     &:hover {
-      color: var(--color-on-primary-container);
+      color: var(--primary-foreground-color);
       &::before {
         bottom: -42px;
-        border-bottom: 4px solid var(--color-on-primary-container);
+        border-bottom: 4px solid var(--primary-foreground-color);
       }
     }
   }
@@ -18,19 +18,19 @@
   ul.desktop-menu .submenu-wrapper {
     margin-top: 34px;
     .submenu {
-      background: var(--color-primary-container);
+      background: var(--primary-color);
 
       &.active {
-        border-top: 1px solid var(--color-on-primary-container);
+        border-top: 1px solid var(--primary-foreground-color);
         .close {
-          background: var(--color-primary-container);
-          color: var(--color-on-tertiary);
+          background: var(--primary-color);
+          color: var(--primary-foreground-color);
         }
       }
 
       .submenu-inner {
         h2 {
-          color: var(--color-on-primary);
+          color: var(--primary-foreground-color);
         }
 
         .submenu-header {
@@ -41,17 +41,17 @@
         }
 
         .subitem-wrapper {
-          border-left: 1px solid var(--color-on-primary);
+          border-left: 1px solid var(--primary-foreground-color);
 
           > a,
           li > a {
-            color: var(--color-on-primary);
+            color: var(--primary-foreground-color);
 
             span {
               &:hover {
-                border-bottom: 1px solid var(--color-on-primary);
+                border-bottom: 1px solid var(--primary-foreground-color);
               }
-              color: var(--color-on-primary);
+              color: var(--primary-foreground-color);
             }
           }
         }

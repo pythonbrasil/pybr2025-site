@@ -1,0 +1,29 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+  <genericsetup:upgradeSteps
+      profile="pythonbrasil.site:default"
+      source="1000"
+      destination="20250425001"
+      >
+    <genericsetup:upgradeStep
+        title="Instala plonegovbr.socialmedia e collective.volto.formsupport"
+        handler=".instala_dependencias"
+        />
+    <genericsetup:upgradeDepends
+        title="Atualiza tipo de conteúdo Plone Site"
+        import_steps="typeinfo"
+        />
+    <genericsetup:upgradeStep
+        title="Adiciona redes sociais"
+        handler=".configura_redes_sociais"
+        />
+    <genericsetup:upgradeStep
+        title="Adiciona links de rodapé"
+        handler=".configura_links"
+        />
+  </genericsetup:upgradeSteps>
+
+</configure>

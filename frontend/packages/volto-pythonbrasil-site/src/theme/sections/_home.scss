@@ -1,5 +1,5 @@
 body.siteroot {
-  background-color: var(--color-background);
+  background-color: var(--background-color);
   .header-wrapper {
     margin-top: $spacing-medium;
     .logo-nav-wrapper {
@@ -23,6 +23,11 @@ body.siteroot {
       .menu-drawer {
         top: calc(100px + 1rem);
       }
+    }
+  }
+  #page-document {
+    .blocks-group-wrapper:first-child {
+      padding-top: 60px;
     }
   }
 }

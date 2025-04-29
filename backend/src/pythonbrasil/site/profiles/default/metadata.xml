@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
-  <version>1000</version>
+  <version>20250425001</version>
   <dependencies>
-    <dependency>profile-plone.app.contenttypes:default</dependency>
     <dependency>profile-plone.volto:default</dependency>
     <dependency>profile-plone.app.caching:default</dependency>
     <dependency>profile-plone.app.caching:with-caching-proxy</dependency>
+    <dependency>profile-collective.volto.formsupport:default</dependency>
+    <dependency>profile-plonegovbr.socialmedia:default</dependency>
   </dependencies>
 </metadata>

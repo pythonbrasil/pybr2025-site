@@ -1,19 +1,18 @@
 import React from 'react';
 import { Button, Container, ArrowrightIcon } from '@plone/components';
-import { UniversalLink } from '@plone/volto/components';
-import { isInternalURL } from '@plone/volto/helpers';
-import { MaybeWrap } from '@plone/volto/components';
+import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
+import { isInternalURL } from '@plone/volto/helpers/Url/Url';
+import MaybeWrap from '@plone/volto/components/manage/MaybeWrap/MaybeWrap';
 import config from '@plone/volto/registry';
-import PropTypes from 'prop-types';
 
 const ChamadaView = (props) => {
   const Image = config.getComponent('Image').component;
-  const { className, data, isEditMode } = props;
+  const { className, data, isEditMode, style } = props;
   const { title, head_title, description, preview_image, label, href } = data;
   const url = href?.[0]?.['@id'] ? href[0]['@id'] : href;
   const image = preview_image?.[0];
   return (
-    <Container className={`block chamada ${className}`}>
+    <Container className={`block chamada ${className}`} style={style}>
       <Container className={'wrapper'}>
         <Container className={'picture'}>
           <Image
@@ -47,24 +46,6 @@ const ChamadaView = (props) => {
       </Container>
     </Container>
   );
-};
-
-/**
- * Property types.
- * @property {Object} propTypes Property types.
- * @static
- */
-ChamadaView.propTypes = {
-  title: PropTypes.string,
-};
-
-/**
- * Default properties.
- * @property {Object} defaultProps Default properties.
- * @static
- */
-ChamadaView.defaultProps = {
-  title: 'Hello World!',
 };
 
 export default ChamadaView;

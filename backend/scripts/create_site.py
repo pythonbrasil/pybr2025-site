@@ -35,7 +35,9 @@ app = makerequest(globals()["app"])
 
 request = app.REQUEST
 
-ifaces = [IBrowserLayer] + list(directlyProvidedBy(request))
+ifaces = [IBrowserLayer]
+for iface in directlyProvidedBy(request):
+    ifaces.append(iface)
 
 directlyProvides(request, *ifaces)
 
@@ -47,9 +49,7 @@ site_id = "Plone"
 payload = {
     "title": "PythonBrasil 2025",
     "profile_id": _DEFAULT_PROFILE,
-    "extension_ids": [
-        "pythonbrasil.site:default",
-    ],
+    "distribution_name": "volto",
     "setup_content": False,
     "default_language": "pt-br",
     "portal_timezone": "UTC",
@@ -63,8 +63,12 @@ if site_id in app.objectIds() and DELETE_EXISTING:
 if site_id not in app.objectIds():
     site = addPloneSite(app, site_id, **payload)
     transaction.commit()
+
+    portal_setup: SetupTool = site.portal_setup
+    portal_setup.runAllImportStepsFromProfile("profile-pythonbrasil.site:default")
+    transaction.commit()
+
     if EXAMPLE_CONTENT:
-        portal_setup: SetupTool = site.portal_setup
-        portal_setup.runAllImportStepsFromProfile("pythonbrasil.site:initial")
+        portal_setup.runAllImportStepsFromProfile("profile-pythonbrasil.site:initial")
         transaction.commit()
     app._p_jar.sync()
