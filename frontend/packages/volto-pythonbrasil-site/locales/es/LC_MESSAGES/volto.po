@@ -17,3 +17,68 @@ msgstr ""
 "Domain: volto\n"
 "X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
 "X-Generator: Poedit 2.2.1\n"
+
+#. Default: "Alignment"
+#: messages
+msgid "Alignment"
+msgstr ""
+
+#. Default: "Call to Action"
+#: messages
+msgid "Call to Action"
+msgstr ""
+
+#. Default: "Chamada"
+#: messages
+msgid "Chamada"
+msgstr ""
+
+#. Default: "Chamada Principal"
+#: messages
+msgid "Chamada Principal"
+msgstr ""
+
+#. Default: "Chapéu"
+#: messages
+msgid "Chapéu"
+msgstr ""
+
+#. Default: "Close menu"
+#: messages
+msgid "Close menu"
+msgstr ""
+
+#. Default: "Imagem"
+#: messages
+msgid "Imagem"
+msgstr ""
+
+#. Default: "Open menu"
+#: messages
+msgid "Open menu"
+msgstr ""
+
+#. Default: "PythonBrasil 2025"
+#: messages
+msgid "PythonBrasil 2025"
+msgstr ""
+
+#. Default: "Sumário"
+#: messages
+msgid "Sumário"
+msgstr ""
+
+#. Default: "Texto CTA"
+#: messages
+msgid "Texto CTA"
+msgstr ""
+
+#. Default: "URL"
+#: messages
+msgid "URL"
+msgstr ""
+
+#. Default: "Voltar para a capa"
+#: messages
+msgid "Voltar para a capa"
+msgstr ""

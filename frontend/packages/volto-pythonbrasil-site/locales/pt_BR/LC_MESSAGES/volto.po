@@ -15,3 +15,68 @@ msgstr ""
 "Language-Name: Português do Brasil\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: volto\n"
+
+#. Default: "Alignment"
+#: messages
+msgid "Alignment"
+msgstr ""
+
+#. Default: "Call to Action"
+#: messages
+msgid "Call to Action"
+msgstr ""
+
+#. Default: "Chamada"
+#: messages
+msgid "Chamada"
+msgstr ""
+
+#. Default: "Chamada Principal"
+#: messages
+msgid "Chamada Principal"
+msgstr ""
+
+#. Default: "Chapéu"
+#: messages
+msgid "Chapéu"
+msgstr ""
+
+#. Default: "Close menu"
+#: messages
+msgid "Close menu"
+msgstr ""
+
+#. Default: "Imagem"
+#: messages
+msgid "Imagem"
+msgstr ""
+
+#. Default: "Open menu"
+#: messages
+msgid "Open menu"
+msgstr ""
+
+#. Default: "PythonBrasil 2025"
+#: messages
+msgid "PythonBrasil 2025"
+msgstr ""
+
+#. Default: "Sumário"
+#: messages
+msgid "Sumário"
+msgstr ""
+
+#. Default: "Texto CTA"
+#: messages
+msgid "Texto CTA"
+msgstr ""
+
+#. Default: "URL"
+#: messages
+msgid "URL"
+msgstr ""
+
+#. Default: "Voltar para a capa"
+#: messages
+msgid "Voltar para a capa"
+msgstr ""

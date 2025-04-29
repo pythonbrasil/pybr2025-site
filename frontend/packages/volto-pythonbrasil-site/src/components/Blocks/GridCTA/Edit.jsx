@@ -7,10 +7,8 @@ import GridCTABlockView from './View';
 
 const GridCTABlockEdit = (props) => {
   const { data, onChangeBlock, block, selected } = props;
-  const backgroundColor = data.styles?.backgroundColor;
-  const className = backgroundColor
-    ? `has--backgroundColor--${backgroundColor}`
-    : '';
+  const theme = data?.theme ? data.theme : data.styles?.theme;
+  const className = theme ? `has--theme--${theme}` : '';
   return (
     <>
       <GridCTABlockView {...props} className={className} isEditMode />

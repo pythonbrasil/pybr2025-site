@@ -16,7 +16,8 @@ export default function install(config: ConfigType) {
       match: '',
       GET_CONTENT: ['inherit'],
       querystring: {
-        'expand.inherit.behaviors': 'plonegovbr.socialmedia.settings',
+        'expand.inherit.behaviors':
+          'plonegovbr.socialmedia.settings,pythonbrasil.footer',
       },
     },
   ];

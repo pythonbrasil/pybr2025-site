@@ -10,6 +10,7 @@
       flex-direction: column;
       align-items: flex-start;
       padding: $spacing-medium $spacing-small;
+      border-radius: $spacing-small;
       background-color: var(--theme-color);
       color: var(--theme-foreground-color);
       .head_title {
@@ -42,6 +43,15 @@
     }
     &.next--has--different--backgroundColor {
       margin-bottom: 1em !important;
+    }
+  }
+  .block.gridBlock .column,
+  .block.gridBlock .grid-items {
+    .block.gridCTA.has--background-color--default,
+    .block.gridCTA.has--theme--default {
+      .content {
+        background-color: var(--theme-high-contrast-color);
+      }
     }
   }
 }

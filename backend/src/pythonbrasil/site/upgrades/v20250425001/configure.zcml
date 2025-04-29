@@ -12,9 +12,17 @@
         title="Instala plonegovbr.socialmedia e collective.volto.formsupport"
         handler=".instala_dependencias"
         />
+    <genericsetup:upgradeDepends
+        title="Atualiza tipo de conteúdo Plone Site"
+        import_steps="typeinfo"
+        />
     <genericsetup:upgradeStep
         title="Adiciona redes sociais"
         handler=".configura_redes_sociais"
+        />
+    <genericsetup:upgradeStep
+        title="Adiciona links de rodapé"
+        handler=".configura_links"
         />
   </genericsetup:upgradeSteps>
 

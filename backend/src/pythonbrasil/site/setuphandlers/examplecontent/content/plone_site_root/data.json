@@ -18,7 +18,7 @@
           ],
           "label": "Submeta sua proposta",
           "styles": {},
-          "theme": "grey",
+          "theme": "default",
           "title": "Submiss\u00e3o de atividades"
         },
         "af098dc9-9fc6-4600-b40f-161a88513807": {
@@ -32,7 +32,6 @@
           ],
           "label": "Garanta seu Ingresso",
           "styles": {},
-          "theme": "grey",
           "title": "Ingressos \u00e0 venda"
         }
       },
@@ -111,6 +110,47 @@
   "exportimport.conversation": [],
   "facebook_app_id": "",
   "facebook_username": "",
+  "footer_links": [
+    {
+      "@id": "60e04d84-fc3c-4dee-b548-73099515a1af",
+      "href": [
+        {
+          "@id": "resolveuid/f17ec2cb79cf4a75896ce3a6b5bc8f54",
+          "@type": "Document",
+          "Description": "Entre em contato com a organiza\u00e7\u00e3o da Python Brasil 2025",
+          "Title": "Fale Conosco",
+          "title": "Fale Conosco"
+        }
+      ],
+      "title": "Fale Conosco"
+    },
+    {
+      "@id": "bb7628e1-dba5-44e2-aef0-c7f4dbf7804b",
+      "href": [
+        {
+          "@id": "resolveuid/24689ede20f346c09ce7d50b68ff893b",
+          "@type": "Document",
+          "Description": "Tire suas d\u00favidas sobre a Python Brasil 2025",
+          "Title": "Perguntas Frequentes",
+          "title": "Perguntas Frequentes"
+        }
+      ],
+      "title": "Perguntas Frequentes"
+    },
+    {
+      "@id": "72160063-6d39-42a0-a03c-0dc0621d5bf7",
+      "href": [
+        {
+          "@id": "resolveuid/52e0e3e2d1564eca97eb22eae2fbebbf",
+          "@type": "Document",
+          "Description": "Todos os participantes, instrutores e organizadores  da confer\u00eancia concordam em cumprir o C\u00f3digo de Conduta da PythonBrasil.",
+          "Title": "C\u00f3digo de Conduta",
+          "title": "C\u00f3digo de Conduta"
+        }
+      ],
+      "title": "C\u00f3digo de Conduta"
+    }
+  ],
   "id": "Plone",
   "is_folderish": true,
   "items_total": 5,
@@ -119,6 +159,7 @@
     "locked": false,
     "stealable": true
   },
+  "preview_caption_link": null,
   "review_state": null,
   "rights": "",
   "share_social_data": true,
@@ -191,7 +232,6 @@
     }
   ],
   "subjects": [],
-  "table_of_contents": null,
   "title": "PythonBrasil 2025",
   "type_title": "Plone Site",
   "workflow_history": {},

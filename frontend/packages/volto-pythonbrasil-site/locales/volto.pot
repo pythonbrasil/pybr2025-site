@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2024-03-22T12:43:34.158Z\n"
+"POT-Creation-Date: 2025-04-29T19:33:35.446Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -12,3 +12,68 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: volto\n"
+
+#. Default: "Alignment"
+#: messages
+msgid "Alignment"
+msgstr ""
+
+#. Default: "Call to Action"
+#: messages
+msgid "Call to Action"
+msgstr ""
+
+#. Default: "Chamada"
+#: messages
+msgid "Chamada"
+msgstr ""
+
+#. Default: "Chamada Principal"
+#: messages
+msgid "Chamada Principal"
+msgstr ""
+
+#. Default: "Chapéu"
+#: messages
+msgid "Chapéu"
+msgstr ""
+
+#. Default: "Close menu"
+#: messages
+msgid "Close menu"
+msgstr ""
+
+#. Default: "Imagem"
+#: messages
+msgid "Imagem"
+msgstr ""
+
+#. Default: "Open menu"
+#: messages
+msgid "Open menu"
+msgstr ""
+
+#. Default: "PythonBrasil 2025"
+#: messages
+msgid "PythonBrasil 2025"
+msgstr ""
+
+#. Default: "Sumário"
+#: messages
+msgid "Sumário"
+msgstr ""
+
+#. Default: "Texto CTA"
+#: messages
+msgid "Texto CTA"
+msgstr ""
+
+#. Default: "URL"
+#: messages
+msgid "URL"
+msgstr ""
+
+#. Default: "Voltar para a capa"
+#: messages
+msgid "Voltar para a capa"
+msgstr ""

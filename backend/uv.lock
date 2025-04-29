@@ -232,7 +232,7 @@ constraints = [
     { name = "plone-versioncheck", specifier = "==1.8.2" },
     { name = "plone-volto", specifier = "==5.0.4" },
     { name = "plone-z3cform", specifier = "==2.0.4" },
-    { name = "plonegovbr-socialmedia", specifier = "==2.0.0a4" },
+    { name = "plonegovbr-socialmedia", specifier = "==2.0.0a5" },
     { name = "plonetheme-barceloneta", specifier = "==3.2.3" },
     { name = "pluggy", specifier = "==1.5.0" },
     { name = "products-btreefolder2", specifier = "==5.1" },
@@ -3562,7 +3562,7 @@ wheels = [
 
 [[package]]
 name = "plonegovbr-socialmedia"
-version = "2.0.0a4"
+version = "2.0.0a5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "plone-api" },
@@ -3570,9 +3570,9 @@ dependencies = [
     { name = "plone-volto" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/31/d8/17e8a1a672c17af0b998fcb9e67e55edc69b777bc12003a588ca8deaa327/plonegovbr_socialmedia-2.0.0a4.tar.gz", hash = "sha256:754a3501129c200a5519bd3df5f8990810e3be6b7a8cf3aa12513a529abe094e", size = 27532 }
+sdist = { url = "https://files.pythonhosted.org/packages/83/2b/451573a1e9b2eb8046d720f8bfebf3729f80a33b87c75e306b41dc86861d/plonegovbr_socialmedia-2.0.0a5.tar.gz", hash = "sha256:453413ab0afa5ffd31691aba770fab6059dd3723ad2c860327e063b1197bc986", size = 27534 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/7c/e6/7110c80c35cfae0986c3eee2f3b1311a60359dbab6eb375566c54545fe96/plonegovbr_socialmedia-2.0.0a4-py3-none-any.whl", hash = "sha256:a53495002f297847588c6b398612f29e09791082f66be247e41cc5ea0670be2d", size = 37595 },
+    { url = "https://files.pythonhosted.org/packages/0e/68/1aa61ef2b1bb3ea783eb679036a5ce6c8f9389e4fb75fb1d33ca09374893/plonegovbr_socialmedia-2.0.0a5-py3-none-any.whl", hash = "sha256:446e6ca425edd7ee1e0b41a3669438043fe7d06aa599ecfd7d601c5400c9bd30", size = 37596 },
 ]
 
 [[package]]
@@ -4383,7 +4383,7 @@ requires-dist = [
     { name = "plone-app-upgrade" },
     { name = "plone-restapi" },
     { name = "plone-volto" },
-    { name = "plonegovbr-socialmedia", specifier = ">=2.0.0a4" },
+    { name = "plonegovbr-socialmedia", specifier = ">=2.0.0a5" },
     { name = "products-cmfplone", specifier = "==6.1.1" },
 ]
 

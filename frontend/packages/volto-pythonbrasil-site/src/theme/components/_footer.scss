@@ -1,26 +1,51 @@
 footer#footer {
-  .footer {
+  .footer.main {
     max-width: 100% !important;
     background-color: var(--secondary-color);
     color: var(--secondary-foreground-color) !important;
-    ul {
-      li {
-        a.item {
-          color: var(--secondary-foreground-color) !important;
-          &:hover {
-            color: var(--primary-color) !important;
+    > .container {
+      padding: $spacing-small;
+    }
+    .links {
+      ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+        li {
+          padding: 0 1em;
+          border-left: 1px solid var(--secondary-foreground-color);
+          margin: 0.25em 0;
+          text-align: center;
+          &:first-child {
+            border-left: unset;
+          }
+          a.item {
+            color: var(--secondary-foreground-color) !important;
+            &:hover {
+              color: var(--primary-color) !important;
+            }
           }
         }
       }
     }
+    .footer_follow_us {
+      --block-alignment: center !important;
+    }
   }
-  .footer-branding {
-    padding: $spacing-small;
-    color: var(--text-color) !important;
-    .plonegovbr {
+  .post-footer {
+    padding: $spacing-small $spacing-medium;
+    .branding {
+      padding: 0 $spacing-small;
       color: var(--text-color) !important;
-      &:hover {
-        color: var(--primary-color) !important;
+      .plonegovbr {
+        color: var(--text-color) !important;
+        &:hover {
+          color: var(--primary-color) !important;
+        }
       }
     }
   }

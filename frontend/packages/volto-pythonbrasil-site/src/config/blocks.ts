@@ -94,10 +94,10 @@ function installBlockTheme(config: ConfigType) {
   config.blocks.themes = [
     {
       style: {
-        '--theme-color': 'transparent',
-        '--theme-high-contrast-color': 'transparent',
+        '--theme-color': 'transparent', // Background color for cards
+        '--theme-high-contrast-color': 'transparent', // Background color for a teaser card
         '--theme-foreground-color': '#000',
-        '--theme-low-contrast-foreground-color': '#555555',
+        '--theme-low-contrast-foreground-color': '#555555', // Dimmer color for text ()
       },
       name: 'default',
       label: 'Default',
@@ -105,7 +105,7 @@ function installBlockTheme(config: ConfigType) {
     {
       style: {
         '--theme-color': '#3E3841',
-        '--theme-high-contrast-color': '#3E3841',
+        '--theme-high-contrast-color': '#E2001A',
         '--theme-foreground-color': '#F0F0F7',
         '--theme-low-contrast-foreground-color': '#F0F0F7',
       },
@@ -115,7 +115,7 @@ function installBlockTheme(config: ConfigType) {
     {
       style: {
         '--theme-color': '#E2001A',
-        '--theme-high-contrast-color': '#E2001A',
+        '--theme-high-contrast-color': '#3E3841',
         '--theme-foreground-color': '#fff',
         '--theme-low-contrast-foreground-color': '#fff',
       },
