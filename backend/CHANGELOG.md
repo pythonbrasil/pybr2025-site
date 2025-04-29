@@ -9,6 +9,13 @@
 
 <!-- towncrier release notes start -->
 
+## 20250429.3 (2025-04-29)
+
+
+### Bug fixes:
+
+- Install and load `pas.plugins.authomatic` @ericof 
+
 ## 20250429.2 (2025-04-29)
 
 
