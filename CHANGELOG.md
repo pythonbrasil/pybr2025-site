@@ -7,6 +7,29 @@
 -->
 
 <!-- towncrier release notes start -->
+## 20250429.2 (2025-04-29)
+
+### Backend
+
+
+#### Bug fixes:
+
+- Load `plone.app.discussion` component. @ericof 
+
+
+
+### Frontend
+
+No significant changes.
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 20250429.1 (2025-04-29)
 
 ### Backend

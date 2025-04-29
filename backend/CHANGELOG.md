@@ -9,6 +9,13 @@
 
 <!-- towncrier release notes start -->
 
+## 20250429.2 (2025-04-29)
+
+
+### Bug fixes:
+
+- Load `plone.app.discussion` component. @ericof 
+
 ## 20250429.1 (2025-04-29)
 
 
