@@ -4,6 +4,7 @@
   <include package="plone.volto" />
   <include package="plone.app.caching" />
   <include package="plone.app.discussion" />
+  <include package="pas.plugins.authomatic" />
   <include package="collective.volto.formsupport" />
   <include package="plonegovbr.socialmedia" />
 </configure>
