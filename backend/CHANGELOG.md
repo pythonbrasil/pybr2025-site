@@ -8,3 +8,15 @@
 -->
 
 <!-- towncrier release notes start -->
+
+## 20250429.1 (2025-04-29)
+
+
+### New features:
+
+- Add plonegovbr.socialmedia as a dependency. @ericof 
+
+
+### Internal:
+
+- Refactor codebase to use UV @ericof
