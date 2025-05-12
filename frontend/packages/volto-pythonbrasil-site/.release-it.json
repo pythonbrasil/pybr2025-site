@@ -1,6 +1,6 @@
 {
   "plugins": {
-    "../../core/packages/scripts/prepublish.js": {}
+    "./scripts/prepublish.mjs": {}
   },
   "hooks": {
     "after:bump": [
@@ -13,6 +13,9 @@
     "after:release": "rm .changelog.draft README.md"
   },
   "npm": {
+    "publish": false
+  },
+  "plonePrePublish": {
     "publish": false
   },
   "git": {
