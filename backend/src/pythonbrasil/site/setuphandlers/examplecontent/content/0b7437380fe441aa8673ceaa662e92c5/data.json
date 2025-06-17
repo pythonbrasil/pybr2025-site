@@ -1,0 +1,285 @@
+{
+  "@id": "/patrocine/prata",
+  "@type": "SponsorLevel",
+  "UID": "0b7437380fe441aa8673ceaa662e92c5",
+  "allow_discussion": null,
+  "benefits": [
+    {
+      "@id": "d79e6a46-a680-4f9e-93ab-3720886f0ae9",
+      "code": {
+        "title": "Marca: Logo no local do evento",
+        "token": "62861964-c29e-4ea1-b139-90c50884a541"
+      },
+      "id": "d79e6a46-a680-4f9e-93ab-3720886f0ae9",
+      "title": "Marca: Logo no local do evento",
+      "value": null
+    },
+    {
+      "@id": "c3edb968-bed1-4e5a-bfe7-93666f3630f6",
+      "code": {
+        "title": "Digital: Post personalizado em redes sociais",
+        "token": "2f9fda0a-32f9-47a0-9ca6-1b6c20caf46a"
+      },
+      "id": "c3edb968-bed1-4e5a-bfe7-93666f3630f6",
+      "title": "Digital: Post personalizado em redes sociais",
+      "value": "1"
+    },
+    {
+      "@id": "0b39a013-4afa-40aa-a04b-f63c23a6a629",
+      "code": {
+        "title": "Digital: Post agradecimento em redes sociais",
+        "token": "b3c20966-701e-44f2-af8c-9436fd78aff7"
+      },
+      "id": "0b39a013-4afa-40aa-a04b-f63c23a6a629",
+      "title": "Digital: Post agradecimento em redes sociais",
+      "value": null
+    },
+    {
+      "@id": "9b0c64c2-1dbf-4eeb-9d93-7de4bd09458a",
+      "code": {
+        "title": "Intera\u00e7\u00e3o: Palco principal",
+        "token": "5c18f964-94bf-407c-914b-83cc0998d6d9"
+      },
+      "id": "9b0c64c2-1dbf-4eeb-9d93-7de4bd09458a",
+      "title": "Intera\u00e7\u00e3o: Palco principal",
+      "value": "1 minuto"
+    },
+    {
+      "@id": "b74e0b64-d658-4594-9570-7b2ab590f342",
+      "code": {
+        "title": "Intera\u00e7\u00e3o: Kit do participante",
+        "token": "f01b8239-31ff-40fd-9b66-b3c655a2bd5c"
+      },
+      "id": "b74e0b64-d658-4594-9570-7b2ab590f342",
+      "title": "Intera\u00e7\u00e3o: Kit do participante",
+      "value": null
+    },
+    {
+      "@id": "f0113f7b-8085-4735-82b1-c90d56236e89",
+      "code": {
+        "title": "Ingressos: Inclusos",
+        "token": "9d3be2f0-e191-49b0-85a8-ac3b05519b45"
+      },
+      "id": "f0113f7b-8085-4735-82b1-c90d56236e89",
+      "title": "Ingressos: Inclusos",
+      "value": "4"
+    },
+    {
+      "@id": "93e17b45-850b-43fc-b1c5-da15dc137e1e",
+      "code": {
+        "title": "Ingressos: Desconto",
+        "token": "57c3f9de-d97e-4d47-abae-f6e2318c826a"
+      },
+      "id": "93e17b45-850b-43fc-b1c5-da15dc137e1e",
+      "title": "Ingressos: Desconto",
+      "value": "20%"
+    }
+  ],
+  "blocks": {
+    "3f470053-30e0-41ee-a5c9-bd44f6fbf685": {
+      "@type": "sponsorLevelBlock",
+      "displayCTA": true,
+      "href": [
+        {
+          "@id": "../../resolveuid/005d63f8dd7b41818ae3e5e2ba1f36d9",
+          "@type": "Document",
+          "Description": "Garanta a sua vaga na Python Brasil 2025",
+          "Title": "Patrocine agora",
+          "hasPreviewImage": null,
+          "head_title": null,
+          "image_field": "",
+          "title": "Patrocine agora"
+        }
+      ],
+      "label": "Patrocine!",
+      "styles": {
+        "align:noprefix": {
+          "--block-alignment": "var(--align-center)"
+        }
+      },
+      "title": "Seja o primeiro"
+    },
+    "4118a227-ff45-48ff-93f7-bffed2ae774e": {
+      "@type": "title"
+    },
+    "63d31026-c7ab-43a7-be82-f0fd5f766505": {
+      "@type": "accordion",
+      "collapsed": false,
+      "data": {
+        "blocks": {
+          "24ffd234-53b5-4948-ae79-1422f61c1474": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "21d9e0d4-5484-4c04-893e-1ac83f69d8a8": {
+                "@type": "slate",
+                "plaintext": "Sua logo aparecer\u00e1 em toda identidade visual no local do evento: banners, pain\u00e9is de foto, salas de palestras, v\u00eddeos exibidos no intervalos de atividades!",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Sua logo aparecer\u00e1 em toda identidade visual no local do evento: banners, pain\u00e9is de foto, salas de palestras, v\u00eddeos exibidos no intervalos de atividades!"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "76dcf01e-1f95-4a35-83fc-31421e7f6741": {
+                "@type": "slate",
+                "plaintext": "N\u00e3o tem como passar despercebido!",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "N\u00e3o tem como passar despercebido!"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "21d9e0d4-5484-4c04-893e-1ac83f69d8a8",
+                "76dcf01e-1f95-4a35-83fc-31421e7f6741"
+              ]
+            },
+            "title": "Presen\u00e7a marcante"
+          },
+          "49f25694-881e-4102-a036-a16159690900": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "b042282e-6cfe-4f3b-baeb-c5729d602468": {
+                "@type": "slate",
+                "plaintext": "Al\u00e9m de sua presen\u00e7a no espa\u00e7o f\u00edsico, sua marca ser\u00e1 exibida nos intervalos das lives, estar\u00e1 no site do evento e ser\u00e1 divulgada nos posts de apresenta\u00e7\u00e3o e agradecimento de patrocinador!",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Al\u00e9m de sua presen\u00e7a no espa\u00e7o f\u00edsico, sua marca ser\u00e1 exibida nos intervalos das lives, estar\u00e1 no site do evento e ser\u00e1 divulgada nos posts de apresenta\u00e7\u00e3o e agradecimento de patrocinador!"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "b042282e-6cfe-4f3b-baeb-c5729d602468"
+              ]
+            },
+            "title": "Um grande alcance"
+          },
+          "513b0dbf-b5ed-4b07-bca5-14946a0d25c4": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "ed2fc39a-e4ba-4655-b952-adf0969f75ed": {
+                "@type": "slate",
+                "plaintext": "Poder\u00e1 ter um post pr\u00f3prio nas nossas redes sociais com conte\u00fado enviado por voc\u00eas!",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Poder\u00e1 ter um post pr\u00f3prio nas nossas redes sociais com conte\u00fado enviado por voc\u00eas!"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "ed2fc39a-e4ba-4655-b952-adf0969f75ed"
+              ]
+            },
+            "title": "Interagindo com a comunidade"
+          },
+          "642211c7-c318-4a76-9cca-4d998f0e790c": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "0957ef69-8300-45f8-ba00-47a8e4f832bc": {
+                "@type": "levelBenefitsBlock",
+                "tableTitle": "Compare",
+                "title": " "
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "0957ef69-8300-45f8-ba00-47a8e4f832bc"
+              ]
+            },
+            "title": "Todos os Benef\u00edcios"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "24ffd234-53b5-4948-ae79-1422f61c1474",
+            "49f25694-881e-4102-a036-a16159690900",
+            "513b0dbf-b5ed-4b07-bca5-14946a0d25c4",
+            "642211c7-c318-4a76-9cca-4d998f0e790c"
+          ]
+        }
+      },
+      "filtering": false,
+      "non_exclusive": false,
+      "right_arrows": true,
+      "styles": {},
+      "theme": "red"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "4118a227-ff45-48ff-93f7-bffed2ae774e",
+      "63d31026-c7ab-43a7-be82-f0fd5f766505",
+      "3f470053-30e0-41ee-a5c9-bd44f6fbf685"
+    ]
+  },
+  "color": "#000000",
+  "created": "2025-06-16T19:13:53+00:00",
+  "description": "Presen\u00e7a marcante",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "prata",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-06-17T20:38:56+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "price": "R$20.000,00",
+  "review_state": "published",
+  "title": "Prata",
+  "type_title": "Sponsorship Level",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-16T19:13:53+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-16T19:20:41+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

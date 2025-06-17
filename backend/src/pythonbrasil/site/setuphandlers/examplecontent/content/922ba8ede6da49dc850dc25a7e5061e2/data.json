@@ -1,0 +1,274 @@
+{
+  "@id": "/patrocine/bronze",
+  "@type": "SponsorLevel",
+  "UID": "922ba8ede6da49dc850dc25a7e5061e2",
+  "allow_discussion": null,
+  "benefits": [
+    {
+      "@id": "df857d8a-538a-44a2-aaa6-01efdf405606",
+      "code": {
+        "title": "Marca: Logo no local do evento",
+        "token": "62861964-c29e-4ea1-b139-90c50884a541"
+      },
+      "id": "df857d8a-538a-44a2-aaa6-01efdf405606",
+      "title": "Marca: Logo no local do evento",
+      "value": null
+    },
+    {
+      "@id": "c85d39c9-25da-41ed-9311-369f4348a71e",
+      "code": {
+        "title": "Digital: Post agradecimento em redes sociais",
+        "token": "b3c20966-701e-44f2-af8c-9436fd78aff7"
+      },
+      "id": "c85d39c9-25da-41ed-9311-369f4348a71e",
+      "title": "Digital: Post agradecimento em redes sociais",
+      "value": null
+    },
+    {
+      "@id": "7a7471eb-b589-4cb6-baef-42d3260840ef",
+      "code": {
+        "title": "Digital: Logo no site",
+        "token": "750f4e1e-17ea-44f2-8af2-655d99e28a88"
+      },
+      "id": "7a7471eb-b589-4cb6-baef-42d3260840ef",
+      "title": "Digital: Logo no site",
+      "value": null
+    },
+    {
+      "@id": "fda55874-77d6-4312-941d-10d9988a38f7",
+      "code": {
+        "title": "Intera\u00e7\u00e3o: Palco principal",
+        "token": "5c18f964-94bf-407c-914b-83cc0998d6d9"
+      },
+      "id": "fda55874-77d6-4312-941d-10d9988a38f7",
+      "title": "Intera\u00e7\u00e3o: Palco principal",
+      "value": "1 minuto"
+    },
+    {
+      "@id": "aa14c6ed-c2ac-4d7a-9870-0037c4660613",
+      "code": {
+        "title": "Intera\u00e7\u00e3o: Kit do participante",
+        "token": "f01b8239-31ff-40fd-9b66-b3c655a2bd5c"
+      },
+      "id": "aa14c6ed-c2ac-4d7a-9870-0037c4660613",
+      "title": "Intera\u00e7\u00e3o: Kit do participante",
+      "value": null
+    },
+    {
+      "@id": "fda740f5-7e26-4822-8c34-e6d11d64852e",
+      "code": {
+        "title": "Ingressos: Inclusos",
+        "token": "9d3be2f0-e191-49b0-85a8-ac3b05519b45"
+      },
+      "id": "fda740f5-7e26-4822-8c34-e6d11d64852e",
+      "title": "Ingressos: Inclusos",
+      "value": "3"
+    },
+    {
+      "@id": "59db41fa-968d-4f70-a435-1ab290cb8003",
+      "code": {
+        "title": "Ingressos: Desconto",
+        "token": "57c3f9de-d97e-4d47-abae-f6e2318c826a"
+      },
+      "id": "59db41fa-968d-4f70-a435-1ab290cb8003",
+      "title": "Ingressos: Desconto",
+      "value": "15%"
+    }
+  ],
+  "blocks": {
+    "62cd57f3-756e-4299-8c87-5f7b3587cbc0": {
+      "@type": "slate"
+    },
+    "b995026a-4040-4585-9e2d-1731cd4a00de": {
+      "@type": "title"
+    },
+    "bec45a12-dae8-4762-ba24-628d39056f28": {
+      "@type": "sponsorLevelBlock",
+      "displayCTA": true,
+      "href": [
+        {
+          "@id": "../../resolveuid/005d63f8dd7b41818ae3e5e2ba1f36d9",
+          "@type": "Document",
+          "Description": "Garanta a sua vaga na Python Brasil 2025",
+          "Title": "Patrocine agora",
+          "hasPreviewImage": null,
+          "head_title": null,
+          "image_field": "",
+          "title": "Patrocine agora"
+        }
+      ],
+      "label": "Patrocine tamb\u00e9m!",
+      "styles": {
+        "align:noprefix": {
+          "--block-alignment": "var(--align-center)"
+        }
+      },
+      "title": "Patrocinadores"
+    },
+    "cd605377-66ed-4b53-82ae-f2c6fb5bdf15": {
+      "@type": "accordion",
+      "collapsed": false,
+      "data": {
+        "blocks": {
+          "24ffd234-53b5-4948-ae79-1422f61c1474": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "19994ff9-faa9-4094-ad09-cbe990bf07bf": {
+                "@type": "slate",
+                "plaintext": "Sua logo aparecer\u00e1 em toda identidade visual no local do evento: banners, pain\u00e9is de foto, salas de palestra, v\u00eddeos exibidos nos intervalos de atividades!",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Sua logo aparecer\u00e1 em toda identidade visual no local do evento: banners, pain\u00e9is de foto, salas de palestra, v\u00eddeos exibidos nos intervalos de atividades!"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "19994ff9-faa9-4094-ad09-cbe990bf07bf"
+              ]
+            },
+            "title": "Conquistando espa\u00e7o"
+          },
+          "49f25694-881e-4102-a036-a16159690900": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "aaa9f9eb-3c43-41cc-a80a-171551c8ced2": {
+                "@type": "slate",
+                "plaintext": "Sua marca ser\u00e1 exibida nos intervalos das lives, no site do evento e ser\u00e1 divulgada nos posts de apresenta\u00e7\u00e3o e agradecimento de patrocinador",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Sua marca ser\u00e1 exibida nos intervalos das lives, no site do evento e ser\u00e1 divulgada nos posts de apresenta\u00e7\u00e3o e agradecimento de patrocinador"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "aaa9f9eb-3c43-41cc-a80a-171551c8ced2"
+              ]
+            },
+            "title": "Chegando longe"
+          },
+          "513b0dbf-b5ed-4b07-bca5-14946a0d25c4": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "1432010b-240c-4990-b2d2-6a96154e74b9": {
+                "@type": "slate",
+                "plaintext": "Voc\u00ea pode adicionar brindes na sacola dos participantes para divulgar sua marca e ter\u00e1 um tempo limitado no palco, sob os holofotes!",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Voc\u00ea pode adicionar brindes na sacola dos participantes para divulgar sua marca e ter\u00e1 um tempo limitado no palco, sob os holofotes!"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "1432010b-240c-4990-b2d2-6a96154e74b9"
+              ]
+            },
+            "title": "Interagindo com a comunidade"
+          },
+          "642211c7-c318-4a76-9cca-4d998f0e790c": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "0957ef69-8300-45f8-ba00-47a8e4f832bc": {
+                "@type": "levelBenefitsBlock",
+                "tableTitle": "Compare",
+                "title": " "
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "0957ef69-8300-45f8-ba00-47a8e4f832bc"
+              ]
+            },
+            "title": "Todos os Benef\u00edcios"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "24ffd234-53b5-4948-ae79-1422f61c1474",
+            "49f25694-881e-4102-a036-a16159690900",
+            "513b0dbf-b5ed-4b07-bca5-14946a0d25c4",
+            "642211c7-c318-4a76-9cca-4d998f0e790c"
+          ]
+        }
+      },
+      "filtering": false,
+      "non_exclusive": false,
+      "right_arrows": true,
+      "styles": {},
+      "theme": "red"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "b995026a-4040-4585-9e2d-1731cd4a00de",
+      "cd605377-66ed-4b53-82ae-f2c6fb5bdf15",
+      "bec45a12-dae8-4762-ba24-628d39056f28",
+      "62cd57f3-756e-4299-8c87-5f7b3587cbc0"
+    ]
+  },
+  "color": "#000000",
+  "created": "2025-06-16T19:14:21+00:00",
+  "description": "Conquistando espa\u00e7o",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "bronze",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-06-17T20:39:22+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "price": "R$10.000,00",
+  "review_state": "published",
+  "title": "Bronze",
+  "type_title": "Sponsorship Level",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-16T19:14:21+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-16T19:20:41+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

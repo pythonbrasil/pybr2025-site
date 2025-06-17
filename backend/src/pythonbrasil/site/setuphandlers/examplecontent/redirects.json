@@ -1,6 +1,5 @@
 {
   "/Plone/evento/fale-conosco": "/Plone/evento/contato",
-  "/Plone/programacao": "/Plone/agenda",
   "/Plone/sobre": "/Plone/evento",
   "/Plone/sobre/codigo-de-conduta": "/Plone/evento/codigo-de-conduta"
 }

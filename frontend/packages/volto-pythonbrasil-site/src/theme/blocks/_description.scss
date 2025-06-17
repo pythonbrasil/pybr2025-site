@@ -1,0 +1,12 @@
+.blocks-group-wrapper {
+  .documentDescription {
+    color: var(--theme-foreground-color);
+  }
+}
+.blocks-form {
+  .block.description {
+    .documentDescription {
+      color: var(--theme-foreground-color);
+    }
+  }
+}

@@ -3,6 +3,26 @@
   "@type": "Plone Site",
   "UID": "plone_site_root",
   "allow_discussion": null,
+  "audience": [
+    {
+      "@id": "f59d4635-5f42-4775-8641-9fbff8df46de",
+      "color": "#000000",
+      "id": "f59d4635-5f42-4775-8641-9fbff8df46de",
+      "title": "Desenvolvedor"
+    },
+    {
+      "@id": "1b882a1a-2f75-44bf-af32-c4095d47829c",
+      "color": "#000000",
+      "id": "1b882a1a-2f75-44bf-af32-c4095d47829c",
+      "title": "SysAdmin"
+    },
+    {
+      "@id": "3e0faf55-6d23-447f-bbc3-3e7636b2384a",
+      "color": "#000000",
+      "id": "3e0faf55-6d23-447f-bbc3-3e7636b2384a",
+      "title": "Cientista de Dados"
+    }
+  ],
   "blocks": {
     "31f67a28-5a49-40c0-bb4a-6d2279057163": {
       "@type": "gridBlock",
@@ -18,7 +38,7 @@
           ],
           "label": "Submeta sua proposta",
           "styles": {},
-          "theme": "default",
+          "theme": "grey",
           "title": "Submiss\u00e3o de atividades"
         },
         "af098dc9-9fc6-4600-b40f-161a88513807": {
@@ -32,6 +52,7 @@
           ],
           "label": "Garanta seu Ingresso",
           "styles": {},
+          "theme": "grey",
           "title": "Ingressos \u00e0 venda"
         }
       },
@@ -59,13 +80,26 @@
           ],
           "label": "Plano de Patroc\u00ednio",
           "styles": {},
-          "theme": "grey",
-          "title": "Patrocine"
+          "theme": "grey"
+        },
+        "d8734f0c-a866-4bae-8bb6-9be55e8fd203": {
+          "@type": "gridCTA",
+          "description": "Associate your company with the largest Python event in Latin America!\n\n",
+          "href": [
+            {
+              "@id": "https://www.canva.com/design/DAGe_yZ0SdI/myPIGUAEQAnrwKhJE_7Bag/view?utm_content=DAGe_yZ0SdI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7f3e8c2330",
+              "title": "www.canva.com/design/DAGe_yZ0SdI/myPIGUAEQAnrwKhJE_7Bag/view?utm_content=DAGe_yZ0SdI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7f3e8c2330"
+            }
+          ],
+          "label": "Sponsorship Plan",
+          "styles": {},
+          "theme": "grey"
         }
       },
       "blocks_layout": {
         "items": [
-          "7fe2ce92-edb0-4125-8e1a-898ed523de70"
+          "7fe2ce92-edb0-4125-8e1a-898ed523de70",
+          "d8734f0c-a866-4bae-8bb6-9be55e8fd203"
         ]
       },
       "headline": "Patrocine",
@@ -79,23 +113,32 @@
       "credit": {},
       "description": "",
       "image_field": "image",
-      "size": "l",
+      "size": "m",
       "styles": {
         "blockWidth:noprefix": {
           "--block-width": "100%"
         },
-        "size:noprefix": "large"
+        "size:noprefix": "medium"
       },
       "theme": "grey",
       "title": "main.png",
       "url": "resolveuid/03e3d75a791d4fa98378626ba8f62d07"
+    },
+    "801b9ea5-f374-48ec-836f-0d293b9e11f0": {
+      "@type": "sponsorsShowcaseBlock",
+      "styles": {
+        "align:noprefix": {
+          "--block-alignment": "var(--align-center)"
+        }
+      }
     }
   },
   "blocks_layout": {
     "items": [
       "42165e4a-c5c1-4229-8161-00f96b0deab0",
       "31f67a28-5a49-40c0-bb4a-6d2279057163",
-      "345e2281-cedc-44c2-9aa3-600a885d1bb0"
+      "345e2281-cedc-44c2-9aa3-600a885d1bb0",
+      "801b9ea5-f374-48ec-836f-0d293b9e11f0"
     ]
   },
   "contributors": [],
@@ -103,7 +146,42 @@
     "admin"
   ],
   "description": "Encontro da comunidade Python brasileira, entre 21 a 27 de Outubro, em S\u00e3o Paulo, SP",
+  "durations_keynote": [
+    {
+      "@id": "e9a4d1d1-1917-45d4-b2f6-0ad27155fb8e",
+      "color": "#000000",
+      "duration": 60,
+      "id": "e9a4d1d1-1917-45d4-b2f6-0ad27155fb8e",
+      "title": "Keynote"
+    }
+  ],
+  "durations_talk": [
+    {
+      "@id": "bb30e5d6-d8cd-4ab1-805c-2b135a084e23",
+      "color": "#000000",
+      "duration": 43,
+      "id": "bb30e5d6-d8cd-4ab1-805c-2b135a084e23",
+      "title": "Palestra"
+    }
+  ],
+  "durations_training": [
+    {
+      "@id": "3377164e-b54f-4a38-8496-81ea7929c293",
+      "color": "#000000",
+      "duration": 210,
+      "id": "3377164e-b54f-4a38-8496-81ea7929c293",
+      "title": "Tutorial Curto"
+    },
+    {
+      "@id": "2ef0c0ce-9ed1-4305-8177-65ba1abd2053",
+      "color": "#000000",
+      "duration": 420,
+      "id": "2ef0c0ce-9ed1-4305-8177-65ba1abd2053",
+      "title": "Tutorial Longo"
+    }
+  ],
   "effective": null,
+  "end": "2025-10-27T21:00:00",
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
@@ -117,7 +195,6 @@
         {
           "@id": "resolveuid/f17ec2cb79cf4a75896ce3a6b5bc8f54",
           "@type": "Document",
-          "Description": "Entre em contato com a organiza\u00e7\u00e3o da Python Brasil 2025",
           "Title": "Fale Conosco",
           "title": "Fale Conosco"
         }
@@ -130,7 +207,6 @@
         {
           "@id": "resolveuid/24689ede20f346c09ce7d50b68ff893b",
           "@type": "Document",
-          "Description": "Tire suas d\u00favidas sobre a Python Brasil 2025",
           "Title": "Perguntas Frequentes",
           "title": "Perguntas Frequentes"
         }
@@ -143,7 +219,6 @@
         {
           "@id": "resolveuid/52e0e3e2d1564eca97eb22eae2fbebbf",
           "@type": "Document",
-          "Description": "Todos os participantes, instrutores e organizadores  da confer\u00eancia concordam em cumprir o C\u00f3digo de Conduta da PythonBrasil.",
           "Title": "C\u00f3digo de Conduta",
           "title": "C\u00f3digo de Conduta"
         }
@@ -153,8 +228,34 @@
   ],
   "id": "Plone",
   "is_folderish": true,
-  "items_total": 5,
+  "items_total": 4,
   "language": "##DEFAULT##",
+  "levels": [
+    {
+      "@id": "cf82dd87-e832-46c4-93d9-ab732b0c2796",
+      "color": "#b022fc",
+      "id": "cf82dd87-e832-46c4-93d9-ab732b0c2796",
+      "title": "N\u00e3o t\u00e9cnico"
+    },
+    {
+      "@id": "bf82dd87-e832-46c4-93d9-ab732b0c2796",
+      "color": "#f228ad",
+      "id": "bf82dd87-e832-46c4-93d9-ab732b0c2796",
+      "title": "Iniciante"
+    },
+    {
+      "@id": "00dfc721-461f-413a-bf93-8d32b7652938",
+      "color": "#608cfc",
+      "id": "00dfc721-461f-413a-bf93-8d32b7652938",
+      "title": "Intermedi\u00e1rio"
+    },
+    {
+      "@id": "db001064-afc5-4a62-a185-9621794835ee",
+      "color": "#65ffac",
+      "id": "db001064-afc5-4a62-a185-9621794835ee",
+      "title": "Avan\u00e7ado"
+    }
+  ],
   "lock": {
     "locked": false,
     "stealable": true
@@ -165,7 +266,7 @@
   "share_social_data": true,
   "social_links": [
     {
-      "@id": "c67e5d80-1744-43f0-9bd8-4f58511194ad",
+      "@id": "92f5e920-4b62-4a2d-a946-88aade142c92",
       "href": [
         {
           "@id": "https://pynews.com.br/@pythonbrasil",
@@ -176,7 +277,7 @@
       "title": "Mastodon"
     },
     {
-      "@id": "444ef18c-b773-43ea-8594-131e6d35a645",
+      "@id": "2aac5536-5845-46dc-8d92-5a37d42408f3",
       "href": [
         {
           "@id": "https://x.com/pythonbrasil/",
@@ -187,7 +288,7 @@
       "title": "X"
     },
     {
-      "@id": "2fc33af3-8aa5-4e94-a783-845a5add2ded",
+      "@id": "3573b116-6600-4b46-9f74-4eba989069d1",
       "href": [
         {
           "@id": "https://instagram.com/pythonbrasil/",
@@ -198,7 +299,7 @@
       "title": "Instagram"
     },
     {
-      "@id": "5889d02c-a6a1-43e0-9799-b17e899843fc",
+      "@id": "55509911-d37c-4f39-abba-023d3a5d039d",
       "href": [
         {
           "@id": "https://bsky.app/profile/pythonbrasil.bsky.social",
@@ -209,7 +310,7 @@
       "title": "BlueSky"
     },
     {
-      "@id": "360468f5-d9a3-41f1-a2c6-e66a79aebda9",
+      "@id": "fa748813-7100-4e67-9446-f37dffdd1be0",
       "href": [
         {
           "@id": "https://www.linkedin.com/company/apyb/",
@@ -220,7 +321,7 @@
       "title": "LinkedIn APyB"
     },
     {
-      "@id": "b91a5edc-c0bc-4907-98a5-4e57dd45a154",
+      "@id": "95c6ef13-c200-43be-89f9-724133210ccc",
       "href": [
         {
           "@id": "https://www.youtube.com/c/pythonbrasiloficial",
@@ -231,8 +332,17 @@
       "title": "YouTube"
     }
   ],
+  "start": "2025-10-21T12:00:00",
   "subjects": [],
   "title": "PythonBrasil 2025",
+  "tracks": [
+    {
+      "@id": "0194e593-f268-4df2-a217-b6bfd0b0cf8b",
+      "color": "#000000",
+      "id": "0194e593-f268-4df2-a217-b6bfd0b0cf8b",
+      "title": "Ci\u00eancia e An\u00e1lise de Dados"
+    }
+  ],
   "type_title": "Plone Site",
   "workflow_history": {},
   "working_copy": null,

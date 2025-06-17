@@ -4,13 +4,11 @@
   "UID": "81bb6aa3c33644c296ffbc767b8c05c7",
   "allow_discussion": null,
   "blocks": {
-    "64c5f2cd-d7d2-4ebc-af59-684adc87f2a1": {
-      "@type": "title"
-    },
-    "c1c311fe-eef9-4b6b-9e48-7187d88428b3": {
+    "4b753790-992e-459f-babb-af0fe0add51b": {
       "@type": "slate",
       "plaintext": "",
       "styles": {},
+      "theme": "default",
       "value": [
         {
           "children": [
@@ -22,6 +20,104 @@
         }
       ]
     },
+    "64c5f2cd-d7d2-4ebc-af59-684adc87f2a1": {
+      "@type": "title"
+    },
+    "c1c311fe-eef9-4b6b-9e48-7187d88428b3": {
+      "@type": "gridBlock",
+      "blocks": {
+        "00321341-af7e-4afe-bbdf-0ca1ddec5de1": {
+          "@type": "teaser",
+          "description": "Saiba como chegar aos locais das atividades da Python Brasil 2025",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/ac949e0e29524a619dfb4caf015085ba",
+              "@type": "Document",
+              "Description": "Saiba como chegar aos locais das atividades da Python Brasil 2025",
+              "Subject": [],
+              "Title": "Local",
+              "description": "Saiba como chegar aos locais das atividades da Python Brasil 2025",
+              "effective": "2025-06-17T22:44:53+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Local",
+              "type_title": "P\u00e1gina"
+            }
+          ],
+          "overwrite": true,
+          "preview_image": [
+            {
+              "@id": "../resolveuid/75b28d31bea949fcae586531699f0f88",
+              "image_field": "image",
+              "title": "sao-luiz.jpeg"
+            }
+          ],
+          "styles": {
+            "align": "left"
+          },
+          "theme": "default",
+          "title": "Local"
+        },
+        "bd1460d0-3525-48a9-a0c9-5b33e3548246": {
+          "@type": "teaser",
+          "description": "Tire suas d\u00favidas sobre a Python Brasil 2025",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/24689ede20f346c09ce7d50b68ff893b",
+              "@type": "Document",
+              "Description": "Tire suas d\u00favidas sobre a Python Brasil 2025",
+              "Subject": [],
+              "Title": "Perguntas Frequentes",
+              "description": "Tire suas d\u00favidas sobre a Python Brasil 2025",
+              "effective": "2025-01-30T21:38:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Perguntas Frequentes",
+              "type_title": "P\u00e1gina"
+            }
+          ],
+          "overwrite": true,
+          "preview_image": [
+            {
+              "@id": "../resolveuid/c630576df3264cb0ad7799d28f52a393",
+              "image_field": "image",
+              "title": "pybr2022-treinamento.jpg"
+            }
+          ],
+          "styles": {
+            "align": "center"
+          },
+          "theme": "default",
+          "title": "Perguntas Frequentes"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "bd1460d0-3525-48a9-a0c9-5b33e3548246",
+          "00321341-af7e-4afe-bbdf-0ca1ddec5de1"
+        ]
+      },
+      "styles": {},
+      "theme": "grey"
+    },
     "f34f15b1-234f-45bb-ad95-50de70bfa4b3": {
       "@type": "description"
     }
@@ -30,7 +126,8 @@
     "items": [
       "64c5f2cd-d7d2-4ebc-af59-684adc87f2a1",
       "f34f15b1-234f-45bb-ad95-50de70bfa4b3",
-      "c1c311fe-eef9-4b6b-9e48-7187d88428b3"
+      "c1c311fe-eef9-4b6b-9e48-7187d88428b3",
+      "4b753790-992e-459f-babb-af0fe0add51b"
     ]
   },
   "changeNote": "",
@@ -53,7 +150,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2025-01-30T22:49:04+00:00",
+  "modified": "2025-06-17T22:53:53+00:00",
   "preview_caption": null,
   "preview_image": null,
   "review_state": "published",

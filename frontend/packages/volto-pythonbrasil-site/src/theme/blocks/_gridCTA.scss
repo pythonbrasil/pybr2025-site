@@ -34,9 +34,9 @@
         .ctaButton {
           @include cta-button-grid();
           @include cta-color-gradient();
-          color: var(--primary-foreground-color);
+          color: var(--primary-color);
           .icon {
-            fill: var(--primary-foreground-color);
+            fill: var(--primary-color);
           }
         }
       }
@@ -50,7 +50,7 @@
     .block.gridCTA.has--background-color--default,
     .block.gridCTA.has--theme--default {
       .content {
-        background-color: var(--theme-high-contrast-color);
+        background-color: var(---primary-foreground-color);
       }
     }
   }

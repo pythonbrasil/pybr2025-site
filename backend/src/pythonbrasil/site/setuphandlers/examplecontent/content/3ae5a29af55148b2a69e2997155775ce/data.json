@@ -1,0 +1,40 @@
+{
+  "@id": "/images/sponsor-02-ouro.png",
+  "@type": "Image",
+  "UID": "3ae5a29af55148b2a69e2997155775ce",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2025-06-16T19:30:41+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "sponsor-02-ouro.png",
+  "image": {
+    "blob_path": "3ae5a29af55148b2a69e2997155775ce/image/sponsor-02-ouro.png",
+    "content-type": "image/png",
+    "filename": "sponsor-02-ouro.png",
+    "height": 1080,
+    "size": 1642842,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2025-06-16T19:30:41+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "sponsor-02-ouro.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

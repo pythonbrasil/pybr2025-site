@@ -1,0 +1,92 @@
+{
+  "@id": "/evento/local/centro-de-eventos-sao-luis",
+  "@type": "Venue",
+  "UID": "ad3efc4190bd4ac6b1cc077751d473f0",
+  "allow_discussion": null,
+  "blocks": {
+    "423dbca9-917a-4b10-af2d-a9a83e18a247": {
+      "@type": "slate",
+      "plaintext": "O local de palestras ser\u00e1 no Centro de Eventos S\u00e3o Lu\u00eds no bairro da Consola\u00e7\u00e3o.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O local de palestras ser\u00e1 no "
+            },
+            {
+              "children": [
+                {
+                  "text": "Centro de Eventos S\u00e3o Lu\u00eds"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " no bairro da Consola\u00e7\u00e3o."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c6125ab9-82a0-4a73-80aa-0a3c0fde1b96": {
+      "@type": "maps",
+      "align": "wide",
+      "styles": {},
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.342797469134!2d-46.6606522!3d-23.5561288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce591edc929247%3A0x371544b32f805933!2sCentro%20de%20Eventos%20S%C3%A3o%20Lu%C3%ADs!5e0!3m2!1sen!2sbr!4v1740007196765!5m2!1sen!2sbr"
+    },
+    "e5fcb1cb-88aa-4ddc-b3cf-332cf4862a18": {
+      "@type": "title"
+    },
+    "fb71cee0-593f-45b0-a2cb-1eb5bbd2bebe": {
+      "@type": "description"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "e5fcb1cb-88aa-4ddc-b3cf-332cf4862a18",
+      "fb71cee0-593f-45b0-a2cb-1eb5bbd2bebe",
+      "423dbca9-917a-4b10-af2d-a9a83e18a247",
+      "c6125ab9-82a0-4a73-80aa-0a3c0fde1b96"
+    ]
+  },
+  "created": "2025-06-17T22:41:04+00:00",
+  "description": "As palestras ser\u00e3o realizadas no Centro de Evento S\u00e3o Luiz, na regi\u00e3o da Avenida Paulista",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "centro-de-eventos-sao-luis",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-06-17T22:43:18+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "title": "Centro de Eventos S\u00e3o Lu\u00eds",
+  "type_title": "Venue",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-17T22:41:04+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-17T22:41:12+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

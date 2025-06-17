@@ -1,7 +1,6 @@
 .block.gridBlock {
   .block.teaser {
-    border-radius: 0 0 $spacing-medium $spacing-small;
-    .teaser-item {
+    .card {
       border-radius: 0 0 $spacing-medium $spacing-small;
     }
   }

@@ -16,6 +16,7 @@
     <element value="plone.relateditems" />
     <element value="plone.locking" />
     <element value="plone.excludefromnavigation" />
+    <element value="collective.techevent.event_settings" />
     <element value="volto.blocks" />
   </property>
 

@@ -4,24 +4,51 @@
   --default-container-width: 1024px;
   --layout-container-width: 1440px;
   // Theme
-  --primary-color: #e2001a;
-  --primary-foreground-color: #f0f0f7;
+  --primary-color: #f0f0f7;
+  --primary-foreground-color: #e2001a;
   --secondary-color: #3e3841;
   --secondary-foreground-color: #f0f0f7;
   --accent-color: #ad0015;
   --accent-foreground-color: #f0f0f7;
+
   --theme-color: var(--primary-color);
   --theme-foreground-color: var(--primary-foreground-color);
+
+  // CTA
+  --cta-color-start: #e2001a;
+  --cta-color-end: var(--accent-color);
+  --cta-color-fg: var(--accent-foreground-color);
+
+  // Header
   --header-background: var(--accent-color);
+  --header-foreground: var(--accent-foreground-color);
+
+  // Breadcrumbs
   --breadcrumbs-background: var(--secondary-color);
-  --breadcrumbs-foreground: var(var(--secondary-foreground-color));
-  --background-color: #c3c8ca;
+  --breadcrumbs-foreground: var(--secondary-foreground-color);
+
+  // Fat Menu
+  --fatmenu-background: var(--secondary-color);
+  --fatmenu-foreground: var(--secondary-foreground-color);
+
+  // Search bar
+  --search-background: var(--secondary-color);
+  --search-foreground: var(--secondary-foreground-color);
+
   --text-color: rgb(39 38 38);
+  --link-color: var(--text-color);
+  --link-foreground-color: var(--link-color);
+
+  --background-color: #c3c8ca;
+
   // Components
-  --social-network-icon-color-main: var(--primary-foreground-color);
-  --social-network-icon-color-hover: var(--primary-color);
+  --social-network-icon-color-main: var(--secondary-color);
+  --social-network-icon-color-hover: var(--accent-color);
   --social-network-background-main: transparent;
   --social-network-background-hover: transparent;
+  /// Sponsors
+  --techevent-sponsortile-background-main: #fff;
+
   // Fonts
   --font-weight-thin: 100;
   --font-weight-extra-light: 200;

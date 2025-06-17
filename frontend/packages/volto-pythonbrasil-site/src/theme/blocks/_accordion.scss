@@ -3,6 +3,10 @@
     background-color: unset;
     .title.accordion-title {
       background-color: unset;
+      color: var(--theme-foreground-color);
+      .ui.input > input {
+        color: var(--theme-foreground-color);
+      }
     }
   }
 }

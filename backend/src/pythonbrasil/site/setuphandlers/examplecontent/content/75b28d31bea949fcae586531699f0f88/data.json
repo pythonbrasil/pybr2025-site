@@ -1,0 +1,40 @@
+{
+  "@id": "/images/sao-luiz.jpeg",
+  "@type": "Image",
+  "UID": "75b28d31bea949fcae586531699f0f88",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2025-06-17T22:42:55+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "sao-luiz.jpeg",
+  "image": {
+    "blob_path": "75b28d31bea949fcae586531699f0f88/image/sao-luiz.jpeg",
+    "content-type": "image/jpeg",
+    "filename": "sao-luiz.jpeg",
+    "height": 808,
+    "size": 282488,
+    "width": 1339
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2025-06-17T22:42:55+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "sao-luiz.jpeg",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

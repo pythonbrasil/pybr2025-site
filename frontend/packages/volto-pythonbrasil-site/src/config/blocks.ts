@@ -4,9 +4,6 @@ import { composeSchema } from '@plone/volto/helpers/Extensions';
 import { defaultStylingSchema } from '@kitconcept/volto-light-theme/components/Blocks/schema';
 
 // Blocks
-/// Teaser
-import TeaserDefaultTemplate from '@plone/volto/components/manage/Blocks/Teaser/DefaultBody';
-
 /// GridCTA
 import GridCTAEdit from '@plonegovbr/volto-pythonbrasil-site/components/Blocks/GridCTA/Edit';
 import GridCTAView from '@plonegovbr/volto-pythonbrasil-site/components/Blocks/GridCTA/View';
@@ -21,6 +18,7 @@ import chamadaSVG from '@plone/volto/icons/asterisk.svg';
 
 declare module '@plone/types' {
   export interface BlocksConfigData {
+    accordion: BlockConfigBase;
     gridCTA: BlockConfigBase;
     chamadaBlock: BlockConfigBase;
   }
@@ -66,26 +64,6 @@ function installBlocks(config: ConfigType) {
     blockHasOwnFocusManagement: false,
   };
 
-  return config;
-}
-
-function installTeaserVariations(config: ConfigType) {
-  const teaserVariations = [
-    {
-      id: 'default',
-      isDefault: true,
-      title: 'Default',
-      template: TeaserDefaultTemplate,
-    },
-  ];
-  config.blocks.blocksConfig.teaser = {
-    ...config.blocks.blocksConfig.teaser,
-    variations: teaserVariations,
-  };
-  config.blocks.blocksConfig.gridBlock.blocksConfig.teaser = {
-    ...config.blocks.blocksConfig.gridBlock.blocksConfig.teaser,
-    variations: teaserVariations,
-  };
   return config;
 }
 
@@ -162,7 +140,6 @@ function installBlockTheme(config: ConfigType) {
 export default function install(config: ConfigType) {
   installBlocks(config);
   installBlockTheme(config);
-  installTeaserVariations(config);
   config.blocks.blocksConfig.gridCTA.schemaEnhancer =
     composeSchema(defaultStylingSchema);
   config.blocks.blocksConfig.chamadaBlock.schemaEnhancer =
@@ -170,6 +147,16 @@ export default function install(config: ConfigType) {
   config.blocks.blocksConfig.image.schemaEnhancer =
     composeSchema(defaultStylingSchema);
 
+  config.blocks.blocksConfig.accordion = {
+    ...config.blocks.blocksConfig.accordion,
+    blocksConfig: {
+      ...config.blocks.blocksConfig,
+    },
+    allowedBlocks: [
+      ...config.blocks.blocksConfig.accordion.allowedBlocks,
+      'levelBenefitsBlock',
+    ],
+  };
   config.blocks.blocksConfig.gridBlock = {
     ...config.blocks.blocksConfig.gridBlock,
     blocksConfig: {
@@ -181,6 +168,7 @@ export default function install(config: ConfigType) {
       'testimonials',
       '__button',
       'gridCTA',
+      'levelBenefitsBlock',
     ],
   };
   return config;

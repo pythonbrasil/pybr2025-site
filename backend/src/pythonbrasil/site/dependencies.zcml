@@ -7,4 +7,5 @@
   <include package="pas.plugins.authomatic" />
   <include package="collective.volto.formsupport" />
   <include package="plonegovbr.socialmedia" />
+  <include package="collective.techevent" />
 </configure>

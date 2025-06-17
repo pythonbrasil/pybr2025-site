@@ -64,14 +64,22 @@ $color-block-change-vertical-spacing: $spacing-large !default;
 }
 
 @mixin cta-color-gradient() {
-  @include color-gradient(var(--primary-color), var(--accent-color));
+  @include color-gradient(
+    var(--cta-color-start),
+    var(--cta-color-end),
+    var(--cta-color-fg)
+  );
 }
 
 @mixin cta-color-gradient-reverse() {
-  @include color-gradient(var(--accent-color), var(--primary-color));
+  @include color-gradient(
+    var(--cta-color-end),
+    var(--cta-color-start),
+    var(--cta-color-fg)
+  );
 }
 
-@mixin color-gradient($color1, $color2) {
+@mixin color-gradient($color1, $color2, $colorfg) {
   position: relative;
   z-index: 1;
   display: inline-flex;
@@ -81,6 +89,7 @@ $color-block-change-vertical-spacing: $spacing-large !default;
   -webkit-appearance: none;
   appearance: none;
   background: linear-gradient(90deg, $color1 0%, $color2 100%);
+  color: $colorfg !important;
   moz-transition: all 0.4s ease-in-out;
   outline: none !important;
   -o-transition: all 0.4s ease-in-out;
@@ -102,8 +111,11 @@ $color-block-change-vertical-spacing: $spacing-large !default;
     transition-duration: 700ms;
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
-  &:hover::after {
-    bottom: -50%;
+  &:hover {
+    color: $colorfg !important;
+    &::after {
+      bottom: -50%;
+    }
   }
 }
 

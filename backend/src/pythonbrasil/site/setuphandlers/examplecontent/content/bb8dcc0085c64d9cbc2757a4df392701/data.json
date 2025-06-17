@@ -1,0 +1,40 @@
+{
+  "@id": "/images/sponsor-04-bronze.png",
+  "@type": "Image",
+  "UID": "bb8dcc0085c64d9cbc2757a4df392701",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2025-06-16T19:30:40+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "sponsor-04-bronze.png",
+  "image": {
+    "blob_path": "bb8dcc0085c64d9cbc2757a4df392701/image/sponsor-04-bronze.png",
+    "content-type": "image/png",
+    "filename": "sponsor-04-bronze.png",
+    "height": 1080,
+    "size": 1425368,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2025-06-16T19:30:40+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "sponsor-04-bronze.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

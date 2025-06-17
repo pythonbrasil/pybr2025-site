@@ -3,14 +3,14 @@
     @include graffiti();
     @include add(size, xl);
     @include add(height, xl);
-    color: var(--primary-foreground-color);
+    color: var(--primary-color);
     text-transform: uppercase !important;
     &.active,
     &:hover {
-      color: var(--primary-foreground-color);
+      color: var(--primary-color);
       &::before {
         bottom: -42px;
-        border-bottom: 4px solid var(--primary-foreground-color);
+        border-bottom: 4px solid var(--primary-color);
       }
     }
   }
@@ -18,43 +18,8 @@
   ul.desktop-menu .submenu-wrapper {
     margin-top: 34px;
     .submenu {
-      background: var(--primary-color);
-
       &.active {
-        border-top: 1px solid var(--primary-foreground-color);
-        .close {
-          background: var(--primary-color);
-          color: var(--primary-foreground-color);
-        }
-      }
-
-      .submenu-inner {
-        h2 {
-          color: var(--primary-foreground-color);
-        }
-
-        .submenu-header {
-          h2 {
-            margin-left: 0px;
-            @include add(weight, bold);
-          }
-        }
-
-        .subitem-wrapper {
-          border-left: 1px solid var(--primary-foreground-color);
-
-          > a,
-          li > a {
-            color: var(--primary-foreground-color);
-
-            span {
-              &:hover {
-                border-bottom: 1px solid var(--primary-foreground-color);
-              }
-              color: var(--primary-foreground-color);
-            }
-          }
-        }
+        border-top: 1px solid var(--primary-color);
       }
     }
   }

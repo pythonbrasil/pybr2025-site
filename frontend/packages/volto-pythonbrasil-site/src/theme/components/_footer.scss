@@ -1,4 +1,7 @@
 footer#footer {
+  --social-network-icon-color-main: var(--secondary-foreground-color);
+  padding-top: 1rem;
+  margin-top: 0;
   .footer.main {
     max-width: 100% !important;
     background-color: var(--secondary-color);
@@ -15,7 +18,7 @@ footer#footer {
         padding-left: 0;
         margin: 0;
         list-style: none;
-        li {
+        li.item {
           padding: 0 1em;
           border-left: 1px solid var(--secondary-foreground-color);
           margin: 0.25em 0;
@@ -23,7 +26,7 @@ footer#footer {
           &:first-child {
             border-left: unset;
           }
-          a.item {
+          a {
             color: var(--secondary-foreground-color) !important;
             &:hover {
               color: var(--primary-color) !important;
@@ -38,6 +41,7 @@ footer#footer {
   }
   .post-footer {
     padding: $spacing-small $spacing-medium;
+    background-color: var(--background-color);
     .branding {
       padding: 0 $spacing-small;
       color: var(--text-color) !important;

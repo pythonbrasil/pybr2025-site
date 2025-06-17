@@ -1,0 +1,37 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+  <genericsetup:upgradeSteps
+      profile="pythonbrasil.site:default"
+      source="20250425001"
+      destination="20250616001"
+      >
+    <genericsetup:upgradeStep
+        title="Remove pasta de patrocinio"
+        handler=".remove_pasta_patrocinio"
+        />
+    <genericsetup:upgradeStep
+        title="Remove pasta de agenda"
+        handler=".remove_pasta_agenda"
+        />
+    <genericsetup:upgradeDepends
+        title="Instala collective.techevent"
+        import_profile="profile-collective.techevent:default"
+        />
+    <genericsetup:upgradeDepends
+        title="Aplica comportamento event_settings a raiz do site"
+        import_steps="typeinfo"
+        />
+    <genericsetup:upgradeDepends
+        title="Atualiza configuração de navegação do site"
+        import_steps="plone.app.registry"
+        />
+    <genericsetup:upgradeStep
+        title="Configura collective.techevent"
+        handler=".configura_techevent"
+        />
+  </genericsetup:upgradeSteps>
+
+</configure>
