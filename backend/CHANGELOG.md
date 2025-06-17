@@ -9,6 +9,18 @@
 
 <!-- towncrier release notes start -->
 
+## 20250617.1 (2025-06-17)
+
+
+### New features:
+
+- Adiciona e configura `collective.techevent`. @ericof 
+
+
+### Internal:
+
+- Atualiza `pas.plugins.authomatic` para versão 2.0.0. @ericof 
+
 ## 20250429.3 (2025-04-29)
 
 

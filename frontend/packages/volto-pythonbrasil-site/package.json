@@ -1,6 +1,6 @@
 {
   "name": "@plonegovbr/volto-pythonbrasil-site",
-  "version": "20250429.3.0",
+  "version": "20250617.1.0",
   "description": "Encontro da comunidade Python Brasileira",
   "main": "src/index.js",
   "license": "MIT",

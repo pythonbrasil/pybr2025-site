@@ -7,6 +7,44 @@
 -->
 
 <!-- towncrier release notes start -->
+## 20250617.1 (2025-06-17)
+
+### Backend
+
+
+#### New features:
+
+- Adiciona e configura `collective.techevent`. @ericof 
+
+
+#### Internal:
+
+- Atualiza `pas.plugins.authomatic` para versão 2.0.0. @ericof 
+
+
+
+### Frontend
+
+#### Feature
+
+- Adiciona `@plone-collective/volto-techevent`. @ericof 
+
+#### Internal
+
+- Atualiza `@kitconcept/voltolighttheme` para versão 7.0.0-alpha.10. @ericof 
+- Atualiza `@plone-collective/volto-authomatic` para versão 3.0.0-alpha.3. @ericof 
+- Atualiza `@plone/volto` para versão 18.23.0. @ericof 
+- Update .release-it.json to support new command line option. @ericof 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 20250429.3 (2025-04-29)
 
 ### Backend

@@ -5,7 +5,7 @@ from zope.i18nmessageid import MessageFactory
 import logging
 
 
-__version__ = "20250429.3"
+__version__ = "20250617.1"
 
 PACKAGE_NAME = "pythonbrasil.site"
 
