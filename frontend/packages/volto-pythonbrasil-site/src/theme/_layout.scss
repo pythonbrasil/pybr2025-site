@@ -5,9 +5,19 @@ body {
   background-repeat: repeat-x;
   background-size: 400px;
   &.view-contentsview {
-    background: var(--primary-foreground-color);
+    background: #fff;
     #content {
       padding-top: $spacing-small;
+    }
+  }
+  #page-document {
+    background-color: unset;
+  }
+  #page-add,
+  #page-edit {
+    .form.ui {
+      margin-bottom: $spacing-small;
+      background-color: #fff;
     }
   }
 }

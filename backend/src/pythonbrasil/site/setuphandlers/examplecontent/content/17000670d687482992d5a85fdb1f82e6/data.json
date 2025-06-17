@@ -1,0 +1,341 @@
+{
+  "@id": "/patrocine",
+  "@type": "SponsorsDB",
+  "UID": "17000670d687482992d5a85fdb1f82e6",
+  "allow_discussion": null,
+  "benefits": [
+    {
+      "description": "V\u00eddeo institucional apresentado na abertura / encerramento (1m30s)",
+      "id": "3b1a1e54-ea33-4b5e-a823-4c1f21bba321",
+      "title": "Marca: V\u00eddeo abertura / encerramento"
+    },
+    {
+      "description": "Logo no crach\u00e1",
+      "id": "f74e57ce-5307-48f8-976f-704912947eea",
+      "title": "Marca: Crach\u00e1"
+    },
+    {
+      "description": "V\u00eddeo institucional apresentado na abertura dos keynotes",
+      "id": "0480a40f-de48-4706-8ed4-b2066d82dcb7",
+      "title": "Marca: V\u00eddeo  keynotes"
+    },
+    {
+      "description": "Logo nos elementos de identidade visual f\u00edsicos (banners, pain\u00e9is, salas de palestras)",
+      "id": "62861964-c29e-4ea1-b139-90c50884a541",
+      "title": "Marca: Logo no local do evento"
+    },
+    {
+      "description": "Logo com destaque no site",
+      "id": "50f0be38-488a-4744-8bd1-7e90ebfbb681",
+      "title": "Digital: Destaque no site"
+    },
+    {
+      "description": "Logo nos conte\u00fados digitais do evento (transmiss\u00e3o ao vivo, grava\u00e7\u00f5es no YouTube)",
+      "id": "83700ec1-4229-4467-aacc-03a2e3de17eb",
+      "title": "Digital: Logo em v\u00eddeos"
+    },
+    {
+      "description": "Posts em redes sociais com conte\u00fado enviado pela empresa",
+      "id": "2f9fda0a-32f9-47a0-9ca6-1b6c20caf46a",
+      "title": "Digital: Post personalizado em redes sociais"
+    },
+    {
+      "description": "Posts em redes sociais com conte\u00fado padr\u00e3o de apresenta\u00e7\u00e3o e agradecimento",
+      "id": "b3c20966-701e-44f2-af8c-9436fd78aff7",
+      "title": "Digital: Post agradecimento em redes sociais"
+    },
+    {
+      "description": "Logo no site do evento (diferencia\u00e7\u00e3o de tamanhos por cota)",
+      "id": "750f4e1e-17ea-44f2-8af2-655d99e28a88",
+      "title": "Digital: Logo no site"
+    },
+    {
+      "description": "Estande de 3m x 3m com montagem inclusa",
+      "id": "fbb995d8-a03f-471a-ae93-5da5db6dd3e6",
+      "title": "Intera\u00e7\u00e3o: Estande"
+    },
+    {
+      "description": "Espa\u00e7o reservado na programa\u00e7\u00e3o para atividade (palestra/tutorial) avaliado pela org",
+      "id": "b2193c1b-7bbf-4f27-b495-f4a76793b791",
+      "title": "Intera\u00e7\u00e3o: Atividades"
+    },
+    {
+      "description": "Envio de e-mail para os participantes (vagas, an\u00fancio de produtos)",
+      "id": "162d91e1-1d01-40a0-952f-da40f9c7f9fb",
+      "title": "Intera\u00e7\u00e3o: E-mail"
+    },
+    {
+      "description": "Tempo para apresenta\u00e7\u00e3o com participantes no palco principal",
+      "id": "5c18f964-94bf-407c-914b-83cc0998d6d9",
+      "title": "Intera\u00e7\u00e3o: Palco principal"
+    },
+    {
+      "description": "Adicionar brindes ou produtos nas sacolas dos participantes",
+      "id": "f01b8239-31ff-40fd-9b66-b3c655a2bd5c",
+      "title": "Intera\u00e7\u00e3o: Kit do participante"
+    },
+    {
+      "description": "Ingressos cortesia inclusos na cota",
+      "id": "9d3be2f0-e191-49b0-85a8-ac3b05519b45",
+      "title": "Ingressos: Inclusos"
+    },
+    {
+      "description": "Desconto para ingressos inteiros do lote vigente",
+      "id": "57c3f9de-d97e-4d47-abae-f6e2318c826a",
+      "title": "Ingressos: Desconto"
+    }
+  ],
+  "blocks": {
+    "0f0131a3-a98d-429e-9d6b-a1002be4f529": {
+      "@type": "title"
+    },
+    "639d7a12-bbed-47c7-9cfe-ebd652f3e6c5": {
+      "@type": "gridBlock",
+      "blocks": {
+        "7e44a1dc-8fbb-4623-80f1-894ebf584f5a": {
+          "@type": "teaser",
+          "description": "Presen\u00e7a marcante",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/0b7437380fe441aa8673ceaa662e92c5",
+              "@type": "SponsorLevel",
+              "Description": "Presen\u00e7a marcante",
+              "Subject": [],
+              "Title": "Prata",
+              "description": "Presen\u00e7a marcante",
+              "effective": "2025-06-16T19:20:41+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "hasPreviewImage": false,
+              "head_title": null,
+              "image_field": "preview_image_link",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Prata",
+              "type_title": "Cota de Patroc\u00ednio"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "center"
+          },
+          "theme": "default",
+          "title": "Prata"
+        },
+        "a22d5467-359e-441a-9d2e-b3ef2195a6a9": {
+          "@type": "teaser",
+          "description": "Conquistando espa\u00e7o",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/922ba8ede6da49dc850dc25a7e5061e2",
+              "@type": "SponsorLevel",
+              "Description": "",
+              "Subject": [],
+              "Title": "Bronze",
+              "description": "Conquistando espa\u00e7o",
+              "effective": "2025-06-16T19:20:41+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "preview_image_link",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Bronze",
+              "type_title": "Cota de Patroc\u00ednio"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "center"
+          },
+          "theme": "default",
+          "title": "Bronze"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "7e44a1dc-8fbb-4623-80f1-894ebf584f5a",
+          "a22d5467-359e-441a-9d2e-b3ef2195a6a9"
+        ]
+      },
+      "styles": {},
+      "theme": "grey"
+    },
+    "6fab02e8-5ef5-4fe5-a038-264682e9e84b": {
+      "@type": "sponsorsShowcaseBlock",
+      "styles": {
+        "align:noprefix": {
+          "--block-alignment": "var(--align-center)"
+        }
+      },
+      "title": ""
+    },
+    "9d2ff0dc-670b-464d-9a3b-2e75c17ad07b": {
+      "@type": "gridBlock",
+      "blocks": {
+        "43e9c83b-78ad-43d1-a95e-d647a63fb734": {
+          "@type": "teaser",
+          "description": "Sua marca em destaque!",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/de070eedcb854959a6a4be4d87c083e3",
+              "@type": "SponsorLevel",
+              "Description": "Sua marca em destaque!",
+              "Subject": [],
+              "Title": "Platina",
+              "description": "Sua marca em destaque!",
+              "effective": "2025-06-16T19:20:41+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "preview_image_link",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Platina",
+              "type_title": "Cota de Patroc\u00ednio"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "center"
+          },
+          "theme": "default",
+          "title": "Platina"
+        },
+        "aeb14b8a-9afe-4723-9b2d-928851420ce9": {
+          "@type": "teaser",
+          "description": "Todos os olhos em voc\u00ea",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/cc193578bdf2480c8274e682b06dbfb9",
+              "@type": "SponsorLevel",
+              "Description": "Todos os olhos em voc\u00ea",
+              "Subject": [],
+              "Title": "Ouro",
+              "description": "Todos os olhos em voc\u00ea",
+              "effective": "2025-06-16T19:20:41+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "hasPreviewImage": false,
+              "head_title": null,
+              "image_field": "preview_image_link",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Ouro",
+              "type_title": "Cota de Patroc\u00ednio"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "center"
+          },
+          "theme": "default",
+          "title": "Ouro"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "43e9c83b-78ad-43d1-a95e-d647a63fb734",
+          "aeb14b8a-9afe-4723-9b2d-928851420ce9"
+        ]
+      },
+      "headline": "Cotas de patroc\u00ednio",
+      "styles": {},
+      "theme": "grey"
+    },
+    "a7e78dfc-7a34-40fb-a6f4-13509b2b9177": {
+      "@type": "gridBlock",
+      "blocks": {
+        "9a1b36c6-57bd-406d-9982-3f8a16929fdc": {
+          "@type": "__button",
+          "href": [
+            {
+              "@id": "https://www.canva.com/design/DAGXPOZVdD0/9BKeLRxlSyHevEtM1TXDJQ/view?utm_content=DAGXPOZVdD0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6c1ffd66be",
+              "title": "www.canva.com/design/DAGXPOZVdD0/9BKeLRxlSyHevEtM1TXDJQ/view?utm_content=DAGXPOZVdD0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6c1ffd66be"
+            }
+          ],
+          "inneralign": "center",
+          "styles": {
+            "blockWidth:noprefix": {
+              "--block-width": "var(--narrow-container-width)"
+            }
+          },
+          "title": "Plano de patroc\u00ednio"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "9a1b36c6-57bd-406d-9982-3f8a16929fdc"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "afc606a1-3620-46d1-8ad9-367ad7531ced": {
+      "@type": "description"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "0f0131a3-a98d-429e-9d6b-a1002be4f529",
+      "afc606a1-3620-46d1-8ad9-367ad7531ced",
+      "9d2ff0dc-670b-464d-9a3b-2e75c17ad07b",
+      "639d7a12-bbed-47c7-9cfe-ebd652f3e6c5",
+      "a7e78dfc-7a34-40fb-a6f4-13509b2b9177",
+      "6fab02e8-5ef5-4fe5-a038-264682e9e84b"
+    ]
+  },
+  "created": "2025-06-16T19:06:04+00:00",
+  "description": "Sua organiza\u00e7\u00e3o pode ser parte do maior evento de Python do Brasil",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "patrocine",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-06-17T20:37:40+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "title": "Patrocine",
+  "type_title": "Sponsors Database",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-16T19:06:04+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-16T19:19:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

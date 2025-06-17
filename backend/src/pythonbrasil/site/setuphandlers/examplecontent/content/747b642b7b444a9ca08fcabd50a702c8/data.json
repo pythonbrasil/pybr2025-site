@@ -1,0 +1,40 @@
+{
+  "@id": "/images/sponsor-03-prata.png",
+  "@type": "Image",
+  "UID": "747b642b7b444a9ca08fcabd50a702c8",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2025-06-16T19:30:40+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "sponsor-03-prata.png",
+  "image": {
+    "blob_path": "747b642b7b444a9ca08fcabd50a702c8/image/sponsor-03-prata.png",
+    "content-type": "image/png",
+    "filename": "sponsor-03-prata.png",
+    "height": 1080,
+    "size": 1385575,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2025-06-16T19:30:40+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "sponsor-03-prata.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

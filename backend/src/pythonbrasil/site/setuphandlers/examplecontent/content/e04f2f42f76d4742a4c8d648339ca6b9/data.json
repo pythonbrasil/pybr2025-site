@@ -1,0 +1,40 @@
+{
+  "@id": "/images/sponsor-01-platina.png",
+  "@type": "Image",
+  "UID": "e04f2f42f76d4742a4c8d648339ca6b9",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2025-06-16T19:30:39+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "sponsor-01-platina.png",
+  "image": {
+    "blob_path": "e04f2f42f76d4742a4c8d648339ca6b9/image/sponsor-01-platina.png",
+    "content-type": "image/png",
+    "filename": "sponsor-01-platina.png",
+    "height": 1080,
+    "size": 1558097,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2025-06-16T19:30:39+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "sponsor-01-platina.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

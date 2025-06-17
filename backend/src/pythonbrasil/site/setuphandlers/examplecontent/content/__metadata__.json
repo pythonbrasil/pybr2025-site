@@ -1,7 +1,6 @@
 {
   "__version__": "1.0.0",
   "_blob_files_": [
-    "fa4f3a56ff634ab7a5ebb1f106126dfd/file/2025-pythonbrasil-patrocinio.pdf",
     "0d05308db57c450da4ae80e8a3c47ece/image/logo-slim.svg",
     "8077308bcd7c43f88a5055932ec3cc6b/image/logo-splash.png",
     "2f992ae440894d7191a24d75d669de4a/image/logo.svg",
@@ -9,20 +8,23 @@
     "6fef01c46be34684bb42ac0e4d990a2f/image/pybr2022-plateia.jpg",
     "c630576df3264cb0ad7799d28f52a393/image/pybr2022-treinamento.jpg",
     "c2d0e0645016413f9e5d719b628fb72d/image/pybr2024.jpg",
-    "573e6d9f0eca43b3a8b838c29a1c0053/preview_image/bronze.png",
-    "28be0c28818647be98201618302a142c/preview_image/diamante.png",
-    "f9db2eccb58a4e9eb32b43708a0ebc0a/preview_image/ouro.png",
-    "96fdfa7c97784194b9f4cd0f0819e7f1/preview_image/platina.png",
-    "76b343b1ca41450db2728865ca5d459b/preview_image/prata.png"
+    "c8e59c9637414aeb957e5d8eb7625648/image/apyb.png",
+    "e04f2f42f76d4742a4c8d648339ca6b9/image/sponsor-01-platina.png",
+    "bb8dcc0085c64d9cbc2757a4df392701/image/sponsor-04-bronze.png",
+    "747b642b7b444a9ca08fcabd50a702c8/image/sponsor-03-prata.png",
+    "3ae5a29af55148b2a69e2997155775ce/image/sponsor-02-ouro.png",
+    "4134ad329fa64a24863c48291a9f5668/image/simples.png",
+    "75b28d31bea949fcae586531699f0f88/image/sao-luiz.jpeg"
   ],
   "_data_files_": [
     "plone_site_root/data.json",
-    "fa4f3a56ff634ab7a5ebb1f106126dfd/data.json",
-    "b1279249bca341d78e0762bc2a12094f/data.json",
+    "315a2084d7dd400584a2d47cf87b1c89/data.json",
     "81bb6aa3c33644c296ffbc767b8c05c7/data.json",
     "52e0e3e2d1564eca97eb22eae2fbebbf/data.json",
     "f17ec2cb79cf4a75896ce3a6b5bc8f54/data.json",
     "1e6a267195ba41459ce3a869ac4714f6/data.json",
+    "ac949e0e29524a619dfb4caf015085ba/data.json",
+    "ad3efc4190bd4ac6b1cc077751d473f0/data.json",
     "24689ede20f346c09ce7d50b68ff893b/data.json",
     "aba03e63fe93484685256445d8e4f646/data.json",
     "a720393b3c0240e5bd27c43fcd2cfd1e/data.json",
@@ -33,39 +35,56 @@
     "6fef01c46be34684bb42ac0e4d990a2f/data.json",
     "c630576df3264cb0ad7799d28f52a393/data.json",
     "c2d0e0645016413f9e5d719b628fb72d/data.json",
+    "75b28d31bea949fcae586531699f0f88/data.json",
+    "e04f2f42f76d4742a4c8d648339ca6b9/data.json",
+    "3ae5a29af55148b2a69e2997155775ce/data.json",
+    "747b642b7b444a9ca08fcabd50a702c8/data.json",
+    "bb8dcc0085c64d9cbc2757a4df392701/data.json",
     "64ae8a06559f4255b20152220da6fba3/data.json",
-    "818ea1c0827944c394330a1c3d658866/data.json",
-    "573e6d9f0eca43b3a8b838c29a1c0053/data.json",
-    "28be0c28818647be98201618302a142c/data.json",
-    "f9db2eccb58a4e9eb32b43708a0ebc0a/data.json",
-    "96fdfa7c97784194b9f4cd0f0819e7f1/data.json",
-    "76b343b1ca41450db2728865ca5d459b/data.json"
+    "17000670d687482992d5a85fdb1f82e6/data.json",
+    "922ba8ede6da49dc850dc25a7e5061e2/data.json",
+    "4134ad329fa64a24863c48291a9f5668/data.json",
+    "092354832f23462aa392f34597ce4d39/data.json",
+    "c8e59c9637414aeb957e5d8eb7625648/data.json",
+    "cc193578bdf2480c8274e682b06dbfb9/data.json",
+    "005d63f8dd7b41818ae3e5e2ba1f36d9/data.json",
+    "de070eedcb854959a6a4be4d87c083e3/data.json",
+    "0b7437380fe441aa8673ceaa662e92c5/data.json"
   ],
   "default_page": {},
   "local_permissions": {
+    "005d63f8dd7b41818ae3e5e2ba1f36d9": {},
     "03e3d75a791d4fa98378626ba8f62d07": {},
+    "092354832f23462aa392f34597ce4d39": {},
+    "0b7437380fe441aa8673ceaa662e92c5": {},
     "0d05308db57c450da4ae80e8a3c47ece": {},
+    "17000670d687482992d5a85fdb1f82e6": {},
     "1e6a267195ba41459ce3a869ac4714f6": {},
     "24689ede20f346c09ce7d50b68ff893b": {},
-    "28be0c28818647be98201618302a142c": {},
     "2f992ae440894d7191a24d75d669de4a": {},
+    "315a2084d7dd400584a2d47cf87b1c89": {},
+    "3ae5a29af55148b2a69e2997155775ce": {},
+    "4134ad329fa64a24863c48291a9f5668": {},
     "52e0e3e2d1564eca97eb22eae2fbebbf": {},
-    "573e6d9f0eca43b3a8b838c29a1c0053": {},
     "64ae8a06559f4255b20152220da6fba3": {},
     "6fef01c46be34684bb42ac0e4d990a2f": {},
-    "76b343b1ca41450db2728865ca5d459b": {},
+    "747b642b7b444a9ca08fcabd50a702c8": {},
+    "75b28d31bea949fcae586531699f0f88": {},
     "8077308bcd7c43f88a5055932ec3cc6b": {},
-    "818ea1c0827944c394330a1c3d658866": {},
     "81bb6aa3c33644c296ffbc767b8c05c7": {},
-    "96fdfa7c97784194b9f4cd0f0819e7f1": {},
+    "922ba8ede6da49dc850dc25a7e5061e2": {},
     "a720393b3c0240e5bd27c43fcd2cfd1e": {},
     "aba03e63fe93484685256445d8e4f646": {},
-    "b1279249bca341d78e0762bc2a12094f": {},
+    "ac949e0e29524a619dfb4caf015085ba": {},
+    "ad3efc4190bd4ac6b1cc077751d473f0": {},
+    "bb8dcc0085c64d9cbc2757a4df392701": {},
     "c2d0e0645016413f9e5d719b628fb72d": {},
     "c630576df3264cb0ad7799d28f52a393": {},
+    "c8e59c9637414aeb957e5d8eb7625648": {},
+    "cc193578bdf2480c8274e682b06dbfb9": {},
+    "de070eedcb854959a6a4be4d87c083e3": {},
+    "e04f2f42f76d4742a4c8d648339ca6b9": {},
     "f17ec2cb79cf4a75896ce3a6b5bc8f54": {},
-    "f9db2eccb58a4e9eb32b43708a0ebc0a": {},
-    "fa4f3a56ff634ab7a5ebb1f106126dfd": {},
     "plone_site_root": {
       "Add portal member": {
         "acquire": false,
@@ -119,6 +138,10 @@
           "Authenticated"
         ]
       },
+      "collective.techevent: Add SponsorsDB": {
+        "acquire": false,
+        "roles": []
+      },
       "plone.resource: Export ZIP file": {
         "acquire": false,
         "roles": [
@@ -135,6 +158,13 @@
     }
   },
   "local_roles": {
+    "005d63f8dd7b41818ae3e5e2ba1f36d9": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "03e3d75a791d4fa98378626ba8f62d07": {
       "local_roles": {
         "admin": [
@@ -142,7 +172,28 @@
         ]
       }
     },
+    "092354832f23462aa392f34597ce4d39": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "0b7437380fe441aa8673ceaa662e92c5": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "0d05308db57c450da4ae80e8a3c47ece": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "17000670d687482992d5a85fdb1f82e6": {
       "local_roles": {
         "admin": [
           "Owner"
@@ -169,16 +220,6 @@
         ]
       }
     },
-    "28be0c28818647be98201618302a142c": {
-      "local_roles": {
-        "admin": [
-          "Owner"
-        ],
-        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
-          "Owner"
-        ]
-      }
-    },
     "2f992ae440894d7191a24d75d669de4a": {
       "local_roles": {
         "admin": [
@@ -186,17 +227,28 @@
         ]
       }
     },
-    "52e0e3e2d1564eca97eb22eae2fbebbf": {
+    "315a2084d7dd400584a2d47cf87b1c89": {
       "local_roles": {
         "admin": [
-          "Owner"
-        ],
-        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
           "Owner"
         ]
       }
     },
-    "573e6d9f0eca43b3a8b838c29a1c0053": {
+    "3ae5a29af55148b2a69e2997155775ce": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "4134ad329fa64a24863c48291a9f5668": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "52e0e3e2d1564eca97eb22eae2fbebbf": {
       "local_roles": {
         "admin": [
           "Owner"
@@ -226,27 +278,21 @@
         ]
       }
     },
-    "76b343b1ca41450db2728865ca5d459b": {
+    "747b642b7b444a9ca08fcabd50a702c8": {
       "local_roles": {
         "admin": [
           "Owner"
-        ],
-        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
+        ]
+      }
+    },
+    "75b28d31bea949fcae586531699f0f88": {
+      "local_roles": {
+        "admin": [
           "Owner"
         ]
       }
     },
     "8077308bcd7c43f88a5055932ec3cc6b": {
-      "local_roles": {
-        "admin": [
-          "Owner"
-        ],
-        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
-          "Owner"
-        ]
-      }
-    },
-    "818ea1c0827944c394330a1c3d658866": {
       "local_roles": {
         "admin": [
           "Owner"
@@ -266,12 +312,9 @@
         ]
       }
     },
-    "96fdfa7c97784194b9f4cd0f0819e7f1": {
+    "922ba8ede6da49dc850dc25a7e5061e2": {
       "local_roles": {
         "admin": [
-          "Owner"
-        ],
-        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
           "Owner"
         ]
       }
@@ -293,12 +336,23 @@
         ]
       }
     },
-    "b1279249bca341d78e0762bc2a12094f": {
+    "ac949e0e29524a619dfb4caf015085ba": {
       "local_roles": {
         "admin": [
           "Owner"
-        ],
-        "be1f8aa4-b6c8-48ef-8d37-aa4fd88a4095": [
+        ]
+      }
+    },
+    "ad3efc4190bd4ac6b1cc077751d473f0": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "bb8dcc0085c64d9cbc2757a4df392701": {
+      "local_roles": {
+        "admin": [
           "Owner"
         ]
       }
@@ -323,27 +377,35 @@
         ]
       }
     },
+    "c8e59c9637414aeb957e5d8eb7625648": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "cc193578bdf2480c8274e682b06dbfb9": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "de070eedcb854959a6a4be4d87c083e3": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "e04f2f42f76d4742a4c8d648339ca6b9": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "f17ec2cb79cf4a75896ce3a6b5bc8f54": {
-      "local_roles": {
-        "admin": [
-          "Owner"
-        ],
-        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
-          "Owner"
-        ]
-      }
-    },
-    "f9db2eccb58a4e9eb32b43708a0ebc0a": {
-      "local_roles": {
-        "admin": [
-          "Owner"
-        ],
-        "e9ba8889-9bb3-4d41-9b0f-6c5dfbca6629": [
-          "Owner"
-        ]
-      }
-    },
-    "fa4f3a56ff634ab7a5ebb1f106126dfd": {
       "local_roles": {
         "admin": [
           "Owner"
@@ -362,29 +424,38 @@
     }
   },
   "ordering": {
+    "005d63f8dd7b41818ae3e5e2ba1f36d9": 5,
     "03e3d75a791d4fa98378626ba8f62d07": 2,
+    "092354832f23462aa392f34597ce4d39": 4,
+    "0b7437380fe441aa8673ceaa662e92c5": 2,
     "0d05308db57c450da4ae80e8a3c47ece": 0,
-    "1e6a267195ba41459ce3a869ac4714f6": 3,
-    "24689ede20f346c09ce7d50b68ff893b": 2,
-    "28be0c28818647be98201618302a142c": 0,
+    "17000670d687482992d5a85fdb1f82e6": 45,
+    "1e6a267195ba41459ce3a869ac4714f6": 2,
+    "24689ede20f346c09ce7d50b68ff893b": 1,
     "2f992ae440894d7191a24d75d669de4a": 1,
-    "52e0e3e2d1564eca97eb22eae2fbebbf": 1,
-    "573e6d9f0eca43b3a8b838c29a1c0053": 4,
+    "315a2084d7dd400584a2d47cf87b1c89": 43,
+    "3ae5a29af55148b2a69e2997155775ce": 10,
+    "4134ad329fa64a24863c48291a9f5668": 0,
+    "52e0e3e2d1564eca97eb22eae2fbebbf": 5,
     "64ae8a06559f4255b20152220da6fba3": 44,
     "6fef01c46be34684bb42ac0e4d990a2f": 5,
-    "76b343b1ca41450db2728865ca5d459b": 3,
+    "747b642b7b444a9ca08fcabd50a702c8": 9,
+    "75b28d31bea949fcae586531699f0f88": 11,
     "8077308bcd7c43f88a5055932ec3cc6b": 3,
-    "818ea1c0827944c394330a1c3d658866": 45,
-    "81bb6aa3c33644c296ffbc767b8c05c7": 43,
-    "96fdfa7c97784194b9f4cd0f0819e7f1": 1,
+    "81bb6aa3c33644c296ffbc767b8c05c7": 42,
+    "922ba8ede6da49dc850dc25a7e5061e2": 3,
     "a720393b3c0240e5bd27c43fcd2cfd1e": 41,
-    "aba03e63fe93484685256445d8e4f646": 4,
-    "b1279249bca341d78e0762bc2a12094f": 42,
+    "aba03e63fe93484685256445d8e4f646": 3,
+    "ac949e0e29524a619dfb4caf015085ba": 0,
+    "ad3efc4190bd4ac6b1cc077751d473f0": 0,
+    "bb8dcc0085c64d9cbc2757a4df392701": 8,
     "c2d0e0645016413f9e5d719b628fb72d": 4,
     "c630576df3264cb0ad7799d28f52a393": 6,
-    "f17ec2cb79cf4a75896ce3a6b5bc8f54": 0,
-    "f9db2eccb58a4e9eb32b43708a0ebc0a": 2,
-    "fa4f3a56ff634ab7a5ebb1f106126dfd": 46
+    "c8e59c9637414aeb957e5d8eb7625648": 0,
+    "cc193578bdf2480c8274e682b06dbfb9": 1,
+    "de070eedcb854959a6a4be4d87c083e3": 0,
+    "e04f2f42f76d4742a4c8d648339ca6b9": 7,
+    "f17ec2cb79cf4a75896ce3a6b5bc8f54": 4
   },
   "relations": []
 }

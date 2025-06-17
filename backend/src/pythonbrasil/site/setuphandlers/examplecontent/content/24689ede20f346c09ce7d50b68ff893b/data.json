@@ -12,6 +12,128 @@
       "collapsed": false,
       "data": {
         "blocks": {
+          "02fbff2e-73de-46d7-8c78-0c49c6276397": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "7a3ad61c-e190-446e-a5b2-263a3ac81d53": {
+                "@type": "slate",
+                "plaintext": "Como temos tr\u00eas atividades principais diferentes ao longo dos 7 dias do evento, cada uma delas acontece em um local diferente. Seguem os locais de cada atividade:",
+                "styles": {},
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Como temos tr\u00eas atividades principais diferentes ao longo dos 7 dias do evento, cada uma delas acontece em um local diferente. Seguem os locais de cada atividade:"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "e9972544-5126-45e8-a5ca-9ba10ffe5f46": {
+                "@type": "slate",
+                "plaintext": "Dias 21 a 23 de outubro (tutoriais) - Local a definir  Dias 24 a 26 de outubro (evento principal) - Centro de Eventos S\u00e3o Lu\u00eds, R. Lu\u00eds Coelho, 323 - Consola\u00e7\u00e3o  Dia 27 de outubro (sprints) - Local a definir ",
+                "styles": {},
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "Dias 21 a 23 de outubro (tutoriais) - "
+                          },
+                          {
+                            "children": [
+                              {
+                                "text": "Local a definir"
+                              }
+                            ],
+                            "type": "strong"
+                          },
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Dias 24 a 26 de outubro (evento principal) - "
+                          },
+                          {
+                            "children": [
+                              {
+                                "text": "Centro de Eventos S\u00e3o Lu\u00eds, R. Lu\u00eds Coelho, 323 - Consola\u00e7\u00e3o"
+                              }
+                            ],
+                            "type": "strong"
+                          },
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Dia 27 de outubro (sprints) - "
+                          },
+                          {
+                            "children": [
+                              {
+                                "text": "Local a definir"
+                              }
+                            ],
+                            "type": "strong"
+                          },
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "li"
+                      }
+                    ],
+                    "type": "ol"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "7a3ad61c-e190-446e-a5b2-263a3ac81d53",
+                "e9972544-5126-45e8-a5ca-9ba10ffe5f46"
+              ]
+            },
+            "title": "Em que local de S\u00e3o Paulo acontecer\u00e1 o evento?"
+          },
+          "296f77a1-c5e6-48cf-9ebf-0ad01f1d5115": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "e77dbfe0-7790-4517-abc0-9899996dd81c": {
+                "@type": "slate",
+                "plaintext": "A Python Brasil 2025 acontecer\u00e1 entre os dias 21 a 27 de outubro de 2025.",
+                "styles": {},
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "A Python Brasil 2025 acontecer\u00e1 entre os dias 21 a 27 de outubro de 2025."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "e77dbfe0-7790-4517-abc0-9899996dd81c"
+              ]
+            },
+            "title": "Quando acontecer\u00e1 o evento?"
+          },
           "32a3a802-7461-4ca8-a5d8-e3550ca73407": {
             "@type": "accordionPanel",
             "blocks": {
@@ -38,36 +160,181 @@
             },
             "title": "Quem organiza a Python Brasil?"
           },
-          "dc3ec1b7-96f0-44ef-9772-4f66d778c215": {
+          "5d225a03-9cd3-49c8-92d6-5b7db8ea0710": {
+            "@type": "accordionPanel",
             "blocks": {
-              "31f0d625-b078-422c-8d68-eb354ba36505": {
-                "@type": "slate"
+              "8339f5f3-730e-4f60-9082-b04b52c74bd2": {
+                "@type": "slate",
+                "plaintext": "Cada um dos tr\u00eas tipos de atividades da Python Brasil t\u00eam uma forma de participar diferente:",
+                "styles": {},
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Cada um dos tr\u00eas tipos de atividades da Python Brasil t\u00eam uma forma de participar diferente:"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "94a88e6c-36d8-4ef3-bd34-ae34d0e19cb4": {
+                "@type": "slate",
+                "plaintext": "Os tutoriais s\u00e3o atividades gratuitas que qualquer pessoa pode participar, quando tivermos a grade fechada e estiver mais pr\u00f3ximo da data do evento divulgaremos a abertura dos ingressos para as pessoas participarem. Para ter acesso aos tr\u00eas dias do evento principal \u00e9 preciso comprar o ingresso na plataforma eventbrite por meio desse link . As sprints s\u00e3o atividades gratuitas que qualquer pessoa pode s\u00f3 chegar e participar, sem precisar adquirir ingresso, entretanto \u00e9 poss\u00edvel que o espa\u00e7o dedicado para essa atividade comporte um n\u00famero limitado de pessoas.",
+                "styles": {},
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "Os tutoriais s\u00e3o atividades gratuitas que qualquer pessoa pode participar, quando tivermos a grade fechada e estiver mais pr\u00f3ximo da data do evento divulgaremos a abertura dos ingressos para as pessoas participarem."
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Para ter acesso aos tr\u00eas dias do evento principal \u00e9 preciso comprar o ingresso na plataforma eventbrite por meio desse "
+                          },
+                          {
+                            "children": [
+                              {
+                                "text": "link"
+                              }
+                            ],
+                            "data": {
+                              "url": "https://www.eventbrite.com.br/e/python-brasil-2025-tickets-1051606111187"
+                            },
+                            "type": "link"
+                          },
+                          {
+                            "text": "."
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "As sprints s\u00e3o atividades gratuitas que qualquer pessoa pode s\u00f3 chegar e participar, sem precisar adquirir ingresso, entretanto \u00e9 poss\u00edvel que o espa\u00e7o dedicado para essa atividade comporte um n\u00famero limitado de pessoas."
+                          }
+                        ],
+                        "type": "li"
+                      }
+                    ],
+                    "type": "ol"
+                  }
+                ]
               }
             },
             "blocks_layout": {
               "items": [
-                "31f0d625-b078-422c-8d68-eb354ba36505"
+                "8339f5f3-730e-4f60-9082-b04b52c74bd2",
+                "94a88e6c-36d8-4ef3-bd34-ae34d0e19cb4"
               ]
-            }
+            },
+            "title": "Como participo do evento?"
+          },
+          "dc3ec1b7-96f0-44ef-9772-4f66d778c215": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "01c92162-683e-4776-babf-03c00f44489b": {
+                "@type": "slate",
+                "plaintext": "Entre os dias 21 a 23 teremos os tutoriais. Tutoriais s\u00e3o mini cursos pr\u00e1ticos ministrados pela comunidade Entre os dias 24 a 26 teremos o evento principal com palestras dadas pela comunidade No dia 27 teremos as sprints. Sprints s\u00e3o atividades em conjunto para a contribui\u00e7\u00e3o em reposit\u00f3rios de c\u00f3digo aberto.",
+                "styles": {},
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "Entre os dias 21 a 23 teremos os tutoriais. Tutoriais s\u00e3o mini cursos pr\u00e1ticos ministrados pela comunidade"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Entre os dias 24 a 26 teremos o evento principal com palestras dadas pela comunidade"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "No dia 27 teremos as sprints. Sprints s\u00e3o atividades em conjunto para a contribui\u00e7\u00e3o em reposit\u00f3rios de c\u00f3digo aberto."
+                          }
+                        ],
+                        "type": "li"
+                      }
+                    ],
+                    "type": "ol"
+                  }
+                ]
+              },
+              "31f0d625-b078-422c-8d68-eb354ba36505": {
+                "@type": "slate",
+                "plaintext": "Siim, o evento acontecer\u00e1 entre os dias 21 a 27 de outubro de 2025, mas teremos atividades diferentes em cada dia:",
+                "styles": {},
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Siim, o evento acontecer\u00e1 entre os dias 21 a 27 de outubro de 2025, mas teremos atividades diferentes em cada dia:"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "31f0d625-b078-422c-8d68-eb354ba36505",
+                "01c92162-683e-4776-babf-03c00f44489b"
+              ]
+            },
+            "title": "O evento dura mesmo 7 dias?"
           },
           "f84b13e8-1136-4510-9000-d0b1c4cf7290": {
+            "@type": "accordionPanel",
             "blocks": {
               "149b5491-5191-4a42-88a7-db38134b40f0": {
-                "@type": "slate"
+                "@type": "slate",
+                "plaintext": "Keynotes s\u00e3o pessoas convidadas pela organiza\u00e7\u00e3o do evento para palestrar em um hor\u00e1rio que a \u00fanica atividade acontecendo \u00e9 essa palestra.\nNormalmente s\u00e3o pessoas relevantes para a comunidade python seja t\u00e9cnicamente ou n\u00e3o.",
+                "styles": {},
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Keynotes s\u00e3o pessoas convidadas pela organiza\u00e7\u00e3o do evento para palestrar em um hor\u00e1rio que a \u00fanica atividade acontecendo \u00e9 essa palestra.\nNormalmente s\u00e3o pessoas relevantes para a comunidade python seja t\u00e9cnicamente ou n\u00e3o."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
               }
             },
             "blocks_layout": {
               "items": [
                 "149b5491-5191-4a42-88a7-db38134b40f0"
               ]
-            }
+            },
+            "title": "O que s\u00e3o keynotes?"
           }
         },
         "blocks_layout": {
           "items": [
+            "296f77a1-c5e6-48cf-9ebf-0ad01f1d5115",
+            "dc3ec1b7-96f0-44ef-9772-4f66d778c215",
+            "02fbff2e-73de-46d7-8c78-0c49c6276397",
+            "5d225a03-9cd3-49c8-92d6-5b7db8ea0710",
             "32a3a802-7461-4ca8-a5d8-e3550ca73407",
-            "f84b13e8-1136-4510-9000-d0b1c4cf7290",
-            "dc3ec1b7-96f0-44ef-9772-4f66d778c215"
+            "f84b13e8-1136-4510-9000-d0b1c4cf7290"
           ]
         }
       },
@@ -80,7 +347,19 @@
       "@type": "title"
     },
     "9ebd0467-ee7d-4849-a7c9-63a135634db5": {
-      "@type": "slate"
+      "@type": "slate",
+      "plaintext": "",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
     }
   },
   "blocks_layout": {
@@ -111,7 +390,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2025-01-30T23:12:12+00:00",
+  "modified": "2025-02-28T02:18:46+00:00",
   "preview_caption": null,
   "preview_image": null,
   "review_state": "published",

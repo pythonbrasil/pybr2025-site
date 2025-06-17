@@ -1,0 +1,131 @@
+{
+  "@id": "/evento/local",
+  "@type": "Document",
+  "UID": "ac949e0e29524a619dfb4caf015085ba",
+  "allow_discussion": null,
+  "blocks": {
+    "618a99b7-2665-4bf8-aadc-c71e7689a16a": {
+      "@type": "gridBlock",
+      "blocks": {
+        "c0951022-174f-4782-97bc-3d506f63dbbc": {
+          "@type": "teaser",
+          "description": "As palestras ser\u00e3o realizadas no Centro de Evento S\u00e3o Luiz, na regi\u00e3o da Avenida Paulista",
+          "head_title": "Palestras",
+          "href": [
+            {
+              "@id": "../../resolveuid/ad3efc4190bd4ac6b1cc077751d473f0",
+              "@type": "Venue",
+              "Description": "As palestras ser\u00e3o realizadas no Centro de Evento S\u00e3o Luiz, na regi\u00e3o da Avenida Paulista",
+              "Title": "Centro de Eventos S\u00e3o Lu\u00eds",
+              "effective": "2025-06-17T22:41:12+00:00",
+              "end": null,
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "preview_image_link",
+              "start": null,
+              "title": "Centro de Eventos S\u00e3o Lu\u00eds"
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "align": "center"
+          },
+          "theme": "default",
+          "title": "Dias 24, 25 e 26/10"
+        },
+        "c2aec521-21c9-4832-bb7c-7f1bc38dc6af": {
+          "@type": "empty"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "c0951022-174f-4782-97bc-3d506f63dbbc",
+          "c2aec521-21c9-4832-bb7c-7f1bc38dc6af"
+        ]
+      },
+      "styles": {},
+      "theme": "grey"
+    },
+    "6d52009f-86bc-4b55-8cb6-c9b7aa35cb9b": {
+      "@type": "slate",
+      "plaintext": "",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8d107b52-69b8-412d-9c0a-5bddebb7885e": {
+      "@type": "title"
+    },
+    "fce4a358-3e0e-4a2c-8d82-dacbf091360b": {
+      "@type": "description"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "8d107b52-69b8-412d-9c0a-5bddebb7885e",
+      "fce4a358-3e0e-4a2c-8d82-dacbf091360b",
+      "618a99b7-2665-4bf8-aadc-c71e7689a16a",
+      "6d52009f-86bc-4b55-8cb6-c9b7aa35cb9b"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-06-17T22:38:23+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Saiba como chegar aos locais das atividades da Python Brasil 2025",
+  "effective": "2025-06-17T22:44:53+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "local",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-06-17T22:44:53+00:00",
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Local",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-17T22:38:23+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-17T22:44:53+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

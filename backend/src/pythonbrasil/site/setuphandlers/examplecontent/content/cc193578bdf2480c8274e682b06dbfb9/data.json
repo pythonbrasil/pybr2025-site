@@ -1,0 +1,379 @@
+{
+  "@id": "/patrocine/ouro",
+  "@type": "SponsorLevel",
+  "UID": "cc193578bdf2480c8274e682b06dbfb9",
+  "allow_discussion": null,
+  "benefits": [
+    {
+      "@id": "39d51c33-f33b-4a02-a9cc-81208b886a2f",
+      "code": {
+        "title": "Marca: V\u00eddeo  keynotes",
+        "token": "0480a40f-de48-4706-8ed4-b2066d82dcb7"
+      },
+      "id": "39d51c33-f33b-4a02-a9cc-81208b886a2f",
+      "title": "Marca: V\u00eddeo  keynotes",
+      "value": "30s"
+    },
+    {
+      "@id": "81abf951-d0c5-4dd6-8e98-66187292f877",
+      "code": {
+        "title": "Marca: Logo no local do evento",
+        "token": "62861964-c29e-4ea1-b139-90c50884a541"
+      },
+      "id": "81abf951-d0c5-4dd6-8e98-66187292f877",
+      "title": "Marca: Logo no local do evento",
+      "value": null
+    },
+    {
+      "@id": "6e03db8b-e0e1-41ae-8674-2e89472f8938",
+      "code": {
+        "title": "Digital: Logo em v\u00eddeos",
+        "token": "83700ec1-4229-4467-aacc-03a2e3de17eb"
+      },
+      "id": "6e03db8b-e0e1-41ae-8674-2e89472f8938",
+      "title": "Digital: Logo em v\u00eddeos",
+      "value": null
+    },
+    {
+      "@id": "7f9804c8-0f22-4b0c-b25a-fcc189922d97",
+      "code": {
+        "title": "Digital: Post personalizado em redes sociais",
+        "token": "2f9fda0a-32f9-47a0-9ca6-1b6c20caf46a"
+      },
+      "id": "7f9804c8-0f22-4b0c-b25a-fcc189922d97",
+      "title": "Digital: Post personalizado em redes sociais",
+      "value": "3"
+    },
+    {
+      "@id": "3b3d5ebe-e6a2-47eb-a3cf-70821a2d11c6",
+      "code": {
+        "title": "Digital: Post agradecimento em redes sociais",
+        "token": "b3c20966-701e-44f2-af8c-9436fd78aff7"
+      },
+      "id": "3b3d5ebe-e6a2-47eb-a3cf-70821a2d11c6",
+      "title": "Digital: Post agradecimento em redes sociais",
+      "value": null
+    },
+    {
+      "@id": "79fa197c-143b-4b0b-ac4c-a8dce68f514b",
+      "code": {
+        "title": "Digital: Logo no site",
+        "token": "750f4e1e-17ea-44f2-8af2-655d99e28a88"
+      },
+      "id": "79fa197c-143b-4b0b-ac4c-a8dce68f514b",
+      "title": "Digital: Logo no site",
+      "value": null
+    },
+    {
+      "@id": "01269865-cdc3-47e5-b342-8f9b0fcbf57c",
+      "code": {
+        "title": "Intera\u00e7\u00e3o: Estande",
+        "token": "fbb995d8-a03f-471a-ae93-5da5db6dd3e6"
+      },
+      "id": "01269865-cdc3-47e5-b342-8f9b0fcbf57c",
+      "title": "Intera\u00e7\u00e3o: Estande",
+      "value": null
+    },
+    {
+      "@id": "198cea3a-8e60-4c7d-9fab-fbae89ff2ed5",
+      "code": {
+        "title": "Intera\u00e7\u00e3o: Atividades",
+        "token": "b2193c1b-7bbf-4f27-b495-f4a76793b791"
+      },
+      "id": "198cea3a-8e60-4c7d-9fab-fbae89ff2ed5",
+      "title": "Intera\u00e7\u00e3o: Atividades",
+      "value": null
+    },
+    {
+      "@id": "8892e1f7-f073-49c2-bc68-52449f6bbd32",
+      "code": {
+        "title": "Intera\u00e7\u00e3o: E-mail",
+        "token": "162d91e1-1d01-40a0-952f-da40f9c7f9fb"
+      },
+      "id": "8892e1f7-f073-49c2-bc68-52449f6bbd32",
+      "title": "Intera\u00e7\u00e3o: E-mail",
+      "value": "1"
+    },
+    {
+      "@id": "683884e7-93ff-4933-bd43-e1deedab75d4",
+      "code": {
+        "title": "Intera\u00e7\u00e3o: Palco principal",
+        "token": "5c18f964-94bf-407c-914b-83cc0998d6d9"
+      },
+      "id": "683884e7-93ff-4933-bd43-e1deedab75d4",
+      "title": "Intera\u00e7\u00e3o: Palco principal",
+      "value": "3 minutos"
+    },
+    {
+      "@id": "ea672914-179a-4ef5-a8bf-8b2ec2771a73",
+      "code": {
+        "title": "Intera\u00e7\u00e3o: Kit do participante",
+        "token": "f01b8239-31ff-40fd-9b66-b3c655a2bd5c"
+      },
+      "id": "ea672914-179a-4ef5-a8bf-8b2ec2771a73",
+      "title": "Intera\u00e7\u00e3o: Kit do participante",
+      "value": null
+    },
+    {
+      "@id": "140c5a51-577a-4293-a67f-db21e575742d",
+      "code": {
+        "title": "Ingressos: Inclusos",
+        "token": "9d3be2f0-e191-49b0-85a8-ac3b05519b45"
+      },
+      "id": "140c5a51-577a-4293-a67f-db21e575742d",
+      "title": "Ingressos: Inclusos",
+      "value": "7"
+    },
+    {
+      "@id": "c8ac15f5-653d-400d-a629-1d34cef20d15",
+      "code": {
+        "title": "Ingressos: Desconto",
+        "token": "57c3f9de-d97e-4d47-abae-f6e2318c826a"
+      },
+      "id": "c8ac15f5-653d-400d-a629-1d34cef20d15",
+      "title": "Ingressos: Desconto",
+      "value": "25%"
+    }
+  ],
+  "blocks": {
+    "3ac565a7-8831-4079-90e5-5502d6c63993": {
+      "@type": "sponsorLevelBlock",
+      "displayCTA": true,
+      "href": [
+        {
+          "@id": "../../resolveuid/005d63f8dd7b41818ae3e5e2ba1f36d9",
+          "@type": "Document",
+          "Description": "Garanta a sua vaga na Python Brasil 2025",
+          "Title": "Patrocine agora",
+          "hasPreviewImage": null,
+          "head_title": null,
+          "image_field": "",
+          "title": "Patrocine agora"
+        }
+      ],
+      "label": "Patrocine!",
+      "styles": {
+        "align:noprefix": {
+          "--block-alignment": "var(--align-center)"
+        }
+      },
+      "title": "Seja o primeiro"
+    },
+    "67db731e-1342-4a3b-bc6d-195bfdef8c19": {
+      "@type": "accordion",
+      "collapsed": false,
+      "data": {
+        "blocks": {
+          "24ffd234-53b5-4948-ae79-1422f61c1474": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "19994ff9-faa9-4094-ad09-cbe990bf07bf": {
+                "@type": "slate",
+                "plaintext": "Voc\u00ea poder\u00e1 exibir um v\u00eddeo de 30s em um dos momentos de maior visibilidade do evento:  na abertura dos keynotes, nossas palestras com convidados especiais!",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Voc\u00ea poder\u00e1 exibir um v\u00eddeo de 30s em um dos momentos de maior visibilidade do evento:  na abertura dos keynotes, nossas palestras com convidados especiais!"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "19994ff9-faa9-4094-ad09-cbe990bf07bf"
+              ]
+            },
+            "title": "Todos os olhos em voc\u00ea"
+          },
+          "49f25694-881e-4102-a036-a16159690900": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "4540c587-8ac8-419b-81bd-ac21e09423d7": {
+                "@type": "slate",
+                "plaintext": "Al\u00e9m disso, ela tamb\u00e9m aparecer\u00e1 em propor\u00e7\u00e3o maior nas nossas m\u00eddias impressas (banner de boas vindas, painel de fotos e salas de palestras)",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Al\u00e9m disso, ela tamb\u00e9m aparecer\u00e1 em propor\u00e7\u00e3o maior nas nossas m\u00eddias impressas (banner de boas vindas, painel de fotos e salas de palestras)"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "b042282e-6cfe-4f3b-baeb-c5729d602468": {
+                "@type": "slate",
+                "plaintext": "Sua logo aparecer\u00e1 em nossas transmiss\u00f5es no YouTube, grava\u00e7\u00f5es e intervalos entre as palestras.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Sua logo aparecer\u00e1 em nossas transmiss\u00f5es no YouTube, grava\u00e7\u00f5es e intervalos entre as palestras."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "b042282e-6cfe-4f3b-baeb-c5729d602468",
+                "4540c587-8ac8-419b-81bd-ac21e09423d7"
+              ]
+            },
+            "title": "Sua marca por toda a parte"
+          },
+          "513b0dbf-b5ed-4b07-bca5-14946a0d25c4": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "628c3054-6173-416c-99b8-9d1c07b8e613": {
+                "@type": "slate",
+                "plaintext": "Voc\u00ea poder\u00e1 enviar um e-mail para os participantes doevento anunciando vagas, produtos ou o assunto que lhe interessar!",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Voc\u00ea poder\u00e1 enviar um e-mail para os participantes doevento anunciando vagas, produtos ou o assunto que lhe interessar!"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "87bc49f6-b2bd-4148-887a-482f85a877b3": {
+                "@type": "slate",
+                "plaintext": "Monte um espa\u00e7o dedicado no evento para interagir com os participantes!",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Monte um espa\u00e7o dedicado no evento para interagir com os participantes!"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "ed2fc39a-e4ba-4655-b952-adf0969f75ed": {
+                "@type": "slate",
+                "plaintext": "Ter\u00e1 um espa\u00e7o na programa\u00e7\u00e3o para apresentar umaatividade a ser revisada pela organiza\u00e7\u00e3o",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Ter\u00e1 um espa\u00e7o na programa\u00e7\u00e3o para apresentar umaatividade a ser revisada pela organiza\u00e7\u00e3o"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "87bc49f6-b2bd-4148-887a-482f85a877b3",
+                "628c3054-6173-416c-99b8-9d1c07b8e613",
+                "ed2fc39a-e4ba-4655-b952-adf0969f75ed"
+              ]
+            },
+            "title": "Conquiste a comunidade"
+          },
+          "642211c7-c318-4a76-9cca-4d998f0e790c": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "0957ef69-8300-45f8-ba00-47a8e4f832bc": {
+                "@type": "levelBenefitsBlock",
+                "tableTitle": "Compare",
+                "title": " "
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "0957ef69-8300-45f8-ba00-47a8e4f832bc"
+              ]
+            },
+            "title": "Todos os Benef\u00edcios"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "24ffd234-53b5-4948-ae79-1422f61c1474",
+            "49f25694-881e-4102-a036-a16159690900",
+            "513b0dbf-b5ed-4b07-bca5-14946a0d25c4",
+            "642211c7-c318-4a76-9cca-4d998f0e790c"
+          ]
+        }
+      },
+      "filtering": false,
+      "non_exclusive": false,
+      "right_arrows": true,
+      "styles": {},
+      "theme": "red"
+    },
+    "c25809f5-beb0-4a00-a74d-0c8ba4bf24b4": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "c25809f5-beb0-4a00-a74d-0c8ba4bf24b4",
+      "67db731e-1342-4a3b-bc6d-195bfdef8c19",
+      "3ac565a7-8831-4079-90e5-5502d6c63993"
+    ]
+  },
+  "color": "#000000",
+  "created": "2025-06-16T19:13:19+00:00",
+  "description": "Todos os olhos em voc\u00ea",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "ouro",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-06-17T20:38:31+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "price": "R$40.000,00",
+  "review_state": "published",
+  "title": "Ouro",
+  "type_title": "Sponsorship Level",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-16T19:13:19+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-16T19:20:41+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

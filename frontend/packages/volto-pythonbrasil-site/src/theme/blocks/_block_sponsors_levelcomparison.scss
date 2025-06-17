@@ -1,0 +1,37 @@
+.block.levelComparison {
+  .levelComparison.tableContainer {
+    @include layout-container-width;
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      text-align: left;
+      .cell {
+        vertical-align: middle;
+        &.level {
+          border-left-width: 2px;
+          border-left-style: solid;
+          border-left-color: var(--theme-foreground-color);
+        }
+      }
+      td:first-child,
+      th:first-child {
+        width: 35%;
+      }
+      .benefitRow .cell {
+        padding: 5px 0;
+        &.benefitTitle {
+          .title {
+            @include add(weight, bold);
+          }
+          .description {
+            @include add(weight, light);
+          }
+        }
+        &.benefitValue {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

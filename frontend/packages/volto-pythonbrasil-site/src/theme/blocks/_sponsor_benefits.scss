@@ -1,0 +1,39 @@
+.block.benefits {
+  .benefits.wrapper {
+    .list {
+      .benefit.item {
+        display: flex;
+        flex-direction: row;
+        padding: 0px 0px 3px 0px;
+        .title {
+          flex: 2;
+          margin-right: 5px;
+        }
+        .value {
+          flex: 1;
+          padding-left: $spacing-xsmall;
+        }
+      }
+    }
+  }
+}
+
+.accordion-block {
+  .accordion.ui.fluid {
+    .block.benefits {
+      .benefits.title {
+        display: none;
+      }
+      .benefits.wrapper {
+        .benefit.item {
+          .title,
+          .value {
+            padding: 0.75em 1em;
+            background-color: var(--theme-high-contrast-color);
+            color: var(--theme-low-contrast-foreground-color) !important;
+          }
+        }
+      }
+    }
+  }
+}

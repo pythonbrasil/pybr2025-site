@@ -42,6 +42,7 @@ constraints = [
     { name = "collective-recipe-omelette", specifier = "==2.0.0" },
     { name = "collective-recipe-template", specifier = "==2.2" },
     { name = "collective-recipe-vscode", specifier = "==0.1.9" },
+    { name = "collective-techevent", specifier = "==1.0.0a5" },
     { name = "collective-xmltestreport", specifier = "==2.0.2" },
     { name = "collective-z3cform-datagridfield", specifier = "==3.0.3" },
     { name = "colorama", specifier = "==0.4.6" },
@@ -117,7 +118,7 @@ constraints = [
     { name = "outcome", specifier = "==1.3.0.post0" },
     { name = "overrides", specifier = "==7.7.0" },
     { name = "packaging", specifier = "==24.2" },
-    { name = "pas-plugins-authomatic", specifier = "==2.0.0rc3" },
+    { name = "pas-plugins-authomatic", specifier = "==2.0.0" },
     { name = "paste", specifier = "==3.10.1" },
     { name = "pastedeploy", specifier = "==3.1.0" },
     { name = "pdbpp", specifier = "==0.10.3" },
@@ -233,7 +234,7 @@ constraints = [
     { name = "plone-versioncheck", specifier = "==1.8.2" },
     { name = "plone-volto", specifier = "==5.0.4" },
     { name = "plone-z3cform", specifier = "==2.0.4" },
-    { name = "plonegovbr-socialmedia", specifier = "==2.0.0a5" },
+    { name = "plonegovbr-socialmedia", specifier = ">=2.0.0a5" },
     { name = "plonetheme-barceloneta", specifier = "==3.2.3" },
     { name = "pluggy", specifier = "==1.5.0" },
     { name = "products-btreefolder2", specifier = "==5.1" },
@@ -754,6 +755,23 @@ wheels = [
 ]
 
 [[package]]
+name = "collective-techevent"
+version = "1.0.0a5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "collective-z3cform-datagridfield" },
+    { name = "plone-api" },
+    { name = "plone-restapi" },
+    { name = "plone-volto" },
+    { name = "plonegovbr-socialmedia" },
+    { name = "products-cmfplone" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/79/18/7a9fbc5f84d5f7b24dfde8225c39901fabc0b73b2884ddceafaf78dc0f83/collective_techevent-1.0.0a5.tar.gz", hash = "sha256:d390100880648d61eaab411425ad7b7df1fae677385047a6bc8c1e6196139065", size = 3535526 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/90/24/002f5f4cacfd7c574a58ac1936227632852eade5036a25b246cfa4cca520/collective_techevent-1.0.0a5-py3-none-any.whl", hash = "sha256:c5126f2cc3f079a58a0bafdf98d3bf3f1afd8a431e45b69d092850c27fafa57f", size = 3581370 },
+]
+
+[[package]]
 name = "collective-volto-formsupport"
 version = "3.2.3"
 source = { registry = "https://pypi.org/simple" }
@@ -793,6 +811,27 @@ dependencies = [
     { name = "z3c-jbot" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/40/b2/943899f15dd832e1f004318fa77fa5fe825eebccd237e750efa64c1abd43/collective.volto.otp-1.0.1.tar.gz", hash = "sha256:8b54dd62995a61a0318bed48e4f8f2d4da5984a73d333d6359d425f71a0c58d1", size = 28687 }
+
+[[package]]
+name = "collective-z3cform-datagridfield"
+version = "3.0.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "plone-app-dexterity" },
+    { name = "plone-app-z3cform" },
+    { name = "plone-autoform" },
+    { name = "plone-base" },
+    { name = "plone-dexterity" },
+    { name = "plone-restapi" },
+    { name = "plone-supermodel" },
+    { name = "products-genericsetup" },
+    { name = "setuptools" },
+    { name = "z3c-form" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/2b/69/fb5f0e9828b25fe946b3f65c83e4a8e7618de17252c377b71361ceb5d4a3/collective_z3cform_datagridfield-3.0.3.tar.gz", hash = "sha256:8cd37430680909433fd54c42e2349d5d011877591431af1cb282b7373d27b678", size = 559398 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/61/b8/362a2394c861c0fa66bd471b68b7a4644000c843a17314e992cc74ffdea5/collective.z3cform.datagridfield-3.0.3-py3-none-any.whl", hash = "sha256:645c2323e638cf275776c5ef66171cc24f785e2950ee2469e090c8c8489499d3", size = 391106 },
+]
 
 [[package]]
 name = "colorama"
@@ -1432,7 +1471,7 @@ wheels = [
 
 [[package]]
 name = "pas-plugins-authomatic"
-version = "2.0.0rc3"
+version = "2.0.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "authomatic" },
@@ -1440,9 +1479,9 @@ dependencies = [
     { name = "plone-restapi" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c9/7f/d7ad945decb6d32048d56a5b242ac45f64b1f5bafd2d763c23d950e026a4/pas_plugins_authomatic-2.0.0rc3.tar.gz", hash = "sha256:f7affc49c094380ef612583f3d3c56c8c16fd2cdbfcddac70106b223cb941610", size = 185098 }
+sdist = { url = "https://files.pythonhosted.org/packages/2c/7b/84920c8cb580432134c542a7137c2c3569a182f0a1fb25b1328fa7239995/pas_plugins_authomatic-2.0.0.tar.gz", hash = "sha256:7c6b9eb2558c8ff6aa6703578d6498cf291bd3d5684753ee753e1bf61ccaf709", size = 184905 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/32/b3/15cdc58097dd9a253c5914f455d0254989caeeafe7c073bcbbcc25816525/pas_plugins_authomatic-2.0.0rc3-py3-none-any.whl", hash = "sha256:9e90e35ae92a3edc76611f71a8b5f2c91889c8f26707b8c559ea60e9ea2fc6f2", size = 62851 },
+    { url = "https://files.pythonhosted.org/packages/e8/52/4ff1fe71cffc3a9318c314115899172b18b46cf3c684767d0f3e1f204f7e/pas_plugins_authomatic-2.0.0-py3-none-any.whl", hash = "sha256:41ce9149c93dc1ddec5098a1a7a4b8c737662d3454d3499ad237430619a2b853", size = 62564 },
 ]
 
 [[package]]
@@ -4370,6 +4409,7 @@ name = "pythonbrasil-site"
 source = { editable = "." }
 dependencies = [
     { name = "collective-honeypot" },
+    { name = "collective-techevent" },
     { name = "collective-volto-formsupport" },
     { name = "pas-plugins-authomatic" },
     { name = "plone-api" },
@@ -4405,8 +4445,9 @@ test = [
 [package.metadata]
 requires-dist = [
     { name = "collective-honeypot" },
+    { name = "collective-techevent", specifier = "==1.0.0a5" },
     { name = "collective-volto-formsupport" },
-    { name = "pas-plugins-authomatic", specifier = "==2.0.0rc3" },
+    { name = "pas-plugins-authomatic", specifier = "==2.0.0" },
     { name = "plone-api" },
     { name = "plone-app-discussion" },
     { name = "plone-app-upgrade" },

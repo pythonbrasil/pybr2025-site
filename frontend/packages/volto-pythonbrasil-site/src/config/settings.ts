@@ -17,7 +17,7 @@ export default function install(config: ConfigType) {
       GET_CONTENT: ['inherit'],
       querystring: {
         'expand.inherit.behaviors':
-          'plonegovbr.socialmedia.settings,pythonbrasil.footer',
+          'collective.techevent.event_settings,plonegovbr.socialmedia.settings,pythonbrasil.footer',
       },
     },
   ];

@@ -1,0 +1,163 @@
+{
+  "@id": "/agenda",
+  "@type": "Schedule",
+  "UID": "315a2084d7dd400584a2d47cf87b1c89",
+  "allow_discussion": null,
+  "blocks": {
+    "0919ff75-2480-4e88-a70f-e882c8f6417d": {
+      "@type": "gridBlock",
+      "blocks": {
+        "993f8a1c-5b7e-4904-b7d1-be62764b83fe": {
+          "@type": "teaser",
+          "description": "As palestras ser\u00e3o realizadas no Centro de Evento S\u00e3o Luiz, na regi\u00e3o da Avenida Paulista",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/ad3efc4190bd4ac6b1cc077751d473f0",
+              "@type": "Venue",
+              "Description": "As palestras ser\u00e3o realizadas no Centro de Evento S\u00e3o Luiz, na regi\u00e3o da Avenida Paulista",
+              "Subject": [],
+              "Title": "Centro de Eventos S\u00e3o Lu\u00eds",
+              "description": "As palestras ser\u00e3o realizadas no Centro de Evento S\u00e3o Luiz, na regi\u00e3o da Avenida Paulista",
+              "effective": "2025-06-17T22:41:12+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "preview_image_link",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Centro de Eventos S\u00e3o Lu\u00eds",
+              "type_title": "Local"
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Centro de Eventos S\u00e3o Lu\u00eds"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "993f8a1c-5b7e-4904-b7d1-be62764b83fe"
+        ]
+      },
+      "headline": "Local",
+      "styles": {},
+      "theme": "grey"
+    },
+    "2db27e83-e9ac-4fc5-a2cd-017c16c49a55": {
+      "@type": "slate",
+      "plaintext": "Entre os dias 21 a 23 teremos os tutoriais. Tutoriais s\u00e3o mini cursos pr\u00e1ticos ministrados pela comunidade Entre os dias 24 a 26 teremos o evento principal com palestras dadas pela comunidade No dia 27 teremos as sprints. Sprints s\u00e3o atividades em conjunto para a contribui\u00e7\u00e3o em reposit\u00f3rios de c\u00f3digo aberto",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Entre os dias 21 a 23 teremos os tutoriais. Tutoriais s\u00e3o mini cursos pr\u00e1ticos ministrados pela comunidade"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Entre os dias 24 a 26 teremos o evento principal com palestras dadas pela comunidade"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "No dia 27 teremos as sprints. Sprints s\u00e3o atividades em conjunto para a contribui\u00e7\u00e3o em reposit\u00f3rios de c\u00f3digo aberto"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ol"
+        }
+      ]
+    },
+    "4f0520a7-e000-42c9-9015-59d8acd3fbbf": {
+      "@type": "slate"
+    },
+    "6ce877c3-00bd-44d2-8578-d53f55986ead": {
+      "@type": "slate",
+      "plaintext": "A divis\u00e3o de atividades vai ser:",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A divis\u00e3o de atividades vai ser:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b9554437-b1a0-4867-be7b-084d79082326": {
+      "@type": "description"
+    },
+    "ba566acc-ff6e-41fa-8f59-2153b5417eb4": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "ba566acc-ff6e-41fa-8f59-2153b5417eb4",
+      "b9554437-b1a0-4867-be7b-084d79082326",
+      "6ce877c3-00bd-44d2-8578-d53f55986ead",
+      "2db27e83-e9ac-4fc5-a2cd-017c16c49a55",
+      "0919ff75-2480-4e88-a70f-e882c8f6417d",
+      "4f0520a7-e000-42c9-9015-59d8acd3fbbf"
+    ]
+  },
+  "created": "2025-06-17T22:51:41+00:00",
+  "description": "Entre 21 e 27 de outubro, S\u00e3o Paulo receber\u00e1 a Python Brasil",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "agenda",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-06-17T22:53:25+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "title": "Agenda",
+  "type_title": "Schedule",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-17T22:51:41+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-17T22:53:25+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}
