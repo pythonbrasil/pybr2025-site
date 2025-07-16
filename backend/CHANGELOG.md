@@ -9,6 +9,15 @@
 
 <!-- towncrier release notes start -->
 
+## 20250716.1 (2025-07-16)
+
+
+### Internal:
+
+- Upgrade Products.CMFPlone to version 6.1.2. @ericof 
+- Upgrade collective.techevent to version 1.0.0a9. @ericof 
+- Upgrade plonegovbr.socialmedia to version 2.0.0a6. @ericof 
+
 ## 20250617.1 (2025-06-17)
 
 

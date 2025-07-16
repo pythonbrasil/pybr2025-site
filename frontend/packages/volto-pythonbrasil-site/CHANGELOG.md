@@ -8,6 +8,13 @@
 
 <!-- towncrier release notes start -->
 
+## 20250716.1.0 (2025-07-16)
+
+### Internal
+
+- Upgrade @kitconcept/volto-light-theme to version 7.0.0-alpha.14. @ericof 
+- Upgrade @plone-collective/volto-techevent to version 1.0.0-alpha.9. @ericof 
+
 ## 20250617.1.0 (2025-06-17)
 
 ### Feature

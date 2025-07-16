@@ -7,6 +7,35 @@
 -->
 
 <!-- towncrier release notes start -->
+## 20250716.1 (2025-07-16)
+
+### Backend
+
+
+#### Internal:
+
+- Upgrade Products.CMFPlone to version 6.1.2. @ericof 
+- Upgrade collective.techevent to version 1.0.0a9. @ericof 
+- Upgrade plonegovbr.socialmedia to version 2.0.0a6. @ericof 
+
+
+
+### Frontend
+
+#### Internal
+
+- Upgrade @kitconcept/volto-light-theme to version 7.0.0-alpha.14. @ericof 
+- Upgrade @plone-collective/volto-techevent to version 1.0.0-alpha.9. @ericof 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 20250617.1 (2025-06-17)
 
 ### Backend
