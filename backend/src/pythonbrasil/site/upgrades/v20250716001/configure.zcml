@@ -1,0 +1,21 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+  <genericsetup:upgradeSteps
+      profile="pythonbrasil.site:default"
+      source="20250616001"
+      destination="20250716001"
+      >
+    <genericsetup:upgradeStep
+        title="Atualiza Plone para 6.1.2"
+        handler=".upgrade_plone"
+        />
+    <genericsetup:upgradeStep
+        title="Atualiza collective.techevent para 1.0.0a9"
+        handler=".upgrade_techevent"
+        />
+  </genericsetup:upgradeSteps>
+
+</configure>
