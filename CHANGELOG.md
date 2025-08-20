@@ -7,6 +7,33 @@
 -->
 
 <!-- towncrier release notes start -->
+## 20250820.1 (2025-08-20)
+
+### Backend
+
+
+#### New features:
+
+- Update collective.techevent to version 1.0.0a16. @ericof 
+
+
+
+### Frontend
+
+#### Feature
+
+- Update @kitconcept/volto-light-theme to version 7.0.0-alpha.22. @ericof 
+- Update @plone-collective/volto-techevent to version 1.0.0-alpha.16. @ericof 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 20250716.1 (2025-07-16)
 
 ### Backend

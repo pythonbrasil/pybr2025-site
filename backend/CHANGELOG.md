@@ -9,6 +9,13 @@
 
 <!-- towncrier release notes start -->
 
+## 20250820.1 (2025-08-20)
+
+
+### New features:
+
+- Update collective.techevent to version 1.0.0a16. @ericof 
+
 ## 20250716.1 (2025-07-16)
 
 
