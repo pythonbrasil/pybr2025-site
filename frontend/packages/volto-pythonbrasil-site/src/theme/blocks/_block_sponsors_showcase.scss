@@ -17,8 +17,12 @@
     > .bronze.sponsorTile {
       @include sponsor-size-06;
     }
-    > .apoio.sponsorTile {
-      @include sponsor-size-05;
+    > .apoiador.sponsorTile {
+      @include sponsor-size-06;
+    }
+    > .comunidade.sponsorTile {
+      max-width: 120px;
+      max-height: 90px;
     }
     > .organizacao.sponsorTile {
       @include sponsor-size-04;

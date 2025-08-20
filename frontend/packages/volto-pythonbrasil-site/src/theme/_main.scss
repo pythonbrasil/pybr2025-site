@@ -7,6 +7,10 @@
 @import 'components/navigation';
 @import 'components/breadcrumbs';
 @import 'components/footer';
+@import 'components/login';
+@import 'components/presenter_category';
+@import 'components/presenter_view';
+@import 'components/sponsor_view';
 @import 'blocks/accordion';
 @import 'blocks/description';
 @import 'blocks/button';
@@ -15,6 +19,7 @@
 @import 'blocks/gridblock';
 @import 'blocks/gridCTA';
 @import 'blocks/heading';
+@import 'blocks/listing';
 @import 'blocks/chamada';
 @import 'blocks/image';
 @import 'blocks/block_sponsorlevel';

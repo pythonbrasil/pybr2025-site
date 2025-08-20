@@ -1,0 +1,29 @@
+.block.listing {
+  &.summary {
+    .items {
+      .listing-item {
+        .card .card-inner {
+          align-items: center;
+          .image-wrapper {
+            img {
+              aspect-ratio: 1/1 !important;
+            }
+          }
+          .card-summary {
+            h3.title {
+              color: var(--theme-foreground-color) !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.grid {
+    .presenterTile {
+      .presenterImage {
+        border-radius: 10%;
+        filter: drop-shadow(2px 2px var(--secondary-color));
+      }
+    }
+  }
+}

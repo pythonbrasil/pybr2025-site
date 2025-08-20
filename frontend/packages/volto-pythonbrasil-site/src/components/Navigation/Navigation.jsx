@@ -1,5 +1,4 @@
 // SemanticUI-free pre-@plone/components
-
 import React, { useState, useEffect, useRef } from 'react';
 import { useDispatch, useSelector, shallowEqual } from 'react-redux';
 import { NavLink } from 'react-router-dom';

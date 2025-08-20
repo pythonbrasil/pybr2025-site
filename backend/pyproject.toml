@@ -32,7 +32,7 @@ dependencies = [
     "collective.volto.formsupport",
     "pas.plugins.authomatic==2.0.0",
     "collective.honeypot",
-    "collective.techevent==1.0.0a9",
+    "collective.techevent==1.0.0a16",
     "plone.app.upgrade",
     "plone.app.discussion",
 ]
@@ -105,7 +105,7 @@ constraint-dependencies = [
     "collective.recipe.omelette==2.0.0",
     "collective.recipe.template==2.2",
     "collective.recipe.vscode==0.1.9",
-    "collective.techevent==1.0.0a9",
+    "collective.techevent==1.0.0a16",
     "collective.xmltestreport==2.0.2",
     "collective.z3cform.datagridfield==3.0.4",
     "colorama==0.4.6",
