@@ -2,13 +2,13 @@ import { useIntl } from 'react-intl';
 import messages from '@plonegovbr/volto-pythonbrasil-site/messages';
 import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
 import LogoFullImage from './logo.svg';
-import LogoSlimImage from './logo-slim.svg';
 import LogoDataImage from './logo-data.svg';
 
 const LogoImg = ({ intl, logo }) => {
   return (
     <img
       src={logo}
+      height={'140px'}
       alt={intl.formatMessage(messages.site)}
       title={intl.formatMessage(messages.site)}
     />

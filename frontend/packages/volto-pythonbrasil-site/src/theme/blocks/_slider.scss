@@ -1,0 +1,61 @@
+.block.slider {
+  .slider-wrapper {
+    .teaser-item-title {
+      bottom: 20px;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      padding-bottom: $spacing-xsmall;
+      background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(30, 30, 30, 70) 60%,
+        rgba(0, 0, 0, 1) 100%
+      );
+      color: white;
+      transform: unset;
+      .title {
+        width: 50%;
+        h2 {
+          @include add(size, 2xl);
+          @include add(height, 2xl);
+        }
+      }
+      p {
+        width: 90%;
+      }
+      @media only screen and (max-width: $tablet-breakpoint) {
+        min-height: 250px;
+        padding-top: $spacing-xsmall;
+        .title {
+          width: 100%;
+          h2 {
+            @include add(size, l);
+            @include add(height, l);
+          }
+        }
+        p {
+          display: none;
+        }
+      }
+      &.has--slider--flagAlign--left {
+        align-items: flex-start;
+      }
+      &.has--slider--flagAlign--right {
+        align-items: flex-end;
+        .title {
+          text-align: right;
+        }
+        p {
+          text-align: right;
+        }
+        @media only screen and (max-width: $tablet-breakpoint) {
+          align-items: flex-start;
+          .title {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}

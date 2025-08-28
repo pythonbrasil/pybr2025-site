@@ -21,6 +21,7 @@ declare module '@plone/types' {
     accordion: BlockConfigBase;
     gridCTA: BlockConfigBase;
     chamadaBlock: BlockConfigBase;
+    slider: BlockConfigBase;
   }
   export interface BlockConfigBase {
     themes?: StyleDefinition[];
@@ -146,6 +147,9 @@ export default function install(config: ConfigType) {
     composeSchema(defaultStylingSchema);
   config.blocks.blocksConfig.image.schemaEnhancer =
     composeSchema(defaultStylingSchema);
+
+  // Configure Slider
+  config.blocks.blocksConfig.slider.enableAutoPlay = true;
 
   config.blocks.blocksConfig.accordion = {
     ...config.blocks.blocksConfig.accordion,

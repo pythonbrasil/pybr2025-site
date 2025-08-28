@@ -171,3 +171,38 @@ $color-block-change-vertical-spacing: $spacing-large !default;
     }
   }
 }
+
+@mixin cardContainerSessionGrid() {
+  border: 1px solid var(--theme-high-contrast-color);
+  filter: drop-shadow(2px 2px var(--secondary-color));
+  &:hover {
+    border: 1px solid var(--theme-foreground-color);
+  }
+  .sessionTitle {
+    .title {
+      @include add(size, m);
+      @include add(height, m);
+    }
+  }
+  .sessionDescription {
+    @include add(size, s);
+    @include add(height, s);
+  }
+  .sessionHeader {
+    justify-content: space-between;
+  }
+  .sessionBody {
+    height: 45px;
+    .presenters {
+      @include add(size, xs);
+      @include add(height, xs);
+      .presenter {
+        display: inline;
+        text-decoration: none;
+        @include add(size, xs);
+        @include add(height, xs);
+        @include add(weight, bold);
+      }
+    }
+  }
+}

@@ -19,6 +19,9 @@
     }
   }
   &.grid {
+    .card-container.session {
+      @include cardContainerSessionGrid();
+    }
     .presenterTile {
       .presenterImage {
         border-radius: 10%;
