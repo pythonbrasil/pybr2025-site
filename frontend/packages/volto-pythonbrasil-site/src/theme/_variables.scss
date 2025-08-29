@@ -172,6 +172,13 @@ $color-block-change-vertical-spacing: $spacing-large !default;
   }
 }
 
+// Presenter
+@mixin presenterImage() {
+  border-radius: 10%;
+  filter: drop-shadow(3px 3px var(--secondary-color));
+}
+
+// Session
 @mixin cardContainerSessionGrid() {
   border: 1px solid var(--theme-high-contrast-color);
   filter: drop-shadow(2px 2px var(--secondary-color));

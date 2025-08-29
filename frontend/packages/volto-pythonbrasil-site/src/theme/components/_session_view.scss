@@ -7,6 +7,11 @@
   }
   .sessionPresenters {
     .presenterTile {
+      .imgWrapper {
+        .presenterImage {
+          @include presenterImage();
+        }
+      }
       .presenterTitle {
         .title {
           --secondary-foreground-color: var(--secondary-color);

@@ -33,6 +33,11 @@ body header.header-wrapper {
       padding-top: 0;
       padding-bottom: 0;
     }
+    .navigation {
+      .item {
+        @include add(size, l);
+      }
+    }
     // Mobile Navigation
     .mobile-nav {
       div.menu-drawer {
