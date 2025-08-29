@@ -1,0 +1,19 @@
+.block.search {
+  &.grid {
+    .listing-item {
+      max-height: 450px;
+      .card-container.session {
+        @include cardContainerSessionGrid();
+      }
+    }
+  }
+  .searchBlock-container {
+    .react-select__menu {
+      z-index: 50;
+      padding-left: $spacing-xsmall;
+      border: 1px solid var(--border-color);
+      background-color: var(--background-color) !important;
+      filter: drop-shadow(2px 2px var(--secondary-color));
+    }
+  }
+}

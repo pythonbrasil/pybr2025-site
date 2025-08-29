@@ -1,5 +1,6 @@
 // Header wrapper
 body header.header-wrapper {
+  max-width: 100%;
   margin-top: $spacing-small;
   .header.layout {
     .search-wrapper {
@@ -15,9 +16,6 @@ body header.header-wrapper {
         }
       }
     }
-  }
-  .header.layout {
-    max-width: 100%;
     .logo {
       display: flex;
       max-width: unset;
@@ -35,19 +33,24 @@ body header.header-wrapper {
       padding-top: 0;
       padding-bottom: 0;
     }
-  }
-  // Mobile Navigation
-  .mobile-nav {
-    div.menu-drawer {
-      .search-header {
-        display: none;
+    .navigation {
+      .item {
+        @include add(size, l);
       }
     }
-    .hamburger:before,
-    .hamburger::after,
-    .hamburger-inner:after,
-    .hamburger-inner::before {
-      background-color: var(--primary-foreground-color);
+    // Mobile Navigation
+    .mobile-nav {
+      div.menu-drawer {
+        .search-header {
+          display: none;
+        }
+      }
+      .hamburger:before,
+      .hamburger::after,
+      .hamburger-inner:after,
+      .hamburger-inner::before {
+        background-color: var(--primary-color);
+      }
     }
   }
 }

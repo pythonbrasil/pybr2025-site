@@ -7,6 +7,12 @@
           --primary-foreground-color
         );
       }
+      &.instructor {
+        --techevent-presenter-category-background-color: var(--secondary-color);
+      }
+      &.speaker {
+        --techevent-presenter-category-background-color: var(--secondary-color);
+      }
     }
   }
 }

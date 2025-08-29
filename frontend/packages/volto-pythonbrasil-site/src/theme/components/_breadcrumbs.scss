@@ -6,8 +6,8 @@ body #main {
     }
     .breadcrumb {
       max-width: var(--default-container-width);
-      margin-right: 5px;
-      margin-left: 5px;
+      margin-right: auto;
+      margin-left: auto;
       text-transform: uppercase;
       .section {
         @include add(size, s);

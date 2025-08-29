@@ -1,30 +1,5 @@
 body.siteroot {
   background-color: var(--background-color);
-  .header-wrapper {
-    margin-top: $spacing-medium;
-    .logo-nav-wrapper {
-      height: 140px;
-      .logo {
-        display: none !important;
-      }
-    }
-    @media only screen and (max-width: $tablet-breakpoint) {
-      margin-top: $spacing-small;
-      .logo-nav-wrapper {
-        height: 100px;
-        .logo {
-          display: flex !important;
-          flex: 0 1 0;
-          img {
-            height: 100px;
-          }
-        }
-      }
-      .menu-drawer {
-        top: calc(100px + 1rem);
-      }
-    }
-  }
   #page-document {
     .blocks-group-wrapper:first-child {
       padding-top: 60px;

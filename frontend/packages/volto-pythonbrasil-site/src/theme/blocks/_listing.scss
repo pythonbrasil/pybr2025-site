@@ -15,14 +15,25 @@
             }
           }
         }
+        &.presenter-listing {
+          .card .card-inner {
+            .image-wrapper {
+              img {
+                @include presenterImage();
+              }
+            }
+          }
+        }
       }
     }
   }
   &.grid {
+    .card-container.session {
+      @include cardContainerSessionGrid();
+    }
     .presenterTile {
       .presenterImage {
-        border-radius: 10%;
-        filter: drop-shadow(2px 2px var(--secondary-color));
+        @include presenterImage();
       }
     }
   }

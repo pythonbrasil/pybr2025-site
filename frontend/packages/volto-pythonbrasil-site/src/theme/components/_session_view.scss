@@ -1,0 +1,22 @@
+.session-view {
+  .sessionInfo {
+    margin-bottom: $spacing-small;
+    --techevent-slotInfo-color: var(--secondary-foreground-color);
+    background-color: var(--secondary-color);
+    color: var(--secondary-foreground-color);
+  }
+  .sessionPresenters {
+    .presenterTile {
+      .imgWrapper {
+        .presenterImage {
+          @include presenterImage();
+        }
+      }
+      .presenterTitle {
+        .title {
+          --secondary-foreground-color: var(--secondary-color);
+        }
+      }
+    }
+  }
+}

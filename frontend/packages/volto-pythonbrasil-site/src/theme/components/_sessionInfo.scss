@@ -1,0 +1,23 @@
+.sessionInfo {
+  min-height: 30px;
+  .sessionInfoItem {
+    &.sessionLanguage {
+      width: 20px;
+      min-height: 20px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      &.en {
+        background-image: url('../static/en.png');
+      }
+      &.es {
+        background-image: url('../static/es.png');
+      }
+      &.pt-br {
+        background-image: url('../static/pt-br.png');
+      }
+      .token {
+        display: none;
+      }
+    }
+  }
+}
