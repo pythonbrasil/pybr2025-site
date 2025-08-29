@@ -9,6 +9,14 @@
 
 <!-- towncrier release notes start -->
 
+## 20250829.1 (2025-08-29)
+
+
+### New features:
+
+- Update collective.techevent to version 1.0.0a18. @ericof 
+- Update plone.restapi to version 9.15.2. @ericof 
+
 ## 20250820.1 (2025-08-20)
 
 

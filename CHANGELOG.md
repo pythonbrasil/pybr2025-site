@@ -7,6 +7,35 @@
 -->
 
 <!-- towncrier release notes start -->
+## 20250829.1 (2025-08-29)
+
+### Backend
+
+
+#### New features:
+
+- Update collective.techevent to version 1.0.0a18. @ericof 
+- Update plone.restapi to version 9.15.2. @ericof 
+
+
+
+### Frontend
+
+#### Feature
+
+- Altera logo da navegação. @ericof 
+- Melhoria de estilos para navegação em dispositivos móveis. @ericof 
+- Update @plone-collective/volto-techevent to version 1.0.0-alpha.18. @ericof 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 20250820.1 (2025-08-20)
 
 ### Backend

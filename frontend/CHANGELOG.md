@@ -8,6 +8,14 @@
 
 <!-- towncrier release notes start -->
 
+## 20250829.1.0 (2025-08-29)
+
+### Feature
+
+- Altera logo da navegação. @ericof 
+- Melhoria de estilos para navegação em dispositivos móveis. @ericof 
+- Update @plone-collective/volto-techevent to version 1.0.0-alpha.18. @ericof 
+
 ## 20250820.1.0 (2025-08-20)
 
 ### Feature
