@@ -49,6 +49,9 @@
   /// Sponsors
   --techevent-sponsortile-background-main: #fff;
 
+  /// Schedule
+  --techevent-schedule-color: var(--accent-color);
+  --techevent-schedule-reverse-color: var(--accent-foreground-color);
   // Fonts
   --font-weight-thin: 100;
   --font-weight-extra-light: 200;
