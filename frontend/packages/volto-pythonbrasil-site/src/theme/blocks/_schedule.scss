@@ -1,0 +1,13 @@
+#main .schedule {
+  .timeslot {
+    &.rows-10 .sessionTile {
+      min-height: 30rem * 0.75;
+    }
+    &.rows-12 .sessionTile {
+      min-height: 30rem * 0.75;
+    }
+    &.rows-14 .sessionTile {
+      min-height: 30rem * 0.75;
+    }
+  }
+}
