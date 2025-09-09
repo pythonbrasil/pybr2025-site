@@ -8,6 +8,13 @@
 
 <!-- towncrier release notes start -->
 
+## 20250909.1.0 (2025-09-09)
+
+### Feature
+
+- Modifica a cor de fundo para um tom de cinza mais claro. @ericof 
+- Upgrade @plone-collective/volto-techevent to 1.0.0-alpha.19. @ericof 
+
 ## 20250829.1.0 (2025-08-29)
 
 ### Feature

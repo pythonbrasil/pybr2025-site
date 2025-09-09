@@ -7,6 +7,33 @@
 -->
 
 <!-- towncrier release notes start -->
+## 20250909.1 (2025-09-09)
+
+### Backend
+
+
+#### New features:
+
+- Upgrade collective.techevent to 1.0.0a19. @ericof 
+
+
+
+### Frontend
+
+#### Feature
+
+- Modifica a cor de fundo para um tom de cinza mais claro. @ericof 
+- Upgrade @plone-collective/volto-techevent to 1.0.0-alpha.19. @ericof 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 20250829.1 (2025-08-29)
 
 ### Backend

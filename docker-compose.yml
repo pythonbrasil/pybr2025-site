@@ -33,7 +33,7 @@ services:
       - --api
 
   frontend:
-    image: ghcr.io/pythonbrasil/pybr25-site-frontend:${IMAGE_VERSION:-20250829.1}
+    image: ghcr.io/pythonbrasil/pybr25-site-frontend:${IMAGE_VERSION:-20250909.1}
     platform: linux/amd64
     environment:
       RAZZLE_INTERNAL_API_PATH: http://backend:8080/Plone
@@ -53,7 +53,7 @@ services:
       - traefik.http.routers.rt-frontend-public.middlewares=gzip
 
   backend:
-    image: ghcr.io/pythonbrasil/pybr25-site-backend:${IMAGE_VERSION:-20250829.1}
+    image: ghcr.io/pythonbrasil/pybr25-site-backend:${IMAGE_VERSION:-20250909.1}
     platform: linux/amd64
     environment:
       RELSTORAGE_DSN: "dbname='${DB_NAME:-plone}' user='${DB_NAME:-plone}' host='${DB_HOST:-db}' password='${DB_PASSWORD:-MCfLPlcVlekH}' port='${DB_PORT:-5432}'"
