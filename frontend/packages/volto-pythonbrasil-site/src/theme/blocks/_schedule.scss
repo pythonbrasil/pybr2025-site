@@ -10,4 +10,16 @@
       min-height: 30rem * 0.75;
     }
   }
+  @media only screen and (min-width: $tablet-breakpoint) {
+    .tab-content {
+      grid-gap: 1rem 0.2rem !important;
+      .sessionTile {
+        .sessionInfo {
+          .sessionInfoItem.slotRoom {
+            display: none;
+          }
+        }
+      }
+    }
+  }
 }
