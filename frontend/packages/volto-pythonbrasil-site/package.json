@@ -48,7 +48,7 @@
     "@plone/registry": "workspace:*",
     "@eeacms/volto-matomo": "*",
     "@eeacms/volto-statistic-block": "*",
-    "@plone-collective/volto-techevent": "1.0.0-alpha.19",
+    "@plone-collective/volto-techevent": "1.0.0-alpha.21",
     "@kitconcept/volto-light-theme": "7.0.0-alpha.22",
     "@kitconcept/volto-social-blocks": "1.0.0-alpha.8",
     "@mbarde/volto-image-crop-widget": "0.5.1",

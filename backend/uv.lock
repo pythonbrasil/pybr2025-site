@@ -42,7 +42,7 @@ constraints = [
     { name = "collective-recipe-omelette", specifier = "==2.0.0" },
     { name = "collective-recipe-template", specifier = "==2.2" },
     { name = "collective-recipe-vscode", specifier = "==0.1.9" },
-    { name = "collective-techevent", specifier = "==1.0.0a19" },
+    { name = "collective-techevent", specifier = "==1.0.0a21" },
     { name = "collective-xmltestreport", specifier = "==2.0.2" },
     { name = "collective-z3cform-datagridfield", specifier = "==3.0.4" },
     { name = "colorama", specifier = "==0.4.6" },
@@ -756,7 +756,7 @@ wheels = [
 
 [[package]]
 name = "collective-techevent"
-version = "1.0.0a19"
+version = "1.0.0a21"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "collective-z3cform-datagridfield" },
@@ -766,9 +766,9 @@ dependencies = [
     { name = "plonegovbr-socialmedia" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/71/af/480e58b7835d2052c2ed4d4dcfeb81028056ad7937abeff92b596859718e/collective_techevent-1.0.0a19.tar.gz", hash = "sha256:6ed7daad35efd9e0ee84f3c0acd733202603ebcc62ce72bac53b70c06d607735", size = 3562273, upload-time = "2025-09-09T13:22:42.129Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/13/1e/669efc8ca073e623443d5852040a77e5800781064686f248c116118fd0ed/collective_techevent-1.0.0a21.tar.gz", hash = "sha256:50b2f8b881d939487cbfcc729fbfa1cc093889a7874e457ec4cc92e02fea82af", size = 3562284, upload-time = "2025-09-17T01:40:40.126Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/9c/e1/0ae36a8a851f207d444c023fd967f604e1f0dca3f4ff6603a8afae9b6b72/collective_techevent-1.0.0a19-py3-none-any.whl", hash = "sha256:225c3597730cfe0797ba1e190cc3a68b53755c6eb937c25fcbfbf3151d6fdae7", size = 3625962, upload-time = "2025-09-09T13:22:40.343Z" },
+    { url = "https://files.pythonhosted.org/packages/e2/03/58891537134e43b19c22b101daa7257b1cdb7df03b26dd9cffb0df2fdbc8/collective_techevent-1.0.0a21-py3-none-any.whl", hash = "sha256:af3006469ef5c3c23c60412f38b0eee40c628c8d29df754b4aa4bdab50f4e3ad", size = 3625962, upload-time = "2025-09-17T01:40:41.716Z" },
 ]
 
 [[package]]
@@ -4467,7 +4467,7 @@ test = [
 [package.metadata]
 requires-dist = [
     { name = "collective-honeypot" },
-    { name = "collective-techevent", specifier = "==1.0.0a19" },
+    { name = "collective-techevent", specifier = "==1.0.0a21" },
     { name = "collective-volto-formsupport" },
     { name = "pas-plugins-authomatic", specifier = "==2.0.0" },
     { name = "plone-api" },
