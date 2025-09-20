@@ -8,6 +8,14 @@
 
 <!-- towncrier release notes start -->
 
+## 20250920.1.0 (2025-09-20)
+
+### Feature
+
+- Atualiza @kitconcept/volto-light-theme para versão 7.0.0-beta.5 @ericof 
+- Atualiza @plone-collective/volto-techevent para versão 1.0.0-alpha.22. @ericof 
+- Atualiza @plone/volto para versão 19.0.0-alpha.5. @ericof 
+
 ## 20250909.1.0 (2025-09-09)
 
 ### Feature

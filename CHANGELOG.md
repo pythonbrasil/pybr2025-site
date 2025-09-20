@@ -7,6 +7,36 @@
 -->
 
 <!-- towncrier release notes start -->
+## 20250920.1 (2025-09-20)
+
+### Backend
+
+
+#### New features:
+
+- Atualiza collective.techevent para versão 1.0.0a22. @ericof 
+
+
+
+### Frontend
+
+#### Feature
+
+- Atualiza @kitconcept/volto-light-theme para versão 7.0.0-beta.5 @ericof 
+- Atualiza @plone-collective/volto-techevent para versão 1.0.0-alpha.22. @ericof 
+- Atualiza @plone/volto para versão 19.0.0-alpha.5. @ericof 
+
+
+
+### Project
+
+
+#### Internal
+
+- Atualiza configurações e extensões recomendadas para o VSCode. @ericof 
+
+
+
 ## 20250909.1 (2025-09-09)
 
 ### Backend
