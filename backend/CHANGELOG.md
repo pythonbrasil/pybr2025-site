@@ -9,6 +9,20 @@
 
 <!-- towncrier release notes start -->
 
+## 20251022.1 (2025-10-22)
+
+
+### New features:
+
+- Atualiza Plone para versão 6.1.3. @ericof 
+- Atualiza collective.techevent para versão 1.0.0b1. @ericof 
+- Atualiza plonegovbr.socialmedia para 2.0.0a10. @ericof 
+
+
+### Internal:
+
+- Atualiza Makefile para uso do repoplone. @ericof 
+
 ## 20250920.1 (2025-09-20)
 
 

@@ -8,6 +8,20 @@
 
 <!-- towncrier release notes start -->
 
+## 20251022.1.0 (2025-10-22)
+
+### Feature
+
+- Adiciona @plone-collective/volto-image-editor para versão 1.0.0-alpha.1. @ericof 
+- Atualiza @kitconcept/volto-light-theme para versão 7.3.1. @ericof 
+- Atualiza @plone-collective/volto-techevent para versão 1.0.0-beta.1. @ericof 
+- Atualiza @plone/volto para versão 19.0.0-alpha.7. @ericof 
+- Atualiza @plonegovbr/volto-socialmedia para 2.0.0-alpha.10. @ericof 
+
+### Internal
+
+- Atualiza Makefile para uso do repoplone. @ericof 
+
 ## 20250920.1.0 (2025-09-20)
 
 ### Feature

@@ -7,6 +7,49 @@
 -->
 
 <!-- towncrier release notes start -->
+## 20251022.1 (2025-10-22)
+
+### Backend
+
+
+#### New features:
+
+- Atualiza Plone para versão 6.1.3. @ericof 
+- Atualiza collective.techevent para versão 1.0.0b1. @ericof 
+- Atualiza plonegovbr.socialmedia para 2.0.0a10. @ericof 
+
+
+#### Internal:
+
+- Atualiza Makefile para uso do repoplone. @ericof 
+
+
+
+### Frontend
+
+#### Feature
+
+- Adiciona @plone-collective/volto-image-editor para versão 1.0.0-alpha.1. @ericof 
+- Atualiza @kitconcept/volto-light-theme para versão 7.3.1. @ericof 
+- Atualiza @plone-collective/volto-techevent para versão 1.0.0-beta.1. @ericof 
+- Atualiza @plone/volto para versão 19.0.0-alpha.7. @ericof 
+- Atualiza @plonegovbr/volto-socialmedia para 2.0.0-alpha.10. @ericof 
+
+#### Internal
+
+- Atualiza Makefile para uso do repoplone. @ericof 
+
+
+
+### Project
+
+
+#### Internal
+
+- Atualiza Makefile para uso do repoplone. @ericof 
+
+
+
 ## 20250920.1 (2025-09-20)
 
 ### Backend
