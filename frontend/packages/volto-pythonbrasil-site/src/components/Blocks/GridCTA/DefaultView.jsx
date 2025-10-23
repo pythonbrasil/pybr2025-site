@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, Container, ArrowrightIcon } from '@plone/components';
+import { Button, Container } from '@plone/components';
+import { ArrowrightIcon } from '@plone/components/Icons';
 import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
 import { isInternalURL } from '@plone/volto/helpers/Url/Url';
 import MaybeWrap from '@plone/volto/components/manage/MaybeWrap/MaybeWrap';
-import PropTypes from 'prop-types';
 
 const GridCTAView = (props) => {
   const { className, data, isEditMode, style } = props;
@@ -34,21 +34,5 @@ const GridCTAView = (props) => {
     </Container>
   );
 };
-
-/**
- * Property types.
- * @property {Object} propTypes Property types.
- * @static
- */
-GridCTAView.propTypes = {
-  title: PropTypes.string,
-};
-
-/**
- * Default properties.
- * @property {Object} defaultProps Default properties.
- * @static
- */
-GridCTAView.defaultProps = {};
 
 export default GridCTAView;

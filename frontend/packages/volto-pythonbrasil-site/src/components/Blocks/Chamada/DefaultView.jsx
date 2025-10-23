@@ -1,5 +1,6 @@
 import React from 'react';
-import { Button, Container, ArrowrightIcon } from '@plone/components';
+import { Button, Container } from '@plone/components';
+import { ArrowrightIcon } from '@plone/components/Icons';
 import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
 import { isInternalURL } from '@plone/volto/helpers/Url/Url';
 import MaybeWrap from '@plone/volto/components/manage/MaybeWrap/MaybeWrap';

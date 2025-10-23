@@ -1,4 +1,7 @@
 #main .schedule {
+  .tab-content {
+    grid-auto-flow: row;
+  }
   .timeslot {
     &.rows-10 .sessionTile {
       min-height: 30rem * 0.75;
