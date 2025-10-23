@@ -11,13 +11,14 @@ MAKEFLAGS+=--no-builtin-rules
 CURRENT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 GIT_FOLDER=$(CURRENT_DIR)/.git
 
-PROJECT_NAME=pybr25-site
-STACK_NAME=2025-pythonbrasil-org-br
-STACK_FILE=docker-compose-dev.yml
+REPOSITORY_SETTINGS := $(shell uvx repoplone settings dump)
 
+PROJECT_NAME := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.name')
+STACK_NAME=pythonbrasil-pybr25-site
 
-VOLTO_VERSION=$(shell cat frontend/mrs.developer.json | python -c "import sys, json; print(json.load(sys.stdin)['core']['tag'])")
-PLONE_VERSION=$(shell cat backend/version.txt)
+VOLTO_VERSION := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.frontend.volto_version')
+PLONE_VERSION := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.backend.base_package_version')
+IMAGE_PREFIX := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.container_images_prefix')
 
 # We like colors
 # From: https://coderwall.com/p/izxssa/colored-makefile-for-golang-projects
@@ -34,6 +35,13 @@ all: install
 .PHONY: help
 help: ## This help message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+
+.PHONY: debug-settings
+debug-settings:  ## Debug settings
+	@echo "Debug settings"
+	@echo "PROJECT_NAME: $(PROJECT_NAME)"
+	@echo "VOLTO_VERSION: $(VOLTO_VERSION)"
+	@echo "PLONE_VERSION: $(PLONE_VERSION)"
 
 ###########################################
 # Frontend
@@ -110,7 +118,7 @@ format:  ## Format codebase
 
 .PHONY: lint
 lint:  ## Format codebase
-	@echo "Lint the codebasecodebase"
+	@echo "Lint the codebase"
 	$(MAKE) -C "./backend/" lint
 	$(MAKE) -C "./frontend/" lint
 
@@ -144,31 +152,32 @@ build-images:  ## Build container images
 ###########################################
 # Local Stack
 ###########################################
-.PHONY: stack-start
-stack-start:  ## Local Stack: Start Services
-	@echo "Start local Docker stack"
-	VOLTO_VERSION=$(VOLTO_VERSION) PLONE_VERSION=$(PLONE_VERSION) docker compose -f $(STACK_FILE) up -d --build
-	@echo "Now visit: http://pybr25-site.localhost"
-
 .PHONY: stack-create-site
 stack-create-site:  ## Local Stack: Create a new site
 	@echo "Create a new site in the local Docker stack"
-	VOLTO_VERSION=$(VOLTO_VERSION) PLONE_VERSION=$(PLONE_VERSION) docker compose -f $(STACK_FILE) exec backend ./docker-entrypoint.sh create-site
+	@echo "(Stack must not be running already.)"
+	VOLTO_VERSION=$(VOLTO_VERSION) PLONE_VERSION=$(PLONE_VERSION) docker compose -f docker-compose.yml run --build backend ./docker-entrypoint.sh create-site
+
+.PHONY: stack-start
+stack-start:  ## Local Stack: Start Services
+	@echo "Start local Docker stack"
+	VOLTO_VERSION=$(VOLTO_VERSION) PLONE_VERSION=$(PLONE_VERSION) docker compose -f docker-compose.yml up -d --build
+	@echo "Now visit: http://pybr25.localhost"
 
 .PHONY: stack-status
 stack-status:  ## Local Stack: Check Status
 	@echo "Check the status of the local Docker stack"
-	@docker compose -f $(STACK_FILE) ps
+	@docker compose -f docker-compose.yml ps
 
 .PHONY: stack-stop
 stack-stop:  ##  Local Stack: Stop Services
 	@echo "Stop local Docker stack"
-	@docker compose -f $(STACK_FILE) stop
+	@docker compose -f docker-compose.yml stop
 
 .PHONY: stack-rm
 stack-rm:  ## Local Stack: Remove Services and Volumes
 	@echo "Remove local Docker stack"
-	@docker compose -f $(STACK_FILE) down
+	@docker compose -f docker-compose.yml down
 	@echo "Remove local volume data"
 	@docker volume rm $(PROJECT_NAME)_vol-site-data
 
@@ -194,12 +203,12 @@ acceptance-test:
 .PHONY: acceptance-frontend-image-build
 acceptance-frontend-image-build:
 	@echo "Build acceptance frontend image"
-	@docker build frontend -t pythonbrasil/pybr25-site-frontend:acceptance -f frontend/Dockerfile --build-arg VOLTO_VERSION=$(VOLTO_VERSION)
+	@docker build frontend -t $(IMAGE_PREFIX)-frontend:acceptance -f frontend/Dockerfile --build-arg VOLTO_VERSION=$(VOLTO_VERSION)
 
 .PHONY: acceptance-backend-image-build
 acceptance-backend-image-build:
 	@echo "Build acceptance backend image"
-	@docker build backend -t pythonbrasil/pybr25-site-backend:acceptance -f backend/Dockerfile.acceptance --build-arg PLONE_VERSION=$(PLONE_VERSION)
+	@docker build backend -t $(IMAGE_PREFIX)-backend:acceptance -f backend/Dockerfile.acceptance --build-arg PLONE_VERSION=$(PLONE_VERSION)
 
 .PHONY: acceptance-images-build
 acceptance-images-build: ## Build Acceptance frontend/backend images
@@ -209,12 +218,12 @@ acceptance-images-build: ## Build Acceptance frontend/backend images
 .PHONY: acceptance-frontend-container-start
 acceptance-frontend-container-start:
 	@echo "Start acceptance frontend"
-	@docker run --rm -p 3000:3000 --name pybr25-site-frontend-acceptance --link pybr25-site-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d pythonbrasil/pybr25-site-frontend:acceptance
+	@docker run --rm -p 3000:3000 --name pybr25-frontend-acceptance --link pybr25-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d $(IMAGE_PREFIX)-frontend:acceptance
 
 .PHONY: acceptance-backend-container-start
 acceptance-backend-container-start:
 	@echo "Start acceptance backend"
-	@docker run --rm -p 55001:55001 --name pybr25-site-backend-acceptance -d pythonbrasil/pybr25-site-backend:acceptance
+	@docker run --rm -p 55001:55001 --name pybr25-backend-acceptance -d $(IMAGE_PREFIX)-backend:acceptance
 
 .PHONY: acceptance-containers-start
 acceptance-containers-start: ## Start Acceptance containers
@@ -224,8 +233,8 @@ acceptance-containers-start: ## Start Acceptance containers
 .PHONY: acceptance-containers-stop
 acceptance-containers-stop: ## Stop Acceptance containers
 	@echo "Stop acceptance containers"
-	@docker stop pybr25-site-frontend-acceptance
-	@docker stop pybr25-site-backend-acceptance
+	@docker stop pybr25-frontend-acceptance
+	@docker stop pybr25-backend-acceptance
 
 .PHONY: ci-acceptance-test
 ci-acceptance-test:

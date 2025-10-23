@@ -3,29 +3,27 @@ name = "pybr25-site"
 managed_by_uv = true
 changelog = "CHANGELOG.md"
 version = "version.txt"
-compose = "docker-compose.yml"
+version_format = "calver"
+container_images_prefix = "ghcr.io/pythonbrasil/pybr25-site"
+compose = ["docker-compose.yml"]
 
 [repository.towncrier]
 section = "Project"
 settings = "towncrier.toml"
 
-[backend]
-path = "backend"
-
 [backend.package]
 name = "pythonbrasil.site"
 path = "backend"
+code_path = "src/pythonbrasil/site"
 changelog = "backend/CHANGELOG.md"
 towncrier_settings = "backend/pyproject.toml"
 base_package = "Products.CMFPlone"
 publish = false
 
-[frontend]
-path = "frontend"
-
 [frontend.package]
 name = "volto-pythonbrasil-site"
 path = "frontend/packages/volto-pythonbrasil-site"
+code_path = "src"
 changelog = "frontend/packages/volto-pythonbrasil-site/CHANGELOG.md"
 towncrier_settings = "frontend/packages/volto-pythonbrasil-site/towncrier.toml"
 base_package = "@plone/volto"

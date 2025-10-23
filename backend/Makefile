@@ -14,10 +14,6 @@ RED=`tput setaf 1`
 GREEN=`tput setaf 2`
 RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
-
-IMAGE_NAME_PREFIX=ghcr.io/pythonbrasil/pybr25-site
-IMAGE_TAG=latest
-
 # Python checks
 UV?=uv
 
@@ -26,12 +22,19 @@ ifeq (, $(shell which $(UV) ))
   $(error "UV=$(UV) not found in $(PATH)")
 endif
 
+REPOSITORY_SETTINGS := $(shell uvx repoplone settings dump)
+IMAGE_NAME_PREFIX := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.container_images_prefix')
+
+IMAGE_TAG=latest
+IMAGE_NAME=$(IMAGE_NAME_PREFIX)-backend:$(IMAGE_TAG)
 PLONE_SITE_ID=Plone
 BACKEND_FOLDER=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
-PLONE_VERSION=$(shell cat $(BACKEND_FOLDER)/version.txt)
-EXAMPLE_CONTENT_FOLDER=${BACKEND_FOLDER}/src/pythonbrasil/site/setuphandlers/examplecontent
+PLONE_VERSION := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.backend.base_package_version')
+EXAMPLE_CONTENT_FOLDER := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.backend.code_path')/setuphandlers/examplecontent
+PACKAGE_NAME := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.backend.name')
 
 VENV_FOLDER=$(BACKEND_FOLDER)/.venv
+export VIRTUAL_ENV=$(VENV_FOLDER)
 BIN_FOLDER=$(VENV_FOLDER)/bin
 
 # Environment variables to be exported
@@ -46,14 +49,23 @@ all: build
 help: ## This help message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
-$(VENV_FOLDER): ## Install dependencies
-	@echo "$(GREEN)==> Install environment$(RESET)"
-	@uv sync
+.PHONY: debug-settings
+debug-settings:  ## Debug settings
+	@echo "PLONE_VERSION: $(PLONE_VERSION)"
+	@echo "EXAMPLE_CONTENT_FOLDER: $(EXAMPLE_CONTENT_FOLDER)"
+
+.PHONY: update-constraints
+update-constraints: ## Update backend constraints
+	@echo "$(GREEN)==> Update backend constraints$(RESET)"
+	@uvx repoplone deps constraints
 
 .PHONY: sync
-sync: $(VENV_FOLDER) ## Sync project dependencies
+sync: update-constraints ## Sync project dependencies
 	@echo "$(GREEN)==> Sync project dependencies$(RESET)"
 	@uv sync
+
+.PHONY: install
+install: sync config ## Install Plone and dependencies
 
 instance/etc/zope.ini instance/etc/zope.conf: instance.yaml ## Create instance configuration
 	@echo "$(GREEN)==> Create instance configuration$(RESET)"
@@ -61,9 +73,6 @@ instance/etc/zope.ini instance/etc/zope.conf: instance.yaml ## Create instance c
 
 .PHONY: config
 config: instance/etc/zope.ini
-
-.PHONY: install
-install: $(VENV_FOLDER) config ## Install Plone and dependencies
 
 .PHONY: clean
 clean: ## Clean installation and instance
@@ -114,7 +123,7 @@ format: ## Check and fix code base according to Plone standards
 .PHONY: i18n
 i18n: $(VENV_FOLDER) ## Update locales
 	@echo "$(GREEN)==> Updating locales$(RESET)"
-	@uv run python -m pythonbrasil.site.locales
+	@uv run python -m $(PACKAGE_NAME).locales
 
 # Tests
 .PHONY: test
@@ -123,17 +132,18 @@ test: $(VENV_FOLDER) ## run tests
 
 .PHONY: test-coverage
 test-coverage: $(VENV_FOLDER) ## run tests with coverage
-	@uv run pytest --cov=pythonbrasil.site --cov-report term-missing
+	@uv run pytest --cov=$(PACKAGE_NAME) --cov-report term-missing
 
 # Build Docker images
 .PHONY: build-image
 build-image:  ## Build Docker Images
-	@docker build . -t $(IMAGE_NAME_PREFIX)-backend:$(IMAGE_TAG) -f Dockerfile --build-arg PLONE_VERSION=$(PLONE_VERSION)
+	@echo "$(GREEN)==> Building image $(IMAGE_NAME) $(RESET)"
+	@docker build . -t $(IMAGE_NAME) --progress plain -f Dockerfile
 
 # Acceptance tests
 .PHONY: acceptance-backend-start
 acceptance-backend-start: ## Start backend acceptance server
-	ZSERVER_HOST=0.0.0.0 ZSERVER_PORT=55001 LISTEN_PORT=55001 APPLY_PROFILES="pythonbrasil.site:default" CONFIGURE_PACKAGES="plone.restapi,plone.volto,plone.volto.cors,pythonbrasil.site" $(BIN_FOLDER)/robot-server plone.app.robotframework.testing.VOLTO_ROBOT_TESTING
+	ZSERVER_HOST=0.0.0.0 ZSERVER_PORT=55001 LISTEN_PORT=55001 APPLY_PROFILES="pybr25.core:default" CONFIGURE_PACKAGES="plone.restapi,plone.volto,plone.volto.cors,pybr25.core" $(BIN_FOLDER)/robot-server plone.app.robotframework.testing.VOLTO_ROBOT_TESTING
 
 .PHONY: acceptance-image-build
 acceptance-image-build:  ## Build Docker Images
